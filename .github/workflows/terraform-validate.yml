@@ -1,3 +1,31 @@
+#########################################################
+# Workflow Name:
+# Terraform Validate
+#
+# Purpose:
+# This workflow validates Terraform syntax and configuration quality before merge.
+# It helps detect structural issues early and keeps infrastructure changes reviewable.
+#
+# Trigger:
+# pull_request
+#
+# When It Runs:
+# Runs for pull requests targeting main when Terraform-related files change.
+#
+# Expected Outcome:
+# Terraform formatting and validation checks complete successfully for discovered modules.
+#
+# Failure Impact:
+# Invalid Terraform can reach review or merge stages, increasing infrastructure delivery risk.
+#
+# Owner:
+# AiOpsVista Platform Engineering
+#
+# Related Documentation:
+# docs/SDLC_AND_GOVERNANCE.md
+#
+#########################################################
+
 name: Terraform Validate
 
 on:

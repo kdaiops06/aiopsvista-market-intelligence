@@ -1,3 +1,31 @@
+#########################################################
+# Workflow Name:
+# Build
+#
+# Purpose:
+# This workflow provides the post-merge build gate for repository artifacts and packaging readiness.
+# It ensures the main branch remains in a consistently buildable state.
+#
+# Trigger:
+# push
+#
+# When It Runs:
+# Runs when commits are pushed to main.
+#
+# Expected Outcome:
+# Build steps complete successfully and confirm merge integrity for downstream release flows.
+#
+# Failure Impact:
+# Main branch build instability can block releases and reduce deployment confidence.
+#
+# Owner:
+# AiOpsVista Platform Engineering
+#
+# Related Documentation:
+# docs/SDLC_AND_GOVERNANCE.md
+#
+#########################################################
+
 name: Build
 
 on:

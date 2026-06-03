@@ -383,3 +383,14 @@ Decision guidance:
 
 - Run a controlled pilot in non-production.
 - Select one standard GitOps engine to avoid operational fragmentation.
+
+---
+
+## Documentation Cross References
+Related governance and operating references:
+
+- docs/WORKFLOW_CATALOG.md
+- docs/ENGINEERING_STANDARDS.md
+- docs/ONBOARDING.md
+- docs/REPOSITORY_MAP.md
+- docs/TRACEABILITY_MATRIX.md

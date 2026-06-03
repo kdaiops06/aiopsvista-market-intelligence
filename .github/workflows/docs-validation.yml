@@ -1,3 +1,31 @@
+#########################################################
+# Workflow Name:
+# Docs Validation
+#
+# Purpose:
+# This workflow validates core documentation presence and quality gates required for maintainability.
+# It protects discoverability and onboarding by enforcing baseline documentation integrity.
+#
+# Trigger:
+# pull_request / push
+#
+# When It Runs:
+# Runs for documentation-related pull requests to main and for pushes to main.
+#
+# Expected Outcome:
+# Required documentation files exist and core architecture documentation is non-empty.
+#
+# Failure Impact:
+# Documentation regressions can reduce onboarding quality and governance traceability.
+#
+# Owner:
+# AiOpsVista Platform Engineering
+#
+# Related Documentation:
+# docs/SDLC_AND_GOVERNANCE.md
+#
+#########################################################
+
 name: Docs Validation
 
 on:

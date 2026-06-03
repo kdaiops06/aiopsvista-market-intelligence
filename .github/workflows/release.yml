@@ -1,3 +1,31 @@
+#########################################################
+# Workflow Name:
+# Release
+#
+# Purpose:
+# This workflow coordinates release metadata generation and release execution entry points.
+# It supports controlled publication via semantic tags and manual release operations.
+#
+# Trigger:
+# push / manual
+#
+# When It Runs:
+# Runs on semantic version tag pushes and manual workflow_dispatch invocation.
+#
+# Expected Outcome:
+# Release artifacts and release notes are created consistently for approved version events.
+#
+# Failure Impact:
+# Release governance weakens and deployment handoff quality may degrade.
+#
+# Owner:
+# AiOpsVista Platform Engineering
+#
+# Related Documentation:
+# docs/SDLC_AND_GOVERNANCE.md
+#
+#########################################################
+
 name: Release
 
 on:

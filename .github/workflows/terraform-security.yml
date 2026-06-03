@@ -1,3 +1,31 @@
+#########################################################
+# Workflow Name:
+# Terraform Security Scan
+#
+# Purpose:
+# This workflow scans Terraform code for misconfigurations and policy violations.
+# It strengthens pre-merge security posture through automated infrastructure security checks.
+#
+# Trigger:
+# pull_request
+#
+# When It Runs:
+# Runs on pull requests to main for Terraform file and platform configuration changes.
+#
+# Expected Outcome:
+# Security scanning tools complete and report actionable findings for triage.
+#
+# Failure Impact:
+# Security gaps may be merged without visibility, increasing compliance and operational risk.
+#
+# Owner:
+# AiOpsVista Platform Engineering
+#
+# Related Documentation:
+# docs/SDLC_AND_GOVERNANCE.md
+#
+#########################################################
+
 name: Terraform Security Scan
 
 on:

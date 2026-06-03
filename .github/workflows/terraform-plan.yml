@@ -1,3 +1,31 @@
+#########################################################
+# Workflow Name:
+# Terraform Plan
+#
+# Purpose:
+# This workflow generates a Terraform execution plan for review before infrastructure changes are merged.
+# It provides visibility into intended state transitions and supports safer approvals.
+#
+# Trigger:
+# pull_request
+#
+# When It Runs:
+# Runs for pull requests to main when Terraform-related files are modified.
+#
+# Expected Outcome:
+# A successful plan path confirms proposed infrastructure changes can be evaluated safely.
+#
+# Failure Impact:
+# Missing or failed plan output reduces change transparency and increases deployment uncertainty.
+#
+# Owner:
+# AiOpsVista Platform Engineering
+#
+# Related Documentation:
+# docs/SDLC_AND_GOVERNANCE.md
+#
+#########################################################
+
 name: Terraform Plan
 
 on:
