@@ -1,0 +1,39 @@
+name: CI
+
+on:
+  pull_request:
+    branches: [main]
+  push:
+    branches: [main]
+
+permissions:
+  contents: read
+
+jobs:
+  docs-validation:
+    name: Docs Validation
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Validate required markdown files exist
+        run: |
+          test -f README.md
+          test -f docs/ARCHITECTURE.md
+          test -f docs/EXECUTION_PLAN.md
+          test -f docs/TECH_STACK.md
+          test -f architecture/executive-view.md
+          test -f architecture/platform-architecture.md
+          test -f architecture/ai-sre-architecture.md
+          test -f roadmap/phase-1-foundation.md
+          test -f roadmap/phase-2-platform.md
+
+      - name: Validate primary architecture document is non-empty
+        run: |
+          test -s docs/ARCHITECTURE.md
+
+      - name: Report placeholder markdown files
+        run: |
+          find docs architecture roadmap -name "*.md" -type f -size 0 -print || true
