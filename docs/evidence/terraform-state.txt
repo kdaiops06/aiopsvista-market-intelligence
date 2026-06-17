@@ -1,0 +1,14 @@
+module.cloud_nat.google_compute_router.this
+module.cloud_nat.google_compute_router_nat.this
+module.gke.google_container_cluster.this
+module.gke.google_container_node_pool.system
+module.project.google_project.this
+module.project.google_project_service.enabled["artifactregistry.googleapis.com"]
+module.project.google_project_service.enabled["cloudresourcemanager.googleapis.com"]
+module.project.google_project_service.enabled["compute.googleapis.com"]
+module.project.google_project_service.enabled["container.googleapis.com"]
+module.project.google_project_service.enabled["iam.googleapis.com"]
+module.project.google_service_account.gke_nodes
+module.shared_vpc.google_compute_network.this
+module.shared_vpc.google_compute_subnetwork.subnets["gke-subnet"]
+module.shared_vpc.google_compute_subnetwork.subnets["services-subnet"]

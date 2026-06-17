@@ -1,0 +1,9 @@
+NAMESPACE     NAME                   TYPE        CLUSTER-IP     EXTERNAL-IP   PORT(S)            AGE
+default       kubernetes             ClusterIP   10.30.0.1      <none>        443/TCP            41m
+gmp-system    alertmanager           ClusterIP   None           <none>        9093/TCP           39m
+gmp-system    gmp-operator           ClusterIP   10.30.11.120   <none>        8443/TCP,443/TCP   39m
+gmp-system    rule-evaluator         ClusterIP   10.30.2.83     <none>        19092/TCP          39m
+kube-system   default-http-backend   NodePort    10.30.12.112   <none>        80:31844/TCP       39m
+kube-system   kube-dns               ClusterIP   10.30.0.10     <none>        53/UDP,53/TCP      40m
+kube-system   kube-dns-upstream      ClusterIP   10.30.10.97    <none>        53/UDP,53/TCP      38m
+kube-system   metrics-server         ClusterIP   10.30.14.136   <none>        443/TCP            38m

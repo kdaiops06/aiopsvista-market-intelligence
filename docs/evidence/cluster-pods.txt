@@ -1,0 +1,17 @@
+NAMESPACE     NAME                                                          READY   STATUS    RESTARTS      AGE   IP           NODE                                               NOMINATED NODE   READINESS GATES
+gmp-system    collector-jhdb6                                               2/2     Running   0             32m   10.20.0.11   gke-aiopsvista-dev-gke-system-pool-1101c9cd-cp07   <none>           <none>
+gmp-system    gmp-operator-8844bbff9-bkmwv                                  1/1     Running   0             37m   10.20.0.7    gke-aiopsvista-dev-gke-system-pool-1101c9cd-cp07   <none>           <none>
+kube-system   event-exporter-gke-75fc75697c-7626x                           2/2     Running   1 (32m ago)   37m   10.20.0.3    gke-aiopsvista-dev-gke-system-pool-1101c9cd-cp07   <none>           <none>
+kube-system   fluentbit-gke-xpz4c                                           3/3     Running   0             32m   10.10.0.3    gke-aiopsvista-dev-gke-system-pool-1101c9cd-cp07   <none>           <none>
+kube-system   gke-metadata-server-f88zt                                     1/1     Running   0             32m   10.10.0.3    gke-aiopsvista-dev-gke-system-pool-1101c9cd-cp07   <none>           <none>
+kube-system   gke-metrics-agent-6xgkm                                       1/1     Running   0             32m   10.10.0.3    gke-aiopsvista-dev-gke-system-pool-1101c9cd-cp07   <none>           <none>
+kube-system   konnectivity-agent-6c6f77776b-rbx6p                           2/2     Running   0             37m   10.20.0.2    gke-aiopsvista-dev-gke-system-pool-1101c9cd-cp07   <none>           <none>
+kube-system   konnectivity-agent-autoscaler-7f4b7c494b-84phv                1/1     Running   0             37m   10.20.0.8    gke-aiopsvista-dev-gke-system-pool-1101c9cd-cp07   <none>           <none>
+kube-system   kube-dns-75bbd6fbd5-hv9vc                                     4/4     Running   0             37m   10.20.0.10   gke-aiopsvista-dev-gke-system-pool-1101c9cd-cp07   <none>           <none>
+kube-system   kube-dns-autoscaler-7dc78dc96-4c4w6                           1/1     Running   0             37m   10.20.0.9    gke-aiopsvista-dev-gke-system-pool-1101c9cd-cp07   <none>           <none>
+kube-system   kube-proxy-gke-aiopsvista-dev-gke-system-pool-1101c9cd-cp07   1/1     Running   0             32m   10.10.0.3    gke-aiopsvista-dev-gke-system-pool-1101c9cd-cp07   <none>           <none>
+kube-system   l7-default-backend-6d69786ffb-wn4kp                           1/1     Running   0             37m   10.20.0.6    gke-aiopsvista-dev-gke-system-pool-1101c9cd-cp07   <none>           <none>
+kube-system   metrics-server-v1.35.1-f474d5b49-nmprk                        1/1     Running   0             37m   10.20.0.5    gke-aiopsvista-dev-gke-system-pool-1101c9cd-cp07   <none>           <none>
+kube-system   netd-sffkp                                                    3/3     Running   0             32m   10.10.0.3    gke-aiopsvista-dev-gke-system-pool-1101c9cd-cp07   <none>           <none>
+kube-system   node-local-dns-4h5sh                                          2/2     Running   0             32m   10.10.0.3    gke-aiopsvista-dev-gke-system-pool-1101c9cd-cp07   <none>           <none>
+kube-system   pdcsi-node-7c62f                                              3/3     Running   1 (31m ago)   32m   10.10.0.3    gke-aiopsvista-dev-gke-system-pool-1101c9cd-cp07   <none>           <none>

@@ -1,0 +1,4 @@
+gke_cluster_name = "aiopsvista-dev-gke"
+project_id = "aiopsvista-market-dev"
+shared_vpc_name = "aiopsvista-shared-vpc"
+workload_identity_pool = "aiopsvista-market-dev.svc.id.goog"

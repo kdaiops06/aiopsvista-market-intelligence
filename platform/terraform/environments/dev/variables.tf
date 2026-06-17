@@ -33,6 +33,12 @@ variable "region" {
   default     = "us-central1"
 }
 
+variable "gke_zone" {
+  description = "Zonal location for the dev GKE cluster."
+  type        = string
+  default     = "us-central1-a"
+}
+
 variable "network_name" {
   description = "Shared VPC name."
   type        = string

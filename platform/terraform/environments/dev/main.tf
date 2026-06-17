@@ -45,7 +45,7 @@ module "gke" {
   source = "../../modules/gke"
 
   project_id                    = module.project.project_id
-  region                        = var.region
+  location                      = var.gke_zone
   cluster_name                  = "aiopsvista-dev-gke"
   network_self_link             = module.shared_vpc.network_self_link
   subnetwork_self_link          = module.shared_vpc.subnet_self_links["gke-subnet"]
@@ -55,6 +55,7 @@ module "gke" {
   # node_service_account          = var.node_service_account
   node_service_account       = module.project.gke_node_service_account_email
   master_authorized_networks = var.master_authorized_networks
+  application_pool_enabled   = false
 
   depends_on = [module.cloud_nat]
 }

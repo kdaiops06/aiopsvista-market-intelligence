@@ -1,8 +1,9 @@
 resource "google_container_cluster" "this" {
-  name     = var.cluster_name
-  project  = var.project_id
-  location = var.region
-
+  name                = var.cluster_name
+  project             = var.project_id
+  location            = var.location
+  deletion_protection = false
+  
   network    = var.network_self_link
   subnetwork = var.subnetwork_self_link
 
@@ -41,28 +42,6 @@ resource "google_container_cluster" "this" {
     workload_pool = "${var.project_id}.svc.id.goog"
   }
 
-  cluster_autoscaling {
-    enabled = true
-
-    auto_provisioning_defaults {
-      service_account = var.node_service_account
-      oauth_scopes    = ["https://www.googleapis.com/auth/cloud-platform"]
-      disk_type       = "pd-standard"
-    }
-
-    resource_limits {
-      resource_type = "cpu"
-      minimum       = 1
-      maximum       = 200
-    }
-
-    resource_limits {
-      resource_type = "memory"
-      minimum       = 4
-      maximum       = 1024
-    }
-  }
-
   monitoring_config {
     managed_prometheus {
       enabled = true
@@ -77,7 +56,7 @@ resource "google_container_cluster" "this" {
 resource "google_container_node_pool" "system" {
   name       = "system-pool"
   project    = var.project_id
-  location   = var.region
+  location   = var.location
   cluster    = google_container_cluster.this.name
   node_count = var.system_pool_min_nodes
 
@@ -95,6 +74,8 @@ resource "google_container_node_pool" "system" {
     machine_type    = var.system_pool_machine_type
     service_account = var.node_service_account
     oauth_scopes    = ["https://www.googleapis.com/auth/cloud-platform"]
+    disk_type       = "pd-standard"
+    disk_size_gb    = 30
 
     workload_metadata_config {
       mode = "GKE_METADATA"
@@ -107,9 +88,10 @@ resource "google_container_node_pool" "system" {
 }
 
 resource "google_container_node_pool" "application" {
+  count      = var.application_pool_enabled ? 1 : 0
   name       = "application-pool"
   project    = var.project_id
-  location   = var.region
+  location   = var.location
   cluster    = google_container_cluster.this.name
   node_count = var.application_pool_min_nodes
 
@@ -127,6 +109,8 @@ resource "google_container_node_pool" "application" {
     machine_type    = var.application_pool_machine_type
     service_account = var.node_service_account
     oauth_scopes    = ["https://www.googleapis.com/auth/cloud-platform"]
+    disk_type       = "pd-standard"
+    disk_size_gb    = 30
 
     workload_metadata_config {
       mode = "GKE_METADATA"

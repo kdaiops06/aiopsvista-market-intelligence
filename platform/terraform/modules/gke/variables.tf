@@ -3,8 +3,8 @@ variable "project_id" {
   type        = string
 }
 
-variable "region" {
-  description = "Regional location for the GKE cluster."
+variable "location" {
+  description = "Zonal or regional location for the GKE cluster and node pools."
   type        = string
 }
 
@@ -77,13 +77,19 @@ variable "system_pool_min_nodes" {
 variable "system_pool_max_nodes" {
   description = "Maximum nodes for system pool."
   type        = number
-  default     = 3
+  default     = 1
 }
 
 variable "application_pool_machine_type" {
   description = "Machine type for application pool."
   type        = string
   default     = "e2-medium"
+}
+
+variable "application_pool_enabled" {
+  description = "Whether to create the application node pool."
+  type        = bool
+  default     = false
 }
 
 variable "application_pool_min_nodes" {

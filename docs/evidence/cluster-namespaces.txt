@@ -1,0 +1,10 @@
+NAME                                STATUS   AGE
+default                             Active   41m
+gke-managed-networking-dra-driver   Active   38m
+gke-managed-system                  Active   39m
+gke-managed-volumepopulator         Active   39m
+gmp-public                          Active   39m
+gmp-system                          Active   39m
+kube-node-lease                     Active   41m
+kube-public                         Active   41m
+kube-system                         Active   41m

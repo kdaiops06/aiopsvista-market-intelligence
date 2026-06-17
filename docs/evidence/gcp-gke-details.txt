@@ -1,0 +1,249 @@
+addonsConfig:
+  dnsCacheConfig:
+    enabled: true
+  gcePersistentDiskCsiDriverConfig:
+    enabled: true
+  kubernetesDashboard:
+    disabled: true
+  networkPolicyConfig:
+    disabled: true
+  nodeReadinessConfig: {}
+anonymousAuthenticationConfig:
+  mode: LIMITED
+autopilot: {}
+autoscaling:
+  autoprovisioningNodePoolDefaults:
+    imageType: COS_CONTAINERD
+    management:
+      autoRepair: true
+      autoUpgrade: true
+    oauthScopes:
+    - https://www.googleapis.com/auth/devstorage.read_only
+    - https://www.googleapis.com/auth/logging.write
+    - https://www.googleapis.com/auth/monitoring
+    - https://www.googleapis.com/auth/service.management.readonly
+    - https://www.googleapis.com/auth/servicecontrol
+    - https://www.googleapis.com/auth/trace.append
+    serviceAccount: default
+  autoscalingProfile: BALANCED
+binaryAuthorization: {}
+clusterIpv4Cidr: 10.20.0.0/16
+controlPlaneEgress:
+  mode: VIA_CONTROL_PLANE
+controlPlaneEndpointsConfig:
+  dnsEndpointConfig:
+    allowExternalTraffic: false
+    enableK8sCertsViaDns: false
+    enableK8sTokensViaDns: false
+    endpoint: gke-832414038347414e8c1b42aec16e63a70b7f-561181366672.us-central1-a.gke.goog
+  ipEndpointsConfig:
+    authorizedNetworksConfig:
+      cidrBlocks:
+      - cidrBlock: 106.222.251.226/32
+      enabled: true
+      privateEndpointEnforcementEnabled: true
+    enablePublicEndpoint: true
+    enabled: true
+    privateEndpoint: 172.16.0.2
+    privateEndpointSubnetwork: projects/aiopsvista-market-dev/regions/us-central1/subnetworks/gke-aiopsvista-dev-gke-00b7e13f-pe-subnet
+    publicEndpoint: 35.232.45.138
+createTime: '2026-06-17T12:29:01+00:00'
+currentMasterVersion: 1.35.5-gke.1000000
+currentNodeCount: 1
+currentNodeVersion: 1.35.5-gke.1000000
+databaseEncryption:
+  currentState: CURRENT_STATE_DECRYPTED
+  state: DECRYPTED
+defaultMaxPodsConstraint:
+  maxPodsPerNode: '110'
+endpoint: 35.232.45.138
+enterpriseConfig:
+  clusterTier: STANDARD
+etag: 517de841-ea58-4cde-9dc2-58cad96dd035
+id: 832414038347414e8c1b42aec16e63a70b7f80ac4e4c4b0a92e40bb696cf6855
+initialClusterVersion: 1.35.5-gke.1000000
+initialNodeCount: 1
+instanceGroupUrls:
+- https://www.googleapis.com/compute/v1/projects/aiopsvista-market-dev/zones/us-central1-a/instanceGroupManagers/gke-aiopsvista-dev-gke-system-pool-1101c9cd-grp
+ipAllocationPolicy:
+  clusterIpv4Cidr: 10.20.0.0/16
+  clusterIpv4CidrBlock: 10.20.0.0/16
+  clusterSecondaryRangeName: gke-pods-range
+  defaultPodIpv4RangeUtilization: 0.0039
+  networkTierConfig:
+    networkTier: NETWORK_TIER_DEFAULT
+  podCidrOverprovisionConfig: {}
+  servicesIpv4Cidr: 10.30.0.0/20
+  servicesIpv4CidrBlock: 10.30.0.0/20
+  servicesSecondaryRangeName: gke-services-range
+  stackType: IPV4
+  useIpAliases: true
+labelFingerprint: 78cdf2f6
+legacyAbac: {}
+location: us-central1-a
+locations:
+- us-central1-a
+loggingConfig:
+  componentConfig:
+    enableComponents:
+    - SYSTEM_COMPONENTS
+    - WORKLOADS
+loggingService: logging.googleapis.com/kubernetes
+maintenancePolicy:
+  resourceVersion: e3b0c442
+masterAuth:
+  clientCertificateConfig: {}
+  clusterCaCertificate: LS0tLS1CRUdJTiBDRVJUSUZJQ0FURS0tLS0tCk1JSUVMVENDQXBXZ0F3SUJBZ0lSQUlLQjRHSk1nOFJRb1NTbEdtRHNVWW93RFFZSktvWklodmNOQVFFTEJRQXcKTHpFdE1Dc0dBMVVFQXhNa1lUQmhNekZqWVRRdE1qTmhNeTAwTURjNUxUZzFNekV0WkdNMk9UY3lNRGt4T0dObQpNQ0FYRFRJMk1EWXhOekV4TWprd01sb1lEekl3TlRZd05qQTVNVEl5T1RBeVdqQXZNUzB3S3dZRFZRUURFeVJoCk1HRXpNV05oTkMweU0yRXpMVFF3TnprdE9EVXpNUzFrWXpZNU56SXdPVEU0WTJZd2dnR2lNQTBHQ1NxR1NJYjMKRFFFQkFRVUFBNElCandBd2dnR0tBb0lCZ1FES1FOVFhCVzY3UVNicE5RQWRnbEtJRTUxT3lYZUhEbmlGbGpNeApjTlBQZlZPQTErSHAxZWhDNlhYMExQbFhqVzdrVisyNXo3UCsyNHBPaFVwOFA4b0Y4NTVWSmNRVlFuSFVuaTlTClQ1c045YnBPN1g2YXB6RTd3bzRINU5Mb25JdnZFZTU5VUdOT1NWT0JveldFM2dKeUhFdWExanpWN01lRjVCNlcKS28vVGRXYXhhYVRwWFd6R1FCMUQxVkRQU2FVa005d29JOCs4bWUxcGU0bm1DNEEyZUVEZnRsYm9MdFpkMVBORgpMYnBDUDVXMzA3WC8yN3hLc1NBUlpXdldyYzc0c09WL1NleExSNGx6QWlMSVNucGM4RHcxWjhHZ1I1NjRaS0hpClhReUsvWHJyVWRlR0V0RjlnVyt2NmIrVzVUbzY5THZRT1hjeXc0Yzh2UXFIckhPRE1GVzJaemxZNzdDWVovUVUKTDBsYWpyaDdIODY3QU4yVGx6aGw5dkJreDNrZWpmL2pUZkREeEFKLy9qUzZpNEJZL0hTS21VaWttdU5DRGV5VgpjZmRsSnRlUy9pTHF5UTlZTkUrc3M3SlZLU3BiNGQ0VG5Odmc3VmlLY09sREtSRmhYcFFZTHFWWmViMTZsWmt2CnJYNEJYcm55NFpXZVRmbGtORWtVTlozcDRha0NBd0VBQWFOQ01FQXdEZ1lEVlIwUEFRSC9CQVFEQWdJRU1BOEcKQTFVZEV3RUIvd1FGTUFNQkFmOHdIUVlEVlIwT0JCWUVGTno3bFdCaFRhWjNLVXhDNHlIaHplYXA5b0Z6TUEwRwpDU3FHU0liM0RRRUJDd1VBQTRJQmdRQnlPdFNlVjZLTCtRZS93T3p3ckd5Wi8zSXNicEZtRVRodFQ3TnFJc2FYCmE3L0ZOTE00OUdsa0wwdWRaaWduVzVJdmJNR29LdnFQTzJ0NFFZdU51SHk0WDZydFVhZFFBRURZamhPNCtWRXYKdklhQmZXdUJJRzdXaUZnOWtuR2pNT1dxQTc2ZGVIdm5QbjFxYzIwcGVOM1FqSXFpTHAwbVZveHMxcUdLOW5rTgpEWXc0Ty9aaXgyM0VWcm1PanN0YXVxYWxpanliKzhwdTdtbGw5Uzd2QkRJcDZCamdQQmsvaVRoVFF6dzNPWWprCm44Uit4NHYyalRhMW9iR09lRG5ZQjFDSG9iYytkbUxkcElRUHF3ajhRaGZuVDRpOE03eDIvVVBrOGVsOHhKRzAKbmRhSVdBSko5c3UydnduZW9Uc09uNjBJbDZmOFNNSFNac2NkZkFYZk1ESWp5SmhtbTArYWtkUy8vSUpISllvdwpsU0d0bTVoNGQ1MHMwNFRTWm9uQlI1RWdxNTlRdG1wREVZQjVFTzRZKzNLbGlsOEF5UU8rSkY0RXNVZEFPaTF5CnNqR21HcXVHdzg2b0FqWkE2Z0VVMWlFUHZ0QVBKc0l3bzFPWUc1V09NbVlzSG1OVXV1c1dxdFgrQjdyUUxxVGcKTjdTWTIvVVhBVFhNQmFZdGYzV1FjZDg9Ci0tLS0tRU5EIENFUlRJRklDQVRFLS0tLS0K
+masterAuthorizedNetworksConfig:
+  cidrBlocks:
+  - cidrBlock: 106.222.251.226/32
+  enabled: true
+  privateEndpointEnforcementEnabled: true
+monitoringConfig:
+  advancedDatapathObservabilityConfig: {}
+  componentConfig: {}
+  managedPrometheusConfig:
+    enabled: true
+monitoringService: none
+name: aiopsvista-dev-gke
+network: aiopsvista-shared-vpc
+networkConfig:
+  defaultEnablePrivateNodes: true
+  defaultSnatStatus: {}
+  network: projects/aiopsvista-market-dev/global/networks/aiopsvista-shared-vpc
+  serviceExternalIpsConfig: {}
+  subnetwork: projects/aiopsvista-market-dev/regions/us-central1/subnetworks/gke-subnet
+nodeConfig:
+  bootDisk:
+    diskType: pd-standard
+    sizeGb: '30'
+  diskSizeGb: 30
+  diskType: pd-standard
+  effectiveCgroupMode: EFFECTIVE_CGROUP_MODE_V2
+  imageType: COS_CONTAINERD
+  kubeletConfig:
+    insecureKubeletReadonlyPortEnabled: false
+    maxParallelImagePulls: 2
+  labels:
+    pool: system
+  loggingConfig: {}
+  machineType: e2-small
+  metadata:
+    disable-legacy-endpoints: 'true'
+  nodeImageConfig:
+    image: gke-1355-gke1000000-cos-125-19216-220-185-c-pre
+    imageProject: gke-node-images
+  oauthScopes:
+  - https://www.googleapis.com/auth/cloud-platform
+  resourceLabels:
+    goog-gke-node-pool-provisioning-model: on-demand
+  serviceAccount: gke-nodes@aiopsvista-market-dev.iam.gserviceaccount.com
+  shieldedInstanceConfig:
+    enableIntegrityMonitoring: true
+  windowsNodeConfig: {}
+  workloadMetadataConfig:
+    mode: GKE_METADATA
+nodeCreationConfig:
+  nodeCreationMode: VIA_KUBELET
+nodePoolAutoConfig:
+  nodeKubeletConfig:
+    insecureKubeletReadonlyPortEnabled: false
+nodePoolDefaults:
+  nodeConfigDefaults:
+    loggingConfig:
+      variantConfig:
+        variant: DEFAULT
+    nodeKubeletConfig:
+      insecureKubeletReadonlyPortEnabled: false
+nodePools:
+- autoscaling:
+    enabled: true
+    locationPolicy: BALANCED
+    maxNodeCount: 1
+    minNodeCount: 1
+  config:
+    bootDisk:
+      diskType: pd-standard
+      sizeGb: '30'
+    diskSizeGb: 30
+    diskType: pd-standard
+    effectiveCgroupMode: EFFECTIVE_CGROUP_MODE_V2
+    imageType: COS_CONTAINERD
+    kubeletConfig:
+      insecureKubeletReadonlyPortEnabled: false
+      maxParallelImagePulls: 2
+    labels:
+      pool: system
+    loggingConfig: {}
+    machineType: e2-small
+    metadata:
+      disable-legacy-endpoints: 'true'
+    nodeImageConfig:
+      image: gke-1355-gke1000000-cos-125-19216-220-185-c-pre
+      imageProject: gke-node-images
+    oauthScopes:
+    - https://www.googleapis.com/auth/cloud-platform
+    resourceLabels:
+      goog-gke-node-pool-provisioning-model: on-demand
+    serviceAccount: gke-nodes@aiopsvista-market-dev.iam.gserviceaccount.com
+    shieldedInstanceConfig:
+      enableIntegrityMonitoring: true
+    windowsNodeConfig: {}
+    workloadMetadataConfig:
+      mode: GKE_METADATA
+  etag: d9e5c821-22f2-4e06-a1f2-88d3be954cd1
+  initialNodeCount: 1
+  instanceGroupUrls:
+  - https://www.googleapis.com/compute/v1/projects/aiopsvista-market-dev/zones/us-central1-a/instanceGroupManagers/gke-aiopsvista-dev-gke-system-pool-1101c9cd-grp
+  locations:
+  - us-central1-a
+  management:
+    autoRepair: true
+    autoUpgrade: true
+  maxPodsConstraint:
+    maxPodsPerNode: '110'
+  name: system-pool
+  networkConfig:
+    enablePrivateNodes: true
+    networkTierConfig:
+      networkTier: NETWORK_TIER_DEFAULT
+    podIpv4CidrBlock: 10.20.0.0/16
+    podIpv4RangeUtilization: 0.0039
+    podRange: gke-pods-range
+    subnetwork: projects/aiopsvista-market-dev/regions/us-central1/subnetworks/gke-subnet
+  podIpv4CidrSize: 24
+  selfLink: https://container.googleapis.com/v1/projects/aiopsvista-market-dev/zones/us-central1-a/clusters/aiopsvista-dev-gke/nodePools/system-pool
+  status: RUNNING
+  upgradeSettings:
+    maxSurge: 1
+    strategy: SURGE
+  version: 1.35.5-gke.1000000
+notificationConfig:
+  pubsub: {}
+podAutoscaling:
+  hpaProfile: PERFORMANCE
+privateClusterConfig:
+  enablePrivateNodes: true
+  masterIpv4CidrBlock: 172.16.0.0/28
+  privateEndpoint: 172.16.0.2
+  publicEndpoint: 35.232.45.138
+rbacBindingConfig:
+  enableInsecureBindingSystemAuthenticated: true
+  enableInsecureBindingSystemUnauthenticated: true
+releaseChannel:
+  channel: REGULAR
+resourceLabels:
+  goog-terraform-provisioned: 'true'
+securityPostureConfig:
+  mode: BASIC
+  vulnerabilityMode: VULNERABILITY_MODE_UNSPECIFIED
+selfLink: https://container.googleapis.com/v1/projects/aiopsvista-market-dev/zones/us-central1-a/clusters/aiopsvista-dev-gke
+servicesIpv4Cidr: 10.30.0.0/20
+shieldedNodes:
+  enabled: true
+status: RUNNING
+subnetwork: gke-subnet
+userManagedKeysConfig: {}
+workloadIdentityConfig:
+  workloadPool: aiopsvista-market-dev.svc.id.goog
+zone: us-central1-a

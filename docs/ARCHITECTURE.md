@@ -545,6 +545,8 @@ aiopsvista-market-intelligence/
 	- Stand up private Kubernetes platform for microservices
 - Deliverables:
 	- Private GKE cluster, node pools, Workload Identity, Artifact Registry
+- Dev/demo profile:
+	- Cost-optimized node disks, a single e2-small system pool, and the application pool disabled for phase 1
 - Success criteria:
 	- Core services deploy successfully with policy-compliant identities
 

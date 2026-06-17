@@ -1,0 +1,24 @@
+bindings:
+- members:
+  - serviceAccount:561181366672@cloudservices.gserviceaccount.com
+  role: roles/compute.instanceGroupManagerServiceAgent
+- members:
+  - serviceAccount:service-561181366672@compute-system.iam.gserviceaccount.com
+  role: roles/compute.serviceAgent
+- members:
+  - serviceAccount:service-561181366672@gcp-sa-gkenode.iam.gserviceaccount.com
+  role: roles/container.defaultNodeServiceAgent
+- members:
+  - serviceAccount:service-561181366672@container-engine-robot.iam.gserviceaccount.com
+  role: roles/container.serviceAgent
+- members:
+  - serviceAccount:service-561181366672@containerregistry.iam.gserviceaccount.com
+  role: roles/containerregistry.ServiceAgent
+- members:
+  - user:kd.aiops06@gmail.com
+  role: roles/owner
+- members:
+  - serviceAccount:service-561181366672@gcp-sa-pubsub.iam.gserviceaccount.com
+  role: roles/pubsub.serviceAgent
+etag: BwZUbd_h6Kg=
+version: 1
