@@ -32,3 +32,13 @@ output "budget_thresholds" {
   description = "Configured current spend alert thresholds for the budget."
   value       = module.budget.configured_thresholds
 }
+
+output "ai_finops_dataset_id" {
+  description = "BigQuery dataset ID for AI FinOps usage data."
+  value       = module.bigquery_ai_finops.dataset_id
+}
+
+output "ai_finops_table_id" {
+  description = "BigQuery table ID for AI usage records."
+  value       = module.bigquery_ai_finops.table_id
+}

@@ -121,3 +121,32 @@ variable "disable_default_iam_recipients" {
   type        = bool
   default     = false
 }
+
+variable "ai_finops_dataset_id" {
+  description = "BigQuery dataset ID for AI FinOps usage data."
+  type        = string
+  default     = "ai_finops"
+}
+
+variable "ai_finops_location" {
+  description = "BigQuery dataset location."
+  type        = string
+  default     = "US"
+}
+
+variable "ai_finops_delete_contents_on_destroy" {
+  description = "Delete dataset contents on destroy. Set true for dev environments."
+  type        = bool
+  default     = true
+}
+
+variable "ai_finops_labels" {
+  description = "Labels for the AI FinOps BigQuery dataset and table."
+  type        = map(string)
+  default = {
+    environment = "dev"
+    platform    = "aiopsvista"
+    managed_by  = "terraform"
+    cost_center = "ai-finops"
+  }
+}

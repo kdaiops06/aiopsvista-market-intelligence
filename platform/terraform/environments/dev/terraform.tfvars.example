@@ -24,3 +24,13 @@ master_authorized_networks = [
     display_name = "platform-admin"
   }
 ]
+
+ai_finops_dataset_id                 = "ai_finops"
+ai_finops_location                   = "US"
+ai_finops_delete_contents_on_destroy = true
+ai_finops_labels = {
+  environment = "dev"
+  platform    = "aiopsvista"
+  managed_by  = "terraform"
+  cost_center = "ai-finops"
+}

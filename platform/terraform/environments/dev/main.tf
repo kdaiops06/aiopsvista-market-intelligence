@@ -8,6 +8,7 @@ locals {
     "artifactregistry.googleapis.com",
     "billingbudgets.googleapis.com",
     "monitoring.googleapis.com",
+    "bigquery.googleapis.com",
   ]
 }
 
@@ -77,6 +78,18 @@ module "budget" {
   notification_email             = var.budget_notification_email
   disable_default_iam_recipients = var.disable_default_iam_recipients
   labels                         = var.labels
+
+  depends_on = [module.project]
+}
+
+module "bigquery_ai_finops" {
+  source = "../../modules/bigquery-ai-finops"
+
+  project_id                 = module.project.project_id
+  dataset_id                 = var.ai_finops_dataset_id
+  location                   = var.ai_finops_location
+  delete_contents_on_destroy = var.ai_finops_delete_contents_on_destroy
+  labels                     = var.ai_finops_labels
 
   depends_on = [module.project]
 }
