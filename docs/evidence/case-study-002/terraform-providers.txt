@@ -1,0 +1,19 @@
+
+Providers required by configuration:
+.
+├── provider[registry.terraform.io/hashicorp/google] >= 5.30.0
+├── module.budget
+│   └── provider[registry.terraform.io/hashicorp/google] >= 5.30.0
+├── module.project
+│   └── provider[registry.terraform.io/hashicorp/google] >= 5.30.0
+├── module.cloud_nat
+│   └── provider[registry.terraform.io/hashicorp/google] >= 5.30.0
+├── module.shared_vpc
+│   └── provider[registry.terraform.io/hashicorp/google] >= 5.30.0
+└── module.gke
+    └── provider[registry.terraform.io/hashicorp/google] >= 5.30.0
+
+Providers required by state:
+
+    provider[registry.terraform.io/hashicorp/google]
+

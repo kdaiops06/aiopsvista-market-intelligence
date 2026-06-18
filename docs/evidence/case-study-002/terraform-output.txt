@@ -1,0 +1,12 @@
+budget_name = "0744a64f-1e63-4708-a054-947bed83768b"
+budget_notification_channel = "projects/aiopsvista-market-dev/notificationChannels/7022005373686231081"
+budget_thresholds = tolist([
+  0.5,
+  0.75,
+  0.9,
+  1,
+])
+gke_cluster_name = "aiopsvista-dev-gke"
+project_id = "aiopsvista-market-dev"
+shared_vpc_name = "aiopsvista-shared-vpc"
+workload_identity_pool = "aiopsvista-market-dev.svc.id.goog"

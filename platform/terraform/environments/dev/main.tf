@@ -1,10 +1,13 @@
 locals {
   activate_apis = [
+    "serviceusage.googleapis.com",
     "compute.googleapis.com",
     "container.googleapis.com",
     "iam.googleapis.com",
     "cloudresourcemanager.googleapis.com",
     "artifactregistry.googleapis.com",
+    "billingbudgets.googleapis.com",
+    "monitoring.googleapis.com",
   ]
 }
 
@@ -58,4 +61,22 @@ module "gke" {
   application_pool_enabled   = false
 
   depends_on = [module.cloud_nat]
+}
+
+module "budget" {
+  source = "../../modules/budget"
+
+  project_id                     = module.project.project_id
+  billing_account_id             = var.billing_account
+  budget_display_name            = var.budget_display_name
+  monthly_budget_amount          = var.monthly_budget_amount
+  currency_code                  = var.budget_currency_code
+  threshold_percents             = var.budget_threshold_percents
+  enable_forecast_alert          = var.enable_forecast_alert
+  forecast_threshold_percent     = var.forecast_threshold_percent
+  notification_email             = var.budget_notification_email
+  disable_default_iam_recipients = var.disable_default_iam_recipients
+  labels                         = var.labels
+
+  depends_on = [module.project]
 }

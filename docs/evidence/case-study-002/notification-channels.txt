@@ -1,0 +1,16 @@
+---
+creationRecord:
+  mutateTime: '2026-06-18T09:59:36.763111002Z'
+displayName: aiopsvista-dev-monthly-budget-email
+enabled: true
+labels:
+  email_address: kd.aiops06@gmail.com
+mutationRecords:
+- mutateTime: '2026-06-18T09:59:36.763111002Z'
+name: projects/aiopsvista-market-dev/notificationChannels/7022005373686231081
+type: email
+userLabels:
+  cost_center: demo
+  environment: dev
+  managed_by: terraform
+  platform: aiopsvista

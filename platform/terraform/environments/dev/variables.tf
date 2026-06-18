@@ -15,6 +15,22 @@ variable "billing_account" {
   type        = string
 }
 
+variable "labels" {
+  description = "Standard governance labels for this environment."
+  type = object({
+    environment = string
+    platform    = string
+    managed_by  = string
+    cost_center = string
+  })
+  default = {
+    environment = "dev"
+    platform    = "aiopsvista"
+    managed_by  = "terraform"
+    cost_center = "demo"
+  }
+}
+
 variable "org_id" {
   description = "Organization ID for project creation."
   type        = string
@@ -57,4 +73,51 @@ variable "master_authorized_networks" {
     display_name = string
   }))
   default = []
+}
+
+variable "budget_display_name" {
+  description = "Display name for the FinOps monthly budget policy."
+  type        = string
+  default     = "aiopsvista-dev-monthly-budget"
+}
+
+variable "monthly_budget_amount" {
+  description = "Monthly budget amount in whole currency units."
+  type        = number
+  default     = 100
+}
+
+variable "budget_currency_code" {
+  description = "Currency code for the monthly budget."
+  type        = string
+  default     = "USD"
+}
+
+variable "budget_threshold_percents" {
+  description = "Current spend threshold percentages for budget alerts."
+  type        = list(number)
+  default     = [0.5, 0.75, 0.9, 1.0]
+}
+
+variable "enable_forecast_alert" {
+  description = "Enable projected spend alerts for the budget."
+  type        = bool
+  default     = true
+}
+
+variable "forecast_threshold_percent" {
+  description = "Forecast alert threshold percentage."
+  type        = number
+  default     = 1.0
+}
+
+variable "budget_notification_email" {
+  description = "Email address to receive budget and forecast alerts."
+  type        = string
+}
+
+variable "disable_default_iam_recipients" {
+  description = "Disable default IAM recipients for budget notifications."
+  type        = bool
+  default     = false
 }

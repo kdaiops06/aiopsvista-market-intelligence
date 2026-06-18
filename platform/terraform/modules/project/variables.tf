@@ -29,6 +29,7 @@ variable "activate_apis" {
   description = "List of APIs to enable in the project."
   type        = list(string)
   default = [
+    "serviceusage.googleapis.com",
     "compute.googleapis.com",
     "container.googleapis.com",
     "iam.googleapis.com",
