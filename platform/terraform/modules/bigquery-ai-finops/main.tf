@@ -24,7 +24,10 @@ resource "google_bigquery_table" "ai_usage" {
     field = "event_timestamp"
   }
 
-  clustering = ["provider", "model", "environment"]
+  # Clustering on provider, project_id, environment, team_name optimises attribution queries.
+  # model is retained as a GROUP BY dimension and does not benefit from clustering.
+  # All four BigQuery clustering slots are used.
+  clustering = ["provider", "project_id", "environment", "team_name"]
 
   schema = jsonencode([
     {
@@ -46,6 +49,13 @@ resource "google_bigquery_table" "ai_usage" {
       description = "Model identifier, e.g. gpt-4o, gemini-1.5-pro, claude-3-5-sonnet."
     },
     {
+      name        = "request_id"
+      type        = "STRING"
+      mode        = "NULLABLE"
+      description = "Unique request identifier for distributed tracing and audit correlation."
+    },
+    # ── Attribution dimensions ────────────────────────────────────────────────
+    {
       name        = "user_id"
       type        = "STRING"
       mode        = "NULLABLE"
@@ -58,11 +68,24 @@ resource "google_bigquery_table" "ai_usage" {
       description = "GCP project or internal project identifier for cost attribution."
     },
     {
+      name        = "team_name"
+      type        = "STRING"
+      mode        = "NULLABLE"
+      description = "Engineering team or business unit responsible for this usage, e.g. platform-team, sre-team, data-team."
+    },
+    {
+      name        = "workflow_name"
+      type        = "STRING"
+      mode        = "NULLABLE"
+      description = "Workflow or use-case that generated this request, e.g. incident-analysis, rag-search, customer-support."
+    },
+    {
       name        = "agent_name"
       type        = "STRING"
       mode        = "NULLABLE"
       description = "Name of the AI agent if the request originated from an agent workflow."
     },
+    # ── Usage metrics ─────────────────────────────────────────────────────────
     {
       name        = "request_count"
       type        = "INTEGER"
@@ -93,11 +116,18 @@ resource "google_bigquery_table" "ai_usage" {
       mode        = "NULLABLE"
       description = "Estimated cost in USD based on provider pricing at time of recording."
     },
+    # ── Reliability dimensions ────────────────────────────────────────────────
     {
       name        = "latency_ms"
       type        = "INTEGER"
       mode        = "NULLABLE"
       description = "End-to-end request latency in milliseconds."
+    },
+    {
+      name        = "status"
+      type        = "STRING"
+      mode        = "NULLABLE"
+      description = "Request outcome: success, error, timeout, rate_limited, or cancelled."
     },
     {
       name        = "environment"
