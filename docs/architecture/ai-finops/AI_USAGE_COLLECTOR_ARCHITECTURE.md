@@ -1,6 +1,6 @@
 # AI Usage Collector Architecture
 
-## AiOpsVista Market Intelligence Platform
+## AiOpsVista Intelligence Platform
 
 ---
 
@@ -306,3 +306,10 @@ Case Study #004 is successful when:
 - attribution and reliability fields are present and queryable,
 - the entire path is Terraform-managed and cost-efficient,
 - the platform is ready for provider-specific integrations in future phases.
+
+## Related Documentation
+- [Documentation Hub](../../README.md)
+- [Case Studies](../../case-studies/README.md)
+- [Evidence](../../evidence/README.md)
+- [AI Usage Data Model](AI_USAGE_DATA_MODEL.md)
+- [AI Usage Collection Roadmap](AI_USAGE_COLLECTION_ROADMAP.md)

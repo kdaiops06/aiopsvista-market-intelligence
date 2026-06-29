@@ -1,7 +1,7 @@
 # SDLC and Governance
 
 ## Document Purpose
-This document defines the software delivery lifecycle, GitHub governance model, security controls, release strategy, branch protection baseline, CI/CD standards, and GitHub Actions policy framework for the AiOpsVista Market Intelligence Platform.
+This document defines the software delivery lifecycle, GitHub governance model, security controls, release strategy, branch protection baseline, CI/CD standards, and GitHub Actions policy framework for the AiOpsVista Intelligence Platform.
 
 The standards in this document are production-oriented and intended for platform engineering, SRE, and security teams.
 

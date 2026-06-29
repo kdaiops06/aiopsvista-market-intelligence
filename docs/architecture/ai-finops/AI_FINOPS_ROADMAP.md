@@ -1,6 +1,6 @@
 # AI FinOps Roadmap
 
-## AiOpsVista Market Intelligence Platform
+## AiOpsVista Intelligence Platform
 
 ---
 
@@ -244,3 +244,11 @@ The progression shows:
 - **Agent Operations** — Agents are treated as first-class operational entities with cost governance and reliability controls.
 
 Organizations that implement this pattern gain the ability to answer questions about AI cost and reliability that most organizations cannot answer today.
+
+## Related Documentation
+- [Documentation Hub](../../README.md)
+- [Case Studies](../../case-studies/README.md)
+- [Evidence](../../evidence/README.md)
+- [AI FinOps Architecture](AI_FINOPS_ARCHITECTURE.md)
+- [AI Usage Data Model](AI_USAGE_DATA_MODEL.md)
+- [AI Usage Collection Roadmap](AI_USAGE_COLLECTION_ROADMAP.md)

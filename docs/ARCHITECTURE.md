@@ -1,4 +1,4 @@
-# AiOpsVista Market Intelligence Platform - Architecture Blueprint
+# AiOpsVista Intelligence Platform - Architecture Blueprint
 
 Version: 1.0  
 Date: 2026-06-02  
@@ -6,7 +6,7 @@ Authors: Principal Cloud Architect, Staff SRE, AI Platform Architect
 
 ## 0. Scope And Intent
 
-This document defines the complete architecture blueprint for the AiOpsVista Market Intelligence Platform on Google Cloud Platform.
+This document defines the complete architecture blueprint for the AiOpsVista Intelligence Platform on Google Cloud Platform.
 
 This deliverable is documentation-only and intentionally excludes Terraform implementation code.
 
@@ -14,7 +14,7 @@ This deliverable is documentation-only and intentionally excludes Terraform impl
 
 ### 1.1 Executive Summary
 
-AiOpsVista Market Intelligence Platform is a production-style, AI-powered market intelligence system built on GCP. It continuously ingests stock prices, market events, and financial news for top US equities, processes and enriches the data, applies LLM-powered analysis, and exposes actionable insights through APIs, alerts, and dashboards.
+AiOpsVista Intelligence Platform is a production-style, AI-powered intelligence system built on GCP. It continuously ingests signal data, operational events, and financial news, processes and enriches the data, applies LLM-powered analysis, and exposes actionable insights through APIs, alerts, and dashboards.
 
 The platform is engineered to demonstrate enterprise practices across:
 
@@ -36,7 +36,7 @@ It is designed for four outcomes:
 
 Core business capabilities:
 
-1. Market Data Ingestion: real-time and periodic price/event collection
+1. Intelligence Data Ingestion: real-time and periodic event collection
 2. News Intelligence: news ingestion, normalization, and sentiment enrichment
 3. AI Insight Generation: summarization, signal extraction, and anomaly interpretation
 4. Delivery Channels: dashboard APIs, alerting, and executive-ready reporting
@@ -46,14 +46,14 @@ Core business capabilities:
 
 ```mermaid
 flowchart LR
-		A[Market Data Sources\nPrice/Event APIs] --> B[Market Collector]
+		A[Intelligence Data Sources\nEvent APIs] --> B[Intelligence Collector]
 		C[Financial News Feeds] --> D[News Collector]
 
 		B --> E[Pub/Sub Topics]
 		D --> E
 
-		E --> F[Market Processor]
-		F --> G[BigQuery Market Intelligence]
+		E --> F[Intelligence Processor]
+		F --> G[BigQuery Intelligence]
 		F --> H[Cloud Storage Raw/Curated]
 
 		G --> I[AI Analyzer]
@@ -485,7 +485,7 @@ sequenceDiagram
 Recommended multi-repo or mono-repo top-level layout:
 
 ```text
-aiopsvista-market-intelligence/
+aiopsvista-intelligence/
 ├── platform-terraform/
 │   ├── modules/
 │   ├── environments/
@@ -494,9 +494,9 @@ aiopsvista-market-intelligence/
 │   │   └── prod/
 │   ├── policies/
 │   └── README.md
-├── market-intelligence-services/
-│   ├── market-collector/
-│   ├── market-processor/
+├── intelligence-services/
+│   ├── intelligence-collector/
+│   ├── intelligence-processor/
 │   ├── news-collector/
 │   ├── ai-analyzer/
 │   ├── dashboard-api/
@@ -582,12 +582,12 @@ This capability completes the Collect phase in the AiOpsVista maturity chain and
 - Success criteria:
 	- Golden signals visible for all services with actionable alerts
 
-### Phase 5: Market Data
+### Phase 5: Intelligence Data
 
 - Goals:
-	- Deliver reliable ingestion and processing pipeline for market data
+	- Deliver reliable ingestion and processing pipeline for intelligence data
 - Deliverables:
-	- Market Collector, Processor, Pub/Sub streams, BigQuery tables
+	- Intelligence Collector, Processor, Pub/Sub streams, BigQuery tables
 - Success criteria:
 	- Data freshness SLI achieved and replay pipeline validated
 
@@ -632,7 +632,7 @@ This capability completes the Collect phase in the AiOpsVista maturity chain and
 ### ADR-002: Why BigQuery
 
 - Decision:
-	- Use BigQuery as analytical warehouse for market intelligence and AI outputs.
+	- Use BigQuery as analytical warehouse for intelligence and AI outputs.
 - Rationale:
 	- Serverless analytics, excellent performance for time-series and aggregations.
 - Consequences:
@@ -701,3 +701,12 @@ Recommended next documents to complete architecture package:
 2. EXECUTION_PLAN.md with milestone calendar and ownership model
 3. Per-service API contracts and event schema catalog
 4. SLO handbook and incident response runbooks
+
+## Related Documentation
+- [Documentation Hub](README.md)
+- [Case Studies](case-studies/README.md)
+- [Evidence](evidence/README.md)
+- [Runbooks](../runbooks/README.md)
+- [Roadmap](../roadmap/README.md)
+- [Executive View](../architecture/executive-view.md)
+- [Platform Architecture](../architecture/platform-architecture.md)

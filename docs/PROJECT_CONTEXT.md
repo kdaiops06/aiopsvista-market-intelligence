@@ -1,24 +1,29 @@
 # Project Context
 
 ## Project Overview
-AiOpsVista Market Intelligence Platform is a production-inspired AI Reliability Engineering reference platform.
+AiOpsVista Intelligence Platform is a production-inspired AI Reliability Engineering, AI FinOps, Platform Engineering, Observability, and Agent Operations reference platform.
 
-The platform demonstrates:
+Completed case studies:
+- Case Study #001: GCP Platform Foundation
+- Case Study #002: AI FinOps Budget Governance
+- Case Study #003: AI FinOps Data Foundation
+- Case Study #004: AI Usage Collector Platform
 
-- Google Cloud Platform
-- Kubernetes Operations
-- Site Reliability Engineering
-- AI Reliability Engineering
-- AI Observability
-- Agent Operations
-- Incident Management
-- Production AI Systems
+## Platform Demonstrates
+- Google Cloud landing zone design
+- Shared VPC and Cloud NAT
+- Private GKE platform engineering
+- Terraform lifecycle management
+- Budget governance and AI FinOps
+- BigQuery AI usage data modeling
+- Cloud Build, Artifact Registry, and Cloud Run
+- AI usage collector operations
+- IAM and least-privilege access patterns
+- Enterprise troubleshooting and documentation-driven engineering
 
 This project is not a stock dashboard.
 
-The stock market use case exists to provide realistic data streams and operational scenarios.
-
----
+The reference AI platform exists to provide realistic data streams and operational scenarios.
 
 ## Long-Term Vision
 Build a consulting-grade reference architecture demonstrating how modern AI-powered systems are:
@@ -31,8 +36,6 @@ Build a consulting-grade reference architecture demonstrating how modern AI-powe
 - Recovered
 - Improved
 
----
-
 ## Primary Goals
 1. Learn modern GCP architecture.
 2. Learn AI observability.
@@ -41,17 +44,15 @@ Build a consulting-grade reference architecture demonstrating how modern AI-powe
 5. Create technical content for AiOpsVista.
 6. Demonstrate production-style operations.
 
----
-
 ## Platform Scope
 ### Data Sources
-- Market Data
+- Intelligence Data
 - Financial News
 - AI-generated Insights
 
 ### Core Services
-- Market Collector
-- Market Processor
+- Intelligence Collector
+- Intelligence Processor
 - News Collector
 - AI Analyzer
 - Dashboard API
@@ -63,6 +64,9 @@ Build a consulting-grade reference architecture demonstrating how modern AI-powe
 - Pub/Sub
 - BigQuery
 - Cloud Storage
+- Cloud Build
+- Artifact Registry
+- Cloud Run
 - Vertex AI
 
 ### Observability Components
@@ -77,8 +81,6 @@ Build a consulting-grade reference architecture demonstrating how modern AI-powe
 - Langfuse
 - OpenLIT
 
----
-
 ## What Success Looks Like
 The platform should demonstrate:
 
@@ -88,40 +90,19 @@ The platform should demonstrate:
 - AI Incident Management
 - AI Reliability Metrics
 - Agent Observability
-
----
-
-## What Not To Build
-Avoid:
-
-- Generic CRUD applications
-- Unnecessary microservices
-- Premature SaaS features
-- Complex UI work
-- Features without operational value
-
-Prioritize:
-
-- Reliability
-- Observability
-- Automation
-- Operability
-- Educational value
-
----
+- Enterprise Troubleshooting
+- Documentation Driven Engineering
 
 ## Consulting Alignment
 This repository should evolve into:
 
 - AI Reliability Assessment Platform
 - GCP Reference Architecture
-- AI Operations Showcase
+- AI Operations Intelligence Showcase
 - Consulting Demonstration Environment
 - Open Source Learning Platform
 
 Engineering decisions should support future consulting engagements.
-
----
 
 ## Content Strategy
 Every major implementation should produce:
@@ -133,16 +114,11 @@ Every major implementation should produce:
 - Incident Scenario
 - Video Walkthrough
 
-The repository should continuously generate reusable AiOpsVista content.
-
----
-
 ## Documentation Cross References
 Related documents:
-
-- docs/ARCHITECTURE.md
-- docs/ENGINEERING_STANDARDS.md
-- docs/SDLC_AND_GOVERNANCE.md
-- docs/ONBOARDING.md
-- docs/REPOSITORY_MAP.md
-- docs/TRACEABILITY_MATRIX.md
+- [Repository Documentation Hub](README.md)
+- [Architecture Blueprint](ARCHITECTURE.md)
+- [Engineering Standards](ENGINEERING_STANDARDS.md)
+- [SDLC and Governance](SDLC_AND_GOVERNANCE.md)
+- [Repository Map](REPOSITORY_MAP.md)
+- [Traceability Matrix](TRACEABILITY_MATRIX.md)

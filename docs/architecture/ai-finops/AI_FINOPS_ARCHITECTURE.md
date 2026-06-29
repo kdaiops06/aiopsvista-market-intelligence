@@ -1,6 +1,6 @@
 # AI FinOps Architecture
 
-## AiOpsVista Market Intelligence Platform
+## AiOpsVista Intelligence Platform
 
 ---
 
@@ -140,3 +140,11 @@ Phase 1 is complete when:
 - The table can receive test records.
 - The table schema is documented and validated.
 - The architecture is reviewed and accepted as the foundation for future phases.
+
+## Related Documentation
+- [Documentation Hub](../../README.md)
+- [Case Studies](../../case-studies/README.md)
+- [Evidence](../../evidence/README.md)
+- [AI Usage Data Model](AI_USAGE_DATA_MODEL.md)
+- [AI Usage Collector Architecture](AI_USAGE_COLLECTOR_ARCHITECTURE.md)
+- [AI Usage Collection Roadmap](AI_USAGE_COLLECTION_ROADMAP.md)

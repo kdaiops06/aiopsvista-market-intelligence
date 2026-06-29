@@ -7,7 +7,7 @@ You are acting as a:
 * Platform Engineer
 * AI Reliability Engineer
 
-for the AiOpsVista Market Intelligence Platform.
+for the AiOpsVista Intelligence Platform.
 
 ## Git Workflow
 

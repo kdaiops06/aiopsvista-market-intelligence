@@ -1,151 +1,57 @@
-# AiOpsVista Market Intelligence Platform
-A production-inspired AI Reliability Engineering reference platform built on Google Cloud Platform.
+# AiOpsVista Intelligence Platform
+A production-inspired AI Reliability Engineering, AI FinOps, Platform Engineering, Observability, and Agent Operations reference platform built on Google Cloud.
 
-The project demonstrates how modern AI-powered systems can be designed, deployed, observed, operated, and continuously improved using cloud-native architecture, Kubernetes, Site Reliability Engineering (SRE), AI observability, agent operations, and operational governance.
+## Navigation
+- [CTO Platform Overview](architecture/executive-view.md)
+- [Repository Overview](docs/REPOSITORY_MAP.md)
+- [Architecture](docs/ARCHITECTURE.md)
+- [Case Studies](docs/case-studies/README.md)
+- [Evidence](docs/evidence/README.md)
+- [Roadmap](roadmap/README.md)
+- [Runbooks](runbooks/README.md)
+- [Services](services/ai-usage-collector/README.md)
+- [Consulting Content](content/README.md)
+- [Getting Started](docs/ONBOARDING.md)
 
-## Why This Project Exists
-Most AI demos stop at generating outputs.
+## What This Repository Demonstrates
+- Google Cloud landing zone design
+- Shared VPC and Cloud NAT
+- Private GKE platform engineering
+- Terraform-based lifecycle management
+- Budget governance and AI FinOps
+- BigQuery-backed AI usage data modeling
+- Cloud Build, Artifact Registry, and Cloud Run delivery
+- AI usage collection and troubleshooting
+- Enterprise observability and reliability patterns
+- Documentation-driven engineering and consulting readiness
 
-This platform focuses on operating AI systems in production by exploring:
-
-- AI Reliability Engineering
-- AI Observability
-- Agent Operations
-- Incident Management
-- Cloud Platform Engineering
-- Kubernetes Operations
-- Production AI Architectures
-
-The market intelligence use case provides realistic data streams, operational scenarios, and AI workflows for demonstrating these concepts.
-
-## Core Technology Areas
-
-### Cloud Platform
-
-- Google Cloud Platform (GCP)
-- Shared VPC
-- Private GKE
-- Terraform
-
-### Data Platform
-
-- Pub/Sub
-- BigQuery
-- Cloud Storage
-
-### AI Platform
-
-- Vertex AI
-- Gemini
-- AI Agents
-
-### Observability
-
-- OpenTelemetry
-- Prometheus
-- Grafana
-- Tempo
-
-### AI Observability
-
-- Langfuse
-- OpenLIT
-
-### Reliability Engineering
-
-- SLIs
-- SLOs
-- Error Budgets
-- Incident Response
-- Operational Runbooks
-
-## Long-Term Vision
-Build a consulting-grade reference architecture demonstrating how enterprise AI systems can be:
-
-- Designed
-- Deployed
-- Observed
-- Troubleshot
-- Secured
-- Governed
-- Operated at scale
-
-This repository serves as:
-
-- AI Reliability Engineering Lab
-- GCP Reference Architecture
-- Kubernetes Operations Playground
-- AI Observability Demonstration Platform
-- AiOpsVista Consulting Showcase
-- Future Agent Operations Testbed
-
-## Delivery Progress
-
-The AiOpsVista case study series now follows this progression:
-
+## Case Study Progression
 Provision -> Govern -> Observe -> Collect -> Attribute
 
 Completed case studies:
-
-- [Case Study #001](docs/case-studies/case-study-001-gke-landing-zone.md) - GCP Foundation Platform
-- [Case Study #002](docs/case-studies/case-study-002-finops-budget-guardrails.md) - FinOps Budget Governance
-- [Case Study #003](docs/case-studies/case-study-003-ai-finops-foundation.md) - AI FinOps Data Model
-- [Case Study #004](docs/case-studies/case-study-004-ai-usage-collector-platform.md) - AI Usage Collector Platform
+- [Case Study #001: GCP Platform Foundation](docs/case-studies/case-study-001-gke-landing-zone.md)
+- [Case Study #002: AI FinOps Budget Governance](docs/case-studies/case-study-002-finops-budget-guardrails.md)
+- [Case Study #003: AI FinOps Data Foundation](docs/case-studies/case-study-003-ai-finops-foundation.md)
+- [Case Study #004: AI Usage Collector Platform](docs/case-studies/case-study-004-ai-usage-collector-platform.md)
 
 Next planned case study:
+- Case Study #005: AI FinOps Analytics & Executive Dashboard
 
-- Case Study #005 - AI FinOps Analytics & Executive Dashboard
-
-## Start Here
-If you are new to the repository, read these in order:
-
+## Quick Start
+If you are new to the repository, start with:
+- [docs/README.md](docs/README.md)
 - [docs/PROJECT_CONTEXT.md](docs/PROJECT_CONTEXT.md)
-- [docs/ARCHITECTURE.md](docs/ARCHITECTURE.md)
 - [docs/ONBOARDING.md](docs/ONBOARDING.md)
+- [docs/ARCHITECTURE.md](docs/ARCHITECTURE.md)
 - [docs/SDLC_AND_GOVERNANCE.md](docs/SDLC_AND_GOVERNANCE.md)
-- [docs/WORKFLOW_CATALOG.md](docs/WORKFLOW_CATALOG.md)
 
-For the AI FinOps track, also review:
+## Repository Scope
+This repository is intentionally focused on operational AI platform work rather than application feature development.
 
-- [docs/case-studies/README.md](docs/case-studies/README.md)
-- [docs/architecture/ai-finops/AI_FINOPS_ARCHITECTURE.md](docs/architecture/ai-finops/AI_FINOPS_ARCHITECTURE.md)
-- [docs/architecture/ai-finops/AI_USAGE_COLLECTOR_ARCHITECTURE.md](docs/architecture/ai-finops/AI_USAGE_COLLECTOR_ARCHITECTURE.md)
-
-## Repository Snapshot
-This repository is organized around documentation, platform foundations, and future implementation work.
-
-- `architecture/` - architecture views and reference diagrams
-- `content/` - reusable educational and consulting content
-- `dashboards/` - dashboard assets and future operational views
-- `docs/` - core project, governance, onboarding, and traceability documentation
-- `incidents/` - incident scenarios and response materials
-- `observability/` - telemetry and observability stack assets
-- `platform/` - infrastructure and platform foundation work
-- `roadmap/` - phase-by-phase execution planning
-- `runbooks/` - operational procedures and recovery guidance
-- `services/` - market intelligence service implementation area
-
-## Contribution Guidelines
-- Use feature branches for all work.
-- Open a pull request for review before merging.
-- Include documentation updates when behavior, architecture, or governance changes.
-- Follow the PR template in [.github/pull_request_template.md](.github/pull_request_template.md).
-
-## What This Repository Is Not
-This is not a generic CRUD application, a SaaS starter, or a UI-first project.
-
-It is intentionally focused on:
-
-- Reliability
-- Observability
-- Automation
-- Operability
-- Educational value
-
-## Audience
-This repository is intended for:
-
-- New engineers
-- Contributors
-- AI coding assistants
-- Consultants
+Key themes:
+- AI Reliability Engineering
+- AI FinOps
+- AI Observability
+- Agent Operations
+- Platform Engineering
+- Consulting content and reusable delivery assets

@@ -1,6 +1,6 @@
 # AI Usage Data Model
 
-## AiOpsVista Market Intelligence Platform
+## AiOpsVista Intelligence Platform
 
 ---
 
@@ -380,4 +380,11 @@ This schema evolution is a deliberate architectural progression:
 | **Agent Operations** | `agent_name`, `workflow_name`, `request_id` | Per-agent cost tracking, workflow attribution, agent tracing |
 
 Every column added in this iteration serves multiple maturity levels simultaneously. The schema is intentionally forward-compatible: Phase 1 writes only require `event_timestamp`, `provider`, `model`, `request_count`, and `environment`. All other columns are nullable and can be populated incrementally as observability instrumentation matures.
+
+## Related Documentation
+- [Documentation Hub](../../README.md)
+- [Case Studies](../../case-studies/README.md)
+- [Evidence](../../evidence/README.md)
+- [AI FinOps Architecture](AI_FINOPS_ARCHITECTURE.md)
+- [AI Usage Collector Architecture](AI_USAGE_COLLECTOR_ARCHITECTURE.md)
 

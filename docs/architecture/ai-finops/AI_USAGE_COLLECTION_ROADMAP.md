@@ -1,6 +1,6 @@
 # AI Usage Collection Roadmap
 
-## AiOpsVista Market Intelligence Platform
+## AiOpsVista Intelligence Platform
 
 ---
 
@@ -197,3 +197,11 @@ Each phase should be accepted only when:
 - the incremental cost remains justified by the value delivered.
 
 Case Study #004 completed Phase 1 and establishes the collector baseline for future provider integrations and Case Study #005 analytics work.
+
+## Related Documentation
+- [Documentation Hub](../../README.md)
+- [Case Studies](../../case-studies/README.md)
+- [Evidence](../../evidence/README.md)
+- [AI FinOps Architecture](AI_FINOPS_ARCHITECTURE.md)
+- [AI Usage Collector Architecture](AI_USAGE_COLLECTOR_ARCHITECTURE.md)
+- [AI Usage Data Model](AI_USAGE_DATA_MODEL.md)

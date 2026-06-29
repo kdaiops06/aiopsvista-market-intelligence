@@ -4,6 +4,13 @@
 
 Use this runbook to deploy, validate, and troubleshoot the Case Study #004 AI Usage Collector platform.
 
+## Related Documentation
+- [Case Study #004 - AI Usage Collector Platform](../docs/case-studies/case-study-004-ai-usage-collector-platform.md)
+- [AI Usage Collector Architecture](../docs/architecture/ai-finops/AI_USAGE_COLLECTOR_ARCHITECTURE.md)
+- [AI Usage Data Model](../docs/architecture/ai-finops/AI_USAGE_DATA_MODEL.md)
+- [Evidence Package](../docs/evidence/case-study-004/README.md)
+- [Roadmap](../roadmap/README.md)
+
 ## Deployment Steps
 
 1. Ensure the dev project, BigQuery foundation, and Artifact Registry repository exist.

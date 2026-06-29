@@ -1,20 +1,23 @@
 # Evidence Package Index
 
-This folder captures the deployment evidence for the AiOpsVista Landing Zone dev environment. Use it as the reference set for validation, handoff, or recreating the environment after destroy.
+## Purpose
+This folder captures deployment evidence for the platform foundation and the completed case studies. Use it as the reference set for validation, handoff, or recreating the environment after destroy.
+
+## Start Here
+- [Case Studies](../case-studies/README.md)
+- [Architecture Blueprint](../ARCHITECTURE.md)
+- [Runbooks](../../runbooks/README.md)
 
 ## Summary Artifacts
-
 - [Deployment Summary](deployment-summary.md)
 - [Validation Checklist](validation-checklist.md)
 
 ## Case Study Evidence
-
 - [Case Study #002 Evidence Package](case-study-002/README.md)
 - [Case Study #003 Evidence Package](case-study-003/README.md)
 - [Case Study #004 Evidence Package](case-study-004/README.md)
 
 ## Raw Evidence
-
 - [cluster-info.txt](cluster-info.txt)
 - [cluster-namespaces.txt](cluster-namespaces.txt)
 - [cluster-nodes.txt](cluster-nodes.txt)
@@ -32,7 +35,6 @@ This folder captures the deployment evidence for the AiOpsVista Landing Zone dev
 - [terraform-version.txt](terraform-version.txt)
 
 ## Notes
-
 - The cluster is zonal in `us-central1-a`.
 - The environment uses a private GKE control plane, Shared VPC, Cloud NAT, and Workload Identity.
 - Managed Prometheus is enabled for cluster observability.

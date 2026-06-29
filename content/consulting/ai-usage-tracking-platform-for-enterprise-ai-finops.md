@@ -49,3 +49,9 @@ The platform combines Terraform, Cloud Build, Artifact Registry, Cloud Run, IAM,
 5. Executive reporting and dashboard roadmap
 
 This use case is a consulting-ready foundation for enterprise AI FinOps conversations.
+
+## Related Documentation
+- [Case Study #003](../../docs/case-studies/case-study-003-ai-finops-foundation.md)
+- [Case Study #004](../../docs/case-studies/case-study-004-ai-usage-collector-platform.md)
+- [AI Usage Collector Runbook](../../runbooks/ai-usage-collector-deployment-and-troubleshooting.md)
+- [AI FinOps Architecture](../../docs/architecture/ai-finops/AI_FINOPS_ARCHITECTURE.md)
