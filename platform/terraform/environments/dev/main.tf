@@ -24,6 +24,12 @@ module "project" {
   activate_apis   = local.activate_apis
 }
 
+data "google_project" "this" {
+  project_id = module.project.project_id
+
+  depends_on = [module.project]
+}
+
 module "shared_vpc" {
   source = "../../modules/shared-vpc"
 
