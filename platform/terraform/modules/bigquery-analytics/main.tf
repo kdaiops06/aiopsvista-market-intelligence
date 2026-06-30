@@ -14,6 +14,8 @@ resource "google_bigquery_table" "analytics_views" {
 
   table_id = "vw_${trimsuffix(each.key, ".sql")}"
 
+  description = "Analytics view generated from ${each.key}"
+
   deletion_protection = false
 
   labels = var.labels
