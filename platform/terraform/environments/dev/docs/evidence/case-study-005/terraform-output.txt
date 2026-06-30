@@ -1,0 +1,18 @@
+ai_finops_dataset_id = "ai_finops"
+ai_finops_table_id = "ai_usage"
+ai_usage_collector_artifact_registry_repository_url = "us-central1-docker.pkg.dev/aiopsvista-market-dev/ai-usage-collector"
+ai_usage_collector_service_account_email = "ai-usage-collector@aiopsvista-market-dev.iam.gserviceaccount.com"
+ai_usage_collector_service_name = "ai-usage-collector"
+ai_usage_collector_service_url = "https://ai-usage-collector-7brehmkosq-uc.a.run.app"
+budget_name = "dada5754-5667-4ad5-98a5-fcb85549e017"
+budget_notification_channel = "projects/aiopsvista-market-dev/notificationChannels/7192447948947242925"
+budget_thresholds = tolist([
+  0.5,
+  0.75,
+  0.9,
+  1,
+])
+gke_cluster_name = "aiopsvista-dev-gke"
+project_id = "aiopsvista-market-dev"
+shared_vpc_name = "aiopsvista-shared-vpc"
+workload_identity_pool = "aiopsvista-market-dev.svc.id.goog"

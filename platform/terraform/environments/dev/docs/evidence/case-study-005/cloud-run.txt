@@ -1,0 +1,36 @@
+[1m[32m✔[39;0m[1m Service ai-usage-collector in region us-central1[m
+cost_center:ai-finops environment:dev goog-terraform-provisioned:true managed_by:terraform platform:aiopsvista
+ 
+URL:     https://ai-usage-collector-561181366672.us-central1.run.app
+Ingress: all
+Traffic:
+  100% [1mLATEST (currently ai-usage-collector-00001-g4j)[m
+ 
+Scaling: Auto (Min: 0, Max: 3)
+ 
+Last updated on 2026-06-30T05:57:22.533462Z by kd.aiops06@gmail.com:
+  [1mRevision ai-usage-collector-00001-g4j[m
+  Container None
+    Image:           us-central1-docker.pkg.dev/aiopsvista-market-dev/ai-usage-collector/ai-usage-collector:v1
+    Port:            8080
+    Memory:          512Mi
+    CPU:             1
+    Env vars:
+      DATASET_ID     ai_finops
+      DEFAULT_BATCH_SIZE 3
+      PROJECT_ID     aiopsvista-market-dev
+      TABLE_ID       ai_usage
+    Startup Probe:
+      TCP every 240s
+      Port:          8080
+      Initial delay: 0s
+      Timeout:       240s
+      Failure threshold: 1
+      Type:          Default
+  Service account:   ai-usage-collector@aiopsvista-market-dev.iam.gserviceaccount.com
+  Concurrency:       20
+  Min instances:     0
+  Max instances:     1
+  Timeout:           300s
+  CPU Allocation:    CPU is always allocated
+  Session Affinity:  false

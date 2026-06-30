@@ -1,0 +1,47 @@
+         tableId          Type                Labels                     Time Partitioning                       Clustered Fields                
+ ----------------------- ------- --------------------------------- ------------------------------ ---------------------------------------------- 
+  ai_usage                TABLE   environment:dev                   DAY (field: event_timestamp)   provider, project_id, environment, team_name  
+                                  cost_center:ai-finops                                                                                          
+                                  goog-terraform-provisioned:true                                                                                
+                                  managed_by:terraform                                                                                           
+                                  platform:aiopsvista                                                                                            
+  vw_01_daily_cost        VIEW    environment:dev                                                                                                
+                                  cost_center:ai-finops                                                                                          
+                                  goog-terraform-provisioned:true                                                                                
+                                  managed_by:terraform                                                                                           
+                                  platform:aiopsvista                                                                                            
+  vw_02_provider_cost     VIEW    environment:dev                                                                                                
+                                  cost_center:ai-finops                                                                                          
+                                  goog-terraform-provisioned:true                                                                                
+                                  managed_by:terraform                                                                                           
+                                  platform:aiopsvista                                                                                            
+  vw_03_model_usage       VIEW    environment:dev                                                                                                
+                                  cost_center:ai-finops                                                                                          
+                                  goog-terraform-provisioned:true                                                                                
+                                  managed_by:terraform                                                                                           
+                                  platform:aiopsvista                                                                                            
+  vw_04_team_usage        VIEW    environment:dev                                                                                                
+                                  cost_center:ai-finops                                                                                          
+                                  goog-terraform-provisioned:true                                                                                
+                                  managed_by:terraform                                                                                           
+                                  platform:aiopsvista                                                                                            
+  vw_05_project_usage     VIEW    environment:dev                                                                                                
+                                  cost_center:ai-finops                                                                                          
+                                  goog-terraform-provisioned:true                                                                                
+                                  managed_by:terraform                                                                                           
+                                  platform:aiopsvista                                                                                            
+  vw_06_token_usage       VIEW    environment:dev                                                                                                
+                                  cost_center:ai-finops                                                                                          
+                                  goog-terraform-provisioned:true                                                                                
+                                  managed_by:terraform                                                                                           
+                                  platform:aiopsvista                                                                                            
+  vw_07_failed_requests   VIEW    environment:dev                                                                                                
+                                  cost_center:ai-finops                                                                                          
+                                  goog-terraform-provisioned:true                                                                                
+                                  managed_by:terraform                                                                                           
+                                  platform:aiopsvista                                                                                            
+  vw_08_latency_summary   VIEW    environment:dev                                                                                                
+                                  cost_center:ai-finops                                                                                          
+                                  goog-terraform-provisioned:true                                                                                
+                                  managed_by:terraform                                                                                           
+                                  platform:aiopsvista                                                                                            

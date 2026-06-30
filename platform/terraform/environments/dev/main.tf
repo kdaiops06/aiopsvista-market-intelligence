@@ -113,3 +113,17 @@ module "ai_usage_collector" {
 
   depends_on = [module.bigquery_ai_finops]
 }
+
+module "bigquery_analytics" {
+  source = "../../modules/bigquery-analytics"
+
+  project_id      = module.project.project_id
+  dataset_id      = module.bigquery_ai_finops.dataset_id
+  views_directory = "../../../analytics/bigquery/views"
+
+  labels = var.ai_finops_labels
+
+  depends_on = [
+    module.bigquery_ai_finops
+  ]
+}
