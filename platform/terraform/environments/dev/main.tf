@@ -110,6 +110,7 @@ module "ai_usage_collector" {
   concurrency             = var.ai_usage_collector_concurrency
   max_instance_count      = var.ai_usage_collector_max_instance_count
   default_batch_size      = var.ai_usage_collector_default_batch_size
+  build_service_account   = "${data.google_project.this.number}-compute@developer.gserviceaccount.com"
 
   depends_on = [module.bigquery_ai_finops]
 }

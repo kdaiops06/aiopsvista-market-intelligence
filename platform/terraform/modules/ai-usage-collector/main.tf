@@ -119,3 +119,5 @@ resource "google_artifact_registry_repository_iam_member" "cloud_build_writer" {
 
   member = "serviceAccount:${var.build_service_account}"
 }
+
+
