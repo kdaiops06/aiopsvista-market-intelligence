@@ -1,0 +1,1001 @@
+event_timestamp,provider,model,request_id,user_id,project_id,team_name,workflow_name,agent_name,request_count,input_tokens,output_tokens,total_tokens,estimated_cost,latency_ms,status,environment
+2026-06-06T03:52:27.236916,OpenAI,GPT-4.1,d2834fb0-85e1-4a94-b873-1e87c7af3921,user-26,incident-platform,Data Engineering,Root Cause Analysis,FinOps Agent,1,660,2786,3446,0.03446,1937,timeout,prod
+2026-06-06T14:19:27.237656,GitHub Copilot,Copilot-Chat,d2cdd0d6-3b07-411e-acf2-5f704c59e291,user-1,rag-platform,Data Engineering,CI/CD Assistant,FinOps Agent,1,4601,1022,5623,0.05623,1126,success,dev
+2026-06-12T08:23:27.237693,OpenAI,GPT-4o,39bc1339-711c-4805-b5d5-2749b6270454,user-45,rag-platform,Data Engineering,CI/CD Assistant,Code Assistant,1,4733,191,4924,0.04924,3324,success,stage
+2026-06-23T19:40:27.237716,Vertex AI,Gemini-on-Vertex,cb0ede05-900f-4301-98e6-7c12882e2311,user-42,incident-platform,Customer Support,Customer Support,Code Assistant,1,2465,1888,4353,0.04353,2443,success,prod
+2026-06-06T05:09:27.237734,Vertex AI,Gemini-on-Vertex,6e2129f5-f4db-441a-9aaa-b75dbfa156d8,user-15,rag-platform,Product Engineering,Root Cause Analysis,FinOps Agent,1,3830,3166,6996,0.06996,2115,success,stage
+2026-06-29T23:09:27.237752,OpenAI,GPT-4o,f76ae0f2-e80b-49af-ac82-c0e00dba3036,user-33,developer-portal,Product Engineering,Documentation,Support Agent,1,5569,111,5680,0.0568,4275,success,prod
+2026-06-07T12:49:27.237768,Gemini,Gemini-2.5-Pro,859a3cbb-1891-414c-b0bf-3af8b1cdbfee,user-43,developer-portal,Product Engineering,Code Review,Incident Agent,1,4534,3351,7885,0.07885,2390,success,prod
+2026-06-21T05:20:27.237783,GitHub Copilot,Copilot-Chat,3a095eca-a5c9-4cf8-b82d-ae03ace6c1b7,user-45,rag-platform,Customer Support,Customer Support,Code Assistant,1,1306,3815,5121,0.05121,4749,success,prod
+2026-06-19T12:58:27.237798,GitHub Copilot,Copilot-Chat,cef113f9-eeb3-4187-9994-0f9db1207892,user-4,support-assistant,Customer Support,Code Review,Incident Agent,1,7203,215,7418,0.07418,3498,success,prod
+2026-06-08T23:10:27.237813,GitHub Copilot,Copilot-Chat,b5253995-dc74-48f7-ac88-35d39c6f4413,user-37,rag-platform,Platform,Customer Support,Incident Agent,1,2664,57,2721,0.02721,2084,success,prod
+2026-06-09T14:08:27.237827,Vertex AI,Gemini-on-Vertex,3b4bdf9c-162b-434a-a705-65da40655aac,user-31,developer-portal,Platform,Root Cause Analysis,Incident Agent,1,575,3492,4067,0.04067,4541,success,prod
+2026-06-22T00:44:27.237842,GitHub Copilot,Copilot-Chat,97d93b3c-7126-4e2b-b2fc-b2030576d26d,user-15,aiopsvista,Product Engineering,Incident Analysis,Incident Agent,1,4194,3118,7312,0.07312,3888,success,prod
+2026-06-27T19:08:27.237857,GitHub Copilot,Copilot-Chat,7dc4578e-2cb8-4b48-9dc9-ccf534b51b4e,user-10,developer-portal,SRE,Documentation,FinOps Agent,1,7209,3729,10938,0.10938,1161,success,prod
+2026-06-08T06:44:27.237871,Gemini,Gemini-2.5-Flash,9c975b15-82bd-4f6d-8de1-07fdd5519ca3,user-42,aiopsvista,Product Engineering,Code Review,FinOps Agent,1,3181,1604,4785,0.04785,2025,error,stage
+2026-06-13T21:16:27.237886,GitHub Copilot,Copilot-Chat,a539dbdd-7544-4a27-9f92-ab88e20ad793,user-31,rag-platform,Product Engineering,Documentation,Support Agent,1,3344,178,3522,0.03522,1669,success,prod
+2026-06-07T10:08:27.237900,Anthropic,Claude-4-Sonnet,f3972dbf-c5fb-4df0-9d3c-27dbe4a542cf,user-13,rag-platform,SRE,Knowledge Search,Support Agent,1,1697,2965,4662,0.04662,4582,success,stage
+2026-05-31T01:47:27.237914,GitHub Copilot,Copilot-Chat,531eda9e-670a-47b4-ba0d-bec7711f25b7,user-1,rag-platform,Product Engineering,Documentation,FinOps Agent,1,1004,530,1534,0.01534,518,success,dev
+2026-06-30T00:50:27.237928,OpenAI,GPT-4.1,7bebee41-28b9-4fab-bb17-9c08bec09393,user-14,rag-platform,Data Engineering,Code Review,FinOps Agent,1,7665,1364,9029,0.09029,326,success,prod
+2026-06-27T19:57:27.237942,Vertex AI,Gemini-on-Vertex,26074ba7-a38f-4659-ac54-9163fdf96b6e,user-45,incident-platform,Data Engineering,Code Review,FinOps Agent,1,4819,2318,7137,0.07137,3863,success,prod
+2026-06-14T20:03:27.237956,GitHub Copilot,Copilot-Chat,9f86c68b-f97c-4699-b4fe-f077160a56ad,user-47,incident-platform,Product Engineering,Customer Support,FinOps Agent,1,108,613,721,0.00721,1887,success,prod
+2026-06-17T14:12:27.237970,OpenAI,GPT-4.1,047d7203-1271-498b-b64b-aa96e2e6c4f4,user-41,incident-platform,Security,Root Cause Analysis,Code Assistant,1,2960,3481,6441,0.06441,3768,success,stage
+2026-06-14T14:08:27.237985,Vertex AI,Gemini-on-Vertex,ad36b79f-4e71-4415-a2be-eb1af07ec767,user-12,incident-platform,SRE,Documentation,FinOps Agent,1,5155,2608,7763,0.07763,2632,success,dev
+2026-06-26T21:21:27.238006,Anthropic,Claude-4-Sonnet,b233e42b-7657-4e95-bda7-20de15fc18ff,user-43,incident-platform,Security,Incident Analysis,Platform Agent,1,5445,3727,9172,0.09172,4041,success,prod
+2026-06-28T14:03:27.238022,GitHub Copilot,Copilot-Chat,29b20013-deed-4cbc-9556-de4a954ce1e4,user-16,aiopsvista,Platform,Code Review,FinOps Agent,1,2099,3607,5706,0.05706,3709,success,prod
+2026-06-02T01:46:27.238040,GitHub Copilot,Copilot-Chat,eb5828b3-c60c-4183-899d-db3a32c67786,user-36,aiopsvista,Customer Support,Code Review,Incident Agent,1,5768,687,6455,0.06455,873,success,prod
+2026-06-14T23:13:27.238055,Vertex AI,Gemini-on-Vertex,7d0dd683-ee85-488b-9040-087f60fa2ce2,user-50,developer-portal,Data Engineering,CI/CD Assistant,Security Agent,1,4216,1871,6087,0.06087,1637,success,stage
+2026-06-13T00:34:27.238070,OpenAI,GPT-4.1,b20483f2-40ea-46fd-a303-39c5bc6c7ef8,user-4,developer-portal,Platform,Knowledge Search,Code Assistant,1,1593,2658,4251,0.04251,4930,success,prod
+2026-06-15T11:21:27.238084,Gemini,Gemini-2.5-Flash,ec08d475-416a-4805-b7e2-f60ab55fd546,user-18,developer-portal,Platform,Customer Support,Incident Agent,1,3477,1624,5101,0.05101,657,success,stage
+2026-06-30T08:22:27.238099,Anthropic,Claude-4-Sonnet,261ac29c-7330-4ea0-b207-f3f75b639175,user-48,incident-platform,SRE,Knowledge Search,Platform Agent,1,5366,365,5731,0.05731,4569,success,prod
+2026-05-30T13:17:27.238115,Anthropic,Claude-4-Sonnet,fc1ccacc-3253-4fba-be3a-e655bde61b49,user-3,security-copilot,Platform,Customer Support,Support Agent,1,3551,2380,5931,0.05931,4553,success,prod
+2026-06-16T22:01:27.238130,Anthropic,Claude-4-Sonnet,0f277514-a6ed-4504-99c7-276d2f3b7f0c,user-13,rag-platform,Security,Code Review,Support Agent,1,5077,213,5290,0.0529,1461,success,prod
+2026-06-10T16:14:27.238145,Gemini,Gemini-2.5-Pro,edae47ed-c26d-43e0-b01d-a1087fb3b494,user-9,rag-platform,Platform,Root Cause Analysis,Code Assistant,1,7054,2534,9588,0.09588,1322,success,prod
+2026-06-02T16:55:27.238160,Gemini,Gemini-2.5-Flash,dcf17012-82f0-4230-b3dc-8f1bdd6341d0,user-39,incident-platform,Product Engineering,Incident Analysis,Code Assistant,1,5681,2901,8582,0.08582,661,success,stage
+2026-06-02T06:35:27.238175,Gemini,Gemini-2.5-Pro,6975cc0c-b269-4997-b89f-0a70950fa36d,user-7,security-copilot,SRE,Root Cause Analysis,FinOps Agent,1,1899,1258,3157,0.03157,3042,success,prod
+2026-06-08T20:41:27.238193,Anthropic,Claude-4-Sonnet,df80f856-1ce8-4aca-9c77-115ea6511d10,user-17,support-assistant,Data Engineering,Documentation,Security Agent,1,4981,2850,7831,0.07831,4456,success,stage
+2026-06-26T05:39:27.238209,Gemini,Gemini-2.5-Pro,c5ba7643-1b50-4dde-9960-ce7313551498,user-5,aiopsvista,Data Engineering,Documentation,Support Agent,1,616,3743,4359,0.04359,2679,success,prod
+2026-06-09T21:08:27.238224,Gemini,Gemini-2.5-Pro,2d8a1fc9-e25a-483c-911e-8993b58ef848,user-2,security-copilot,Customer Support,Customer Support,Security Agent,1,5954,1757,7711,0.07711,1532,success,prod
+2026-06-06T13:21:27.238239,OpenAI,GPT-4.1,7d037799-39b7-4397-8bbc-0ad4ff0cbe28,user-8,rag-platform,Customer Support,Incident Analysis,Code Assistant,1,1954,2402,4356,0.04356,3160,success,prod
+2026-06-23T13:28:27.238254,OpenAI,GPT-4.1,1344ae03-ecc4-4883-b740-f56e9d1c4e02,user-26,security-copilot,Customer Support,Code Review,Security Agent,1,5090,3378,8468,0.08468,2559,success,dev
+2026-06-15T02:44:27.238268,OpenAI,GPT-4o,27625c03-afc9-4069-9b2c-c7a32e738cf6,user-35,aiopsvista,Product Engineering,Root Cause Analysis,Platform Agent,1,5394,2306,7700,0.077,4372,success,prod
+2026-06-11T19:10:27.238283,Vertex AI,Gemini-on-Vertex,c28adeef-d182-4be4-9ba6-a829869d04ab,user-19,support-assistant,Platform,Documentation,Incident Agent,1,1549,607,2156,0.02156,4931,success,prod
+2026-06-12T10:18:27.238382,Anthropic,Claude-4-Sonnet,cc2afb1f-99fb-427b-b641-c27bc39219e4,user-14,aiopsvista,Product Engineering,Documentation,Code Assistant,1,7761,3739,11500,0.115,1842,success,dev
+2026-06-12T08:24:27.238414,OpenAI,GPT-4o,871b1de2-0936-4061-813c-4496c22eaf38,user-28,support-assistant,SRE,Documentation,Code Assistant,1,4658,1397,6055,0.06055,3227,success,prod
+2026-06-23T22:48:27.238435,Vertex AI,Gemini-on-Vertex,b9fd9353-8d20-4f0b-b368-99cc7d9810a9,user-25,security-copilot,SRE,Customer Support,Code Assistant,1,5799,2746,8545,0.08545,1835,success,prod
+2026-05-30T10:11:27.238453,Vertex AI,Gemini-on-Vertex,42470ef8-ed06-4ef0-b30a-8baebb0a0662,user-28,support-assistant,SRE,Code Review,FinOps Agent,1,7747,2114,9861,0.09861,1969,error,stage
+2026-06-05T17:02:27.238469,Vertex AI,Gemini-on-Vertex,29586950-551c-4255-b13e-1ace7c422f38,user-46,developer-portal,Data Engineering,Documentation,Platform Agent,1,4314,1153,5467,0.05467,4832,success,prod
+2026-06-14T20:12:27.238485,Gemini,Gemini-2.5-Flash,4200d4fe-8d8e-4efc-8dae-91d53fc71ed3,user-5,security-copilot,Security,Code Review,Incident Agent,1,5866,1069,6935,0.06935,4038,success,prod
+2026-06-21T08:41:27.238501,OpenAI,GPT-4o,f4600a81-995d-4591-adbd-b629c5e08b83,user-18,developer-portal,Data Engineering,Incident Analysis,Security Agent,1,5085,354,5439,0.05439,1465,success,stage
+2026-05-31T23:33:27.238516,Anthropic,Claude-4-Sonnet,f3328c03-f851-4002-acdc-be00ba3a37cd,user-1,security-copilot,Security,Documentation,Code Assistant,1,4193,169,4362,0.04362,2835,success,dev
+2026-06-21T16:58:27.238532,Vertex AI,Gemini-on-Vertex,3db9602b-7ad7-4310-8fa0-26135908cde3,user-34,rag-platform,SRE,Code Review,FinOps Agent,1,2581,2219,4800,0.048,1198,success,stage
+2026-06-03T12:30:27.238547,Anthropic,Claude-4-Sonnet,2c401972-263c-4715-927f-276473a7bf1a,user-30,incident-platform,Data Engineering,Knowledge Search,Support Agent,1,4886,181,5067,0.05067,871,success,stage
+2026-06-13T21:59:27.238563,Gemini,Gemini-2.5-Flash,05a552dc-3688-4dfc-ae93-45e0e68b6d24,user-29,incident-platform,Security,CI/CD Assistant,Platform Agent,1,3728,1730,5458,0.05458,4271,success,prod
+2026-06-04T04:17:27.238578,Anthropic,Claude-4-Sonnet,b60e854e-1e84-4399-872e-62917b64f7a8,user-25,security-copilot,Security,Customer Support,Incident Agent,1,4668,3040,7708,0.07708,1627,success,prod
+2026-06-18T09:28:27.238593,OpenAI,GPT-4.1,365a3fe7-c195-4036-9df9-6270c2d08bf9,user-25,aiopsvista,Platform,Documentation,Code Assistant,1,3220,2483,5703,0.05703,1858,success,prod
+2026-06-03T20:51:27.238609,Anthropic,Claude-4-Sonnet,0be8e530-bf5e-4d15-bc8f-8c0503fac100,user-37,support-assistant,SRE,Incident Analysis,Code Assistant,1,2460,336,2796,0.02796,3823,success,prod
+2026-06-10T15:35:27.238624,OpenAI,GPT-4.1,45f5376b-f0ca-4051-914a-fbbcb2f59270,user-21,security-copilot,Platform,Knowledge Search,Code Assistant,1,599,765,1364,0.01364,998,success,dev
+2026-06-23T08:14:27.238639,OpenAI,GPT-4.1,90cc71ab-e3d1-4810-892a-21f747078286,user-6,support-assistant,Platform,Incident Analysis,FinOps Agent,1,6647,1929,8576,0.08576,3380,error,dev
+2026-06-18T13:39:27.238654,Anthropic,Claude-4-Sonnet,29cb2935-3d6d-4c5f-82d6-f5841cfe4793,user-11,incident-platform,Customer Support,Root Cause Analysis,Code Assistant,1,6577,1794,8371,0.08371,2735,success,prod
+2026-06-10T13:44:27.238670,Anthropic,Claude-4-Sonnet,28ccc5ae-f57a-4cfb-abea-3cb8665f38e3,user-37,security-copilot,Product Engineering,Root Cause Analysis,FinOps Agent,1,6587,3772,10359,0.10359,4158,success,prod
+2026-06-07T11:30:27.238685,Gemini,Gemini-2.5-Flash,07b6e34d-9b77-4af2-99f9-a741b588000f,user-6,incident-platform,Customer Support,Code Review,Code Assistant,1,3361,2117,5478,0.05478,4325,success,prod
+2026-06-11T09:24:27.238700,OpenAI,GPT-4o,2d8facec-63d3-4f67-a3f8-b3caa1b7f22d,user-36,incident-platform,Platform,Root Cause Analysis,Security Agent,1,4217,2936,7153,0.07153,4078,success,stage
+2026-06-09T01:08:27.238715,Gemini,Gemini-2.5-Flash,f495009e-e250-4c8f-9f69-0ac5f21f5d22,user-25,incident-platform,Customer Support,Incident Analysis,Platform Agent,1,1240,2339,3579,0.03579,4040,success,prod
+2026-06-20T04:57:27.238729,Anthropic,Claude-4-Sonnet,0d3bfeef-4dc3-40b8-9fa5-d6abdfe5d51e,user-14,developer-portal,Data Engineering,Code Review,Code Assistant,1,4041,757,4798,0.04798,4795,success,prod
+2026-06-11T14:47:27.238744,Anthropic,Claude-4-Sonnet,3d01b91a-4758-4044-9472-21919842351f,user-32,developer-portal,Data Engineering,Code Review,Security Agent,1,3381,2842,6223,0.06223,1630,success,prod
+2026-06-04T21:24:27.238759,Gemini,Gemini-2.5-Pro,af3283c4-3604-4b69-b9ff-c16fbb731cfd,user-40,incident-platform,Data Engineering,Root Cause Analysis,Code Assistant,1,3247,3537,6784,0.06784,2339,success,prod
+2026-06-20T01:43:27.238774,Gemini,Gemini-2.5-Pro,420f35f3-8e6f-48ec-add6-b3e2cd444b14,user-4,rag-platform,Security,Documentation,Incident Agent,1,6368,1968,8336,0.08336,4586,success,prod
+2026-06-18T12:36:27.238789,Anthropic,Claude-4-Sonnet,3ffb98c6-7025-4235-bac3-e7f5bfe4efd8,user-50,developer-portal,Product Engineering,CI/CD Assistant,Incident Agent,1,6632,3758,10390,0.1039,2236,rate_limited,prod
+2026-06-21T06:52:27.238804,OpenAI,GPT-4o,05a87b44-a496-470a-bdd6-0e8173dff015,user-7,support-assistant,Security,Knowledge Search,Platform Agent,1,2935,3126,6061,0.06061,4831,success,stage
+2026-06-20T17:27:27.238819,GitHub Copilot,Copilot-Chat,f6e44f94-5621-44e2-9dc3-c77914d43a93,user-42,developer-portal,Product Engineering,Customer Support,Security Agent,1,6447,1461,7908,0.07908,2776,success,prod
+2026-05-30T10:04:27.238834,Anthropic,Claude-4-Sonnet,752fb0a6-715f-43a4-a6e4-3d75e95f8da7,user-27,incident-platform,Data Engineering,Root Cause Analysis,Security Agent,1,273,973,1246,0.01246,3580,success,stage
+2026-06-14T04:22:27.238849,GitHub Copilot,Copilot-Chat,fcb6a2a9-27e0-462c-aaf5-a2d23596a394,user-10,aiopsvista,Security,Documentation,Security Agent,1,4177,697,4874,0.04874,2145,success,prod
+2026-06-03T15:03:27.238864,OpenAI,GPT-4o,88af2398-6a28-4476-975f-6ce2e08e30ad,user-28,security-copilot,SRE,Knowledge Search,Code Assistant,1,1611,260,1871,0.01871,4641,success,prod
+2026-06-17T00:03:27.238879,Anthropic,Claude-4-Sonnet,6e8ae941-77b6-4581-85c0-f2bf76389a32,user-44,support-assistant,SRE,CI/CD Assistant,Code Assistant,1,1944,2211,4155,0.04155,1975,success,prod
+2026-06-28T17:33:27.238893,Vertex AI,Gemini-on-Vertex,ad0c0ac1-8085-46b5-9d56-a93cb0cb7ab6,user-15,rag-platform,Data Engineering,Knowledge Search,FinOps Agent,1,2933,868,3801,0.03801,1791,success,prod
+2026-06-10T19:30:27.238908,GitHub Copilot,Copilot-Chat,14bac286-f7e4-456e-9425-8df47d31922a,user-48,rag-platform,Platform,Code Review,Code Assistant,1,6585,2660,9245,0.09245,359,success,stage
+2026-06-29T21:39:27.238923,Anthropic,Claude-4-Sonnet,5ee33165-c29f-4446-9bad-44677001170c,user-25,support-assistant,Platform,CI/CD Assistant,Code Assistant,1,2595,3421,6016,0.06016,735,success,prod
+2026-06-25T05:11:27.238938,OpenAI,GPT-4.1,6f4ef89c-46db-4fa3-8c03-d3f93fd7e7e2,user-21,aiopsvista,Security,Root Cause Analysis,Support Agent,1,3088,2397,5485,0.05485,3925,success,prod
+2026-06-02T03:29:27.238952,OpenAI,GPT-4.1,5b159793-e21a-4942-9154-e052c1857700,user-32,support-assistant,Security,Root Cause Analysis,Incident Agent,1,2800,3040,5840,0.0584,1295,success,stage
+2026-06-28T23:44:27.238967,Anthropic,Claude-4-Sonnet,ee00d8ad-430b-47c0-b4e2-fbfa0f336239,user-16,rag-platform,Platform,Customer Support,FinOps Agent,1,6111,642,6753,0.06753,667,success,stage
+2026-06-10T02:20:27.238981,OpenAI,GPT-4.1,9812eefd-1c8b-4dc2-a683-ba7589d34ed4,user-2,security-copilot,Product Engineering,Knowledge Search,Incident Agent,1,3635,2182,5817,0.05817,3269,success,prod
+2026-06-02T09:27:27.238996,Gemini,Gemini-2.5-Pro,dbf054f2-8b70-4a15-90dd-dfd18ea5e512,user-25,incident-platform,Customer Support,Customer Support,FinOps Agent,1,1150,318,1468,0.01468,4970,success,prod
+2026-06-18T05:40:27.239011,Anthropic,Claude-4-Sonnet,7f912db9-aa1a-4cab-84d0-23ce97f18ec4,user-38,rag-platform,SRE,Customer Support,Platform Agent,1,1271,1002,2273,0.02273,546,success,stage
+2026-06-23T17:37:27.239026,Vertex AI,Gemini-on-Vertex,cbd1e700-122d-4967-b89a-160dfa84e3f8,user-25,developer-portal,Security,Code Review,Platform Agent,1,744,2480,3224,0.03224,3602,rate_limited,prod
+2026-06-05T10:15:27.239093,Gemini,Gemini-2.5-Pro,6751499a-5815-4cb5-8b73-ecee9f99a0b0,user-45,incident-platform,Customer Support,Root Cause Analysis,Platform Agent,1,7256,756,8012,0.08012,666,success,prod
+2026-06-22T03:57:27.239125,Vertex AI,Gemini-on-Vertex,4f2a7231-9f58-4c2c-9e53-ebe9a45698de,user-23,incident-platform,Customer Support,Documentation,Code Assistant,1,3426,3892,7318,0.07318,3441,success,prod
+2026-06-06T20:13:27.239146,Anthropic,Claude-4-Sonnet,2fc4808c-150c-4d0b-9334-c027d19152b5,user-37,support-assistant,Customer Support,Customer Support,Code Assistant,1,2221,272,2493,0.02493,207,success,dev
+2026-06-12T17:19:27.239165,Anthropic,Claude-4-Sonnet,0d7a1e1c-eea1-4154-a533-1651da9f90bd,user-9,security-copilot,Security,Knowledge Search,Platform Agent,1,3498,1779,5277,0.05277,2233,success,stage
+2026-06-28T21:05:27.239183,OpenAI,GPT-4o,d8997301-d94f-40b3-891f-d87da7a8b075,user-7,developer-portal,Data Engineering,Root Cause Analysis,Code Assistant,1,7571,403,7974,0.07974,3661,success,stage
+2026-06-06T03:19:27.239200,Gemini,Gemini-2.5-Pro,de5688eb-8c17-4e43-9fbd-a63df29fa22b,user-3,incident-platform,Customer Support,Documentation,FinOps Agent,1,4236,477,4713,0.04713,1115,success,prod
+2026-06-21T18:43:27.239216,Anthropic,Claude-4-Sonnet,5f0be9ba-f29f-48b8-bfd0-568993c0ce4a,user-32,incident-platform,Security,Customer Support,Code Assistant,1,4946,424,5370,0.0537,2262,success,prod
+2026-06-01T22:45:27.239232,Anthropic,Claude-4-Sonnet,ec309b91-fdcb-4fc4-80a7-1062a1ecad75,user-32,security-copilot,Security,Knowledge Search,FinOps Agent,1,2665,2028,4693,0.04693,2728,success,stage
+2026-06-09T22:13:27.239248,Gemini,Gemini-2.5-Flash,18e6a15f-0d9f-41d8-bc52-2c4375e9fae4,user-33,rag-platform,Data Engineering,Code Review,Support Agent,1,513,2747,3260,0.0326,4985,success,prod
+2026-06-19T01:39:27.239264,OpenAI,GPT-4o,00c54f31-7f3d-4fc8-83be-22d5fd3ca52c,user-45,aiopsvista,SRE,Code Review,Security Agent,1,1202,3806,5008,0.05008,3343,success,stage
+2026-06-18T07:33:27.239602,GitHub Copilot,Copilot-Chat,732ed7ad-8661-4cbb-8c4c-1bca59b5e1e8,user-39,rag-platform,Customer Support,Root Cause Analysis,Incident Agent,1,2323,53,2376,0.02376,1397,success,prod
+2026-06-20T01:13:27.239642,Gemini,Gemini-2.5-Flash,5ea18a7d-8127-4e8a-8bc9-d37564586dba,user-8,security-copilot,Product Engineering,Customer Support,Incident Agent,1,406,543,949,0.00949,4766,success,stage
+2026-06-12T12:32:27.239665,OpenAI,GPT-4o,d51cae63-5c32-423a-8799-40a22a88d55f,user-27,rag-platform,Data Engineering,Code Review,Incident Agent,1,380,592,972,0.00972,3167,success,prod
+2026-06-15T18:47:27.239684,Gemini,Gemini-2.5-Pro,a4d747ce-bf73-41f4-bfcd-15709193fd5d,user-32,incident-platform,Customer Support,Customer Support,Platform Agent,1,929,2812,3741,0.03741,321,success,dev
+2026-06-02T23:44:27.239702,Gemini,Gemini-2.5-Pro,8ad2d7e3-9107-4bf7-befa-ab5b59042c94,user-15,aiopsvista,Customer Support,Documentation,Platform Agent,1,4534,173,4707,0.04707,179,success,stage
+2026-06-24T19:11:27.239719,GitHub Copilot,Copilot-Chat,4c92fb0e-b1f2-45d1-be32-2bf660be44fd,user-38,support-assistant,Data Engineering,Incident Analysis,FinOps Agent,1,1361,838,2199,0.02199,4630,success,prod
+2026-06-12T13:14:27.239736,GitHub Copilot,Copilot-Chat,d33cd904-e7db-4adb-a6be-db3b06518917,user-45,rag-platform,Product Engineering,Root Cause Analysis,Code Assistant,1,7925,3157,11082,0.11082,1368,success,prod
+2026-06-09T05:27:27.239752,GitHub Copilot,Copilot-Chat,ef709493-66b9-4f31-b234-9025abfdf946,user-36,aiopsvista,Security,Incident Analysis,Code Assistant,1,7417,1587,9004,0.09004,925,success,prod
+2026-06-29T17:48:27.239769,Gemini,Gemini-2.5-Flash,3ee21891-d4ea-4436-b153-ff09aba00df6,user-1,support-assistant,Data Engineering,Knowledge Search,Incident Agent,1,6546,397,6943,0.06943,4364,success,prod
+2026-06-21T01:42:27.239785,Vertex AI,Gemini-on-Vertex,47cfa877-bf52-4bd1-929f-2f9e78acb18a,user-19,developer-portal,Data Engineering,Customer Support,Incident Agent,1,467,699,1166,0.01166,333,success,prod
+2026-06-05T12:33:27.239801,Gemini,Gemini-2.5-Flash,3a908254-4dbb-42e5-896b-6899641e08ea,user-49,support-assistant,Security,Knowledge Search,Security Agent,1,6787,1782,8569,0.08569,4932,success,prod
+2026-06-24T11:00:27.239818,Anthropic,Claude-4-Sonnet,6a29b799-e536-44c4-bf14-c855a514f9de,user-23,aiopsvista,Platform,Documentation,Support Agent,1,6856,364,7220,0.0722,1675,success,dev
+2026-06-02T21:40:27.239834,Gemini,Gemini-2.5-Pro,243d6da5-81e4-4f8e-b228-75c9283befc6,user-21,rag-platform,Platform,Knowledge Search,FinOps Agent,1,4720,2283,7003,0.07003,4273,success,stage
+2026-06-15T13:19:27.239850,OpenAI,GPT-4.1,fa010f7f-3673-469b-b65b-25f03e6a2f56,user-11,support-assistant,Customer Support,CI/CD Assistant,Security Agent,1,3758,3502,7260,0.0726,3887,success,stage
+2026-05-30T23:13:27.239866,Vertex AI,Gemini-on-Vertex,02df912f-44b6-45bc-8f1e-ba39bb0e82e5,user-27,aiopsvista,Product Engineering,Code Review,FinOps Agent,1,4486,3237,7723,0.07723,1893,success,prod
+2026-06-23T08:54:27.239882,GitHub Copilot,Copilot-Chat,9733fa64-e106-451b-b6fd-3c30b2be8fdc,user-12,incident-platform,Customer Support,Documentation,Security Agent,1,4613,973,5586,0.05586,4746,success,prod
+2026-06-12T21:25:27.239913,Vertex AI,Gemini-on-Vertex,860e79bd-9003-4ae3-9c61-7c8c855be3d9,user-24,support-assistant,Data Engineering,CI/CD Assistant,Incident Agent,1,7156,870,8026,0.08026,4192,success,prod
+2026-06-23T04:00:27.239959,Gemini,Gemini-2.5-Pro,a4f71a6a-7534-4f78-92ef-27700d51e1e3,user-30,developer-portal,Product Engineering,Documentation,FinOps Agent,1,3348,1568,4916,0.04916,1023,success,prod
+2026-06-01T03:49:27.239990,OpenAI,GPT-4.1,937ad9d8-3510-41ec-aabe-970124c4a00b,user-40,developer-portal,SRE,Knowledge Search,Platform Agent,1,1307,2761,4068,0.04068,2259,success,dev
+2026-06-01T21:23:27.240010,GitHub Copilot,Copilot-Chat,3a4bd758-f281-4396-8702-d35a46406870,user-34,aiopsvista,Data Engineering,CI/CD Assistant,FinOps Agent,1,3866,3937,7803,0.07803,4187,success,prod
+2026-06-29T11:38:27.240028,OpenAI,GPT-4o,bd1b4c54-65c6-4fe4-8059-58e95df58b10,user-45,rag-platform,Product Engineering,Customer Support,Incident Agent,1,1152,1016,2168,0.02168,1277,success,prod
+2026-06-04T15:40:27.240045,Vertex AI,Gemini-on-Vertex,c715d7ba-64f2-4dd5-b93f-0d04ec9d3763,user-8,rag-platform,Customer Support,Incident Analysis,Security Agent,1,414,86,500,0.005,874,success,stage
+2026-06-25T13:48:27.240062,Gemini,Gemini-2.5-Flash,5157b8ee-eeb2-4539-8598-b356f6701427,user-20,support-assistant,Product Engineering,Incident Analysis,Support Agent,1,7940,3087,11027,0.11027,4034,success,prod
+2026-06-06T17:51:27.240078,GitHub Copilot,Copilot-Chat,8ce22e69-8948-4ea1-acee-116787d8f48f,user-9,aiopsvista,Data Engineering,Knowledge Search,FinOps Agent,1,1484,134,1618,0.01618,3173,success,prod
+2026-06-24T14:20:27.240095,OpenAI,GPT-4.1,6ab20278-dd07-41b8-8b1a-15f2e247c1ec,user-47,developer-portal,SRE,Root Cause Analysis,Support Agent,1,2266,1379,3645,0.03645,1175,success,stage
+2026-05-30T22:23:27.240111,Anthropic,Claude-4-Sonnet,6a404fc4-668a-42c0-bd05-5fd3b4fac17b,user-46,aiopsvista,SRE,Incident Analysis,Security Agent,1,4724,1658,6382,0.06382,1897,success,prod
+2026-06-28T19:49:27.240128,Gemini,Gemini-2.5-Pro,103cd83f-8ad9-4512-83be-922dbee20972,user-24,support-assistant,Security,Incident Analysis,Code Assistant,1,3423,3096,6519,0.06519,4197,success,stage
+2026-06-01T06:02:27.240145,Gemini,Gemini-2.5-Pro,adb0d188-448d-4511-8adf-0f2f49ed9f0d,user-42,incident-platform,SRE,Customer Support,Support Agent,1,3875,821,4696,0.04696,2386,success,prod
+2026-06-15T16:12:27.240162,GitHub Copilot,Copilot-Chat,f0a7f0da-82b0-48f1-ad48-9f8e96eec3c1,user-7,aiopsvista,Customer Support,Incident Analysis,Platform Agent,1,1343,1670,3013,0.03013,3807,success,prod
+2026-06-26T03:52:27.240178,OpenAI,GPT-4o,a28b3e3e-74a6-4745-ab5a-1be560409775,user-41,aiopsvista,Data Engineering,Customer Support,FinOps Agent,1,232,2378,2610,0.0261,229,success,prod
+2026-06-13T01:00:27.240199,OpenAI,GPT-4o,a7d048cf-c85b-412e-a545-908833ee4803,user-42,security-copilot,Product Engineering,CI/CD Assistant,Support Agent,1,5616,611,6227,0.06227,1459,success,prod
+2026-06-17T12:51:27.240230,Gemini,Gemini-2.5-Pro,e2204767-6573-40c4-baca-e211906ab802,user-28,incident-platform,SRE,CI/CD Assistant,Incident Agent,1,6050,795,6845,0.06845,4675,success,dev
+2026-06-18T17:21:27.240299,Anthropic,Claude-4-Sonnet,d2d225e3-8068-44fe-99cd-685044a689eb,user-42,developer-portal,Customer Support,Root Cause Analysis,Code Assistant,1,3755,676,4431,0.04431,3482,success,dev
+2026-06-16T08:21:27.240330,Gemini,Gemini-2.5-Pro,b8906fa5-47ec-4f1c-b42b-9159c8977766,user-7,support-assistant,Product Engineering,Incident Analysis,Security Agent,1,2830,3819,6649,0.06649,4165,success,prod
+2026-06-27T16:43:27.240349,Anthropic,Claude-4-Sonnet,cc50ffe0-03e2-4beb-ab9e-40e6c9e1da65,user-39,rag-platform,Data Engineering,Code Review,FinOps Agent,1,4802,362,5164,0.05164,646,success,prod
+2026-06-28T09:09:27.240365,Vertex AI,Gemini-on-Vertex,52754abc-ee97-4707-bd27-08e8237563c9,user-2,rag-platform,SRE,Documentation,Incident Agent,1,6145,655,6800,0.068,278,success,prod
+2026-06-24T11:09:27.240382,OpenAI,GPT-4o,a56f0709-a42c-447c-ad5b-ce29a596b1b0,user-42,incident-platform,Data Engineering,Documentation,Code Assistant,1,7957,3048,11005,0.11005,2781,success,dev
+2026-06-17T05:33:27.240397,GitHub Copilot,Copilot-Chat,3e0c7ecf-597e-4f9d-9499-8bf9bcf9fb0c,user-24,aiopsvista,Customer Support,Incident Analysis,Incident Agent,1,5342,3959,9301,0.09301,3378,success,prod
+2026-06-27T11:18:27.240411,GitHub Copilot,Copilot-Chat,5fdad677-bcde-4ccb-8550-11098d22fbec,user-27,support-assistant,Product Engineering,Root Cause Analysis,FinOps Agent,1,7333,622,7955,0.07955,3776,success,prod
+2026-06-23T18:08:27.240426,Gemini,Gemini-2.5-Flash,48d8dba4-269b-4951-a959-018d2061a801,user-13,developer-portal,Customer Support,Root Cause Analysis,Platform Agent,1,2322,1845,4167,0.04167,1007,success,prod
+2026-06-18T11:03:27.240441,Gemini,Gemini-2.5-Flash,36ab73f6-5422-4fc2-884c-6f0c028bfb2e,user-26,aiopsvista,Data Engineering,Root Cause Analysis,Code Assistant,1,3883,2356,6239,0.06239,1745,success,prod
+2026-06-10T15:44:27.240455,OpenAI,GPT-4.1,65215297-5c0f-42da-aca9-30736f6471d3,user-26,developer-portal,Product Engineering,Code Review,Platform Agent,1,849,3120,3969,0.03969,4524,success,stage
+2026-05-31T11:36:27.240470,Anthropic,Claude-4-Sonnet,a330b24f-c0e0-4c56-95ad-a9c0dfed170c,user-14,rag-platform,Product Engineering,Documentation,Platform Agent,1,3127,3055,6182,0.06182,2116,success,prod
+2026-06-08T00:45:27.240485,GitHub Copilot,Copilot-Chat,c3590ef2-16b5-416e-983f-79309b17fd61,user-13,developer-portal,Platform,Knowledge Search,Code Assistant,1,5814,1366,7180,0.0718,4439,success,stage
+2026-06-09T12:01:27.240515,Anthropic,Claude-4-Sonnet,01ea0c23-92ed-4079-a1ab-1f0c041ed661,user-13,support-assistant,Data Engineering,CI/CD Assistant,FinOps Agent,1,2595,3880,6475,0.06475,4688,success,stage
+2026-06-29T12:23:27.240533,GitHub Copilot,Copilot-Chat,20ceae5c-d7d8-4e6f-af30-1151ebecd76d,user-46,support-assistant,Customer Support,Customer Support,Support Agent,1,3017,1080,4097,0.04097,3791,success,prod
+2026-06-20T23:54:27.240548,Vertex AI,Gemini-on-Vertex,f0b0958e-c590-4a15-a944-ea597afa25e2,user-1,support-assistant,SRE,Root Cause Analysis,Security Agent,1,7533,701,8234,0.08234,414,success,prod
+2026-06-14T20:08:27.240563,Vertex AI,Gemini-on-Vertex,e411d39d-fa78-43c0-b5e7-e6a0e758a3f2,user-7,incident-platform,Product Engineering,Customer Support,Code Assistant,1,1588,1571,3159,0.03159,2165,success,prod
+2026-06-01T16:42:27.240577,OpenAI,GPT-4.1,618e9584-bea4-4465-bbfd-4c06fc577655,user-22,incident-platform,Security,Customer Support,Platform Agent,1,278,621,899,0.00899,4737,success,stage
+2026-06-02T08:45:27.240592,OpenAI,GPT-4o,53d3c620-187c-48a8-934e-f15badf656f8,user-45,developer-portal,Data Engineering,Root Cause Analysis,FinOps Agent,1,6556,1306,7862,0.07862,2838,success,prod
+2026-06-05T22:30:27.240607,Gemini,Gemini-2.5-Flash,88bd270a-43f0-47bb-8be9-4785e223be52,user-47,security-copilot,Product Engineering,Customer Support,Platform Agent,1,3191,3127,6318,0.06318,4223,success,prod
+2026-06-09T15:52:27.240621,Gemini,Gemini-2.5-Pro,82278720-e725-4f1d-8859-1d3ffc836737,user-14,security-copilot,Security,Incident Analysis,Security Agent,1,1854,1986,3840,0.0384,4680,success,dev
+2026-06-25T00:41:27.240635,OpenAI,GPT-4o,dd3a75ba-24e0-497e-bb17-c06a962e4758,user-13,security-copilot,Product Engineering,Knowledge Search,Platform Agent,1,5089,930,6019,0.06019,520,success,prod
+2026-06-10T09:37:27.240649,GitHub Copilot,Copilot-Chat,2840693a-4909-43ed-9e35-42736cd384c5,user-48,incident-platform,Platform,Incident Analysis,FinOps Agent,1,4654,2903,7557,0.07557,3404,success,dev
+2026-06-15T06:52:27.240663,Gemini,Gemini-2.5-Pro,443ef813-baea-4c6f-b15b-3b9ffd4720c3,user-32,developer-portal,Customer Support,Incident Analysis,FinOps Agent,1,3427,133,3560,0.0356,2384,success,stage
+2026-06-30T04:02:27.240678,Vertex AI,Gemini-on-Vertex,7c3bc8b9-5a79-4922-b3a3-d28be49bd969,user-41,aiopsvista,SRE,Knowledge Search,Platform Agent,1,560,1806,2366,0.02366,2202,success,dev
+2026-06-02T21:35:27.240692,Anthropic,Claude-4-Sonnet,43563b46-5a2a-431c-904f-d90e65b6b2a2,user-37,rag-platform,Product Engineering,Incident Analysis,Platform Agent,1,3157,1322,4479,0.04479,4259,success,prod
+2026-06-14T20:23:27.240706,Vertex AI,Gemini-on-Vertex,53b8a4df-0f9a-413b-9918-310fd1bbc82a,user-41,support-assistant,SRE,Code Review,Support Agent,1,6383,2481,8864,0.08864,1708,success,stage
+2026-06-15T01:04:27.240721,Vertex AI,Gemini-on-Vertex,3d91524d-8be9-468b-89b2-85596201262e,user-10,developer-portal,Product Engineering,CI/CD Assistant,Platform Agent,1,4900,1209,6109,0.06109,1630,success,stage
+2026-06-07T08:50:27.240736,OpenAI,GPT-4o,8ac7cec7-13c3-41c3-ac6e-ed4173ddc6a3,user-28,support-assistant,Data Engineering,Knowledge Search,Platform Agent,1,5590,3971,9561,0.09561,3831,success,prod
+2026-06-13T10:54:27.240751,Vertex AI,Gemini-on-Vertex,b83361e4-0830-4ae7-857b-2b88cc87ef66,user-21,security-copilot,Security,Knowledge Search,Support Agent,1,6223,1835,8058,0.08058,554,success,prod
+2026-05-31T14:04:27.240765,Anthropic,Claude-4-Sonnet,be83e5ac-af13-46e8-ba6a-08f14d173cca,user-1,developer-portal,Data Engineering,Customer Support,Security Agent,1,7554,1574,9128,0.09128,2509,success,prod
+2026-06-01T13:12:27.240779,Vertex AI,Gemini-on-Vertex,78740541-efb4-4350-98ad-3495540a1d0c,user-36,security-copilot,Data Engineering,Customer Support,FinOps Agent,1,7823,1222,9045,0.09045,3561,success,prod
+2026-06-25T08:44:27.240794,GitHub Copilot,Copilot-Chat,c5c423fd-6d71-40af-8d95-fc7b86775dbc,user-36,support-assistant,Security,Code Review,Incident Agent,1,3568,2497,6065,0.06065,209,error,dev
+2026-06-07T15:50:27.240820,Anthropic,Claude-4-Sonnet,3bf7f8e8-e4cf-41de-947b-03c4bc6efb30,user-35,aiopsvista,Product Engineering,Root Cause Analysis,FinOps Agent,1,6158,3172,9330,0.0933,2932,success,prod
+2026-05-31T19:46:27.240838,GitHub Copilot,Copilot-Chat,4feb34c9-db78-435b-9e23-e91d447ebcf6,user-40,security-copilot,Platform,CI/CD Assistant,Support Agent,1,6168,336,6504,0.06504,3563,success,stage
+2026-06-16T13:51:27.240909,OpenAI,GPT-4o,33bd2da0-2226-4bc6-a5b9-1f84b9e384db,user-37,support-assistant,SRE,Code Review,Incident Agent,1,7790,893,8683,0.08683,4715,success,dev
+2026-06-01T03:58:27.240929,Vertex AI,Gemini-on-Vertex,376622ba-d415-4776-8892-73ff9e9756a8,user-1,aiopsvista,SRE,Code Review,FinOps Agent,1,3626,2601,6227,0.06227,2468,success,prod
+2026-06-12T02:30:27.240945,GitHub Copilot,Copilot-Chat,6b0f6767-93a4-45e6-b297-742f4b3d8f15,user-1,incident-platform,SRE,Root Cause Analysis,Security Agent,1,1310,1575,2885,0.02885,4703,success,prod
+2026-06-21T01:40:27.240961,Anthropic,Claude-4-Sonnet,a08a0822-cad6-4313-b593-c9fa56d0af8c,user-9,rag-platform,Product Engineering,Incident Analysis,Incident Agent,1,2029,3026,5055,0.05055,4273,success,prod
+2026-06-21T09:45:27.240976,Vertex AI,Gemini-on-Vertex,90b47fb4-9f51-4ee9-b069-734ce02362b5,user-27,security-copilot,Platform,Root Cause Analysis,Security Agent,1,5169,90,5259,0.05259,2921,success,prod
+2026-06-01T19:17:27.240992,Gemini,Gemini-2.5-Pro,9a9703e1-7075-4563-9a30-01d72fb41852,user-42,security-copilot,Security,CI/CD Assistant,Code Assistant,1,6928,3325,10253,0.10253,1844,success,prod
+2026-06-28T07:56:27.241006,Vertex AI,Gemini-on-Vertex,41e73851-ba7e-4280-833e-f438d133b822,user-6,incident-platform,Product Engineering,Customer Support,Code Assistant,1,2119,324,2443,0.02443,3216,success,prod
+2026-06-09T18:28:27.241076,Vertex AI,Gemini-on-Vertex,682882e4-e171-4558-99bc-e88c87a0f12d,user-3,aiopsvista,Data Engineering,Documentation,FinOps Agent,1,2561,1519,4080,0.0408,2114,success,prod
+2026-06-14T11:23:27.241119,OpenAI,GPT-4o,82af67ae-992a-4c61-aa5a-8713aa2934a4,user-23,security-copilot,Platform,Root Cause Analysis,Code Assistant,1,4651,3656,8307,0.08307,4111,success,stage
+2026-06-10T19:43:27.241140,GitHub Copilot,Copilot-Chat,adb44716-1f1f-4a4e-b7b1-9bfae06bd8c9,user-33,developer-portal,Product Engineering,Documentation,Security Agent,1,6137,695,6832,0.06832,2762,success,prod
+2026-06-08T05:14:27.241156,Vertex AI,Gemini-on-Vertex,25027909-0f34-4323-9ffc-c2145d25ea9a,user-2,security-copilot,Product Engineering,Customer Support,Security Agent,1,608,3653,4261,0.04261,3666,success,prod
+2026-06-27T02:11:27.241172,OpenAI,GPT-4o,4f6a837c-c645-4349-b8d1-b0bd92c002ba,user-36,rag-platform,Security,Documentation,Platform Agent,1,3368,2451,5819,0.05819,1066,success,prod
+2026-06-16T19:25:27.241188,OpenAI,GPT-4o,a378271c-5c0b-41be-b611-ab51b4cc8a98,user-32,developer-portal,Product Engineering,CI/CD Assistant,Incident Agent,1,5763,270,6033,0.06033,4273,success,dev
+2026-06-07T16:01:27.241203,Gemini,Gemini-2.5-Pro,2d62ff82-b352-4744-9fac-7b396f3a77c5,user-31,rag-platform,Product Engineering,Code Review,Code Assistant,1,3010,2624,5634,0.05634,3287,success,prod
+2026-06-30T06:53:27.241218,OpenAI,GPT-4.1,cdce9981-1265-413f-9188-f8c51e1e484e,user-27,rag-platform,Platform,CI/CD Assistant,Support Agent,1,5576,1593,7169,0.07169,2656,success,prod
+2026-06-14T08:51:27.241233,GitHub Copilot,Copilot-Chat,ef55b698-fea1-4413-892f-696239fc12aa,user-32,support-assistant,Data Engineering,Incident Analysis,Incident Agent,1,4847,403,5250,0.0525,395,success,prod
+2026-06-25T15:39:27.241249,GitHub Copilot,Copilot-Chat,0b8a991c-b2ca-4a12-9206-6db9e028f7ad,user-50,rag-platform,Security,Incident Analysis,Code Assistant,1,7915,2835,10750,0.1075,3811,success,prod
+2026-06-19T19:24:27.241265,OpenAI,GPT-4o,3f2ca65f-532d-4542-8257-37f8456ad3ff,user-25,developer-portal,Customer Support,Customer Support,FinOps Agent,1,7405,3830,11235,0.11235,4437,success,prod
+2026-06-02T21:51:27.241281,Gemini,Gemini-2.5-Pro,377727cb-1ed9-48a4-a254-4c38c8d0e556,user-46,incident-platform,Customer Support,Incident Analysis,FinOps Agent,1,7520,1279,8799,0.08799,4544,success,prod
+2026-06-17T09:43:27.241333,Gemini,Gemini-2.5-Pro,614c954d-269d-4429-a85d-4b00fc76fe30,user-39,rag-platform,Platform,Knowledge Search,Support Agent,1,7504,1118,8622,0.08622,4650,success,dev
+2026-06-12T06:51:27.241356,Vertex AI,Gemini-on-Vertex,92a5f8be-755e-4b92-9812-c122ce82d25c,user-11,developer-portal,Platform,Customer Support,Incident Agent,1,2356,2450,4806,0.04806,2225,success,stage
+2026-06-13T23:33:27.241373,Anthropic,Claude-4-Sonnet,b14aa53e-930a-44c9-bbc4-9ced6e693c1a,user-24,developer-portal,Platform,Code Review,FinOps Agent,1,4341,3419,7760,0.0776,2837,success,prod
+2026-06-04T14:03:27.241390,GitHub Copilot,Copilot-Chat,9b29418c-5f3c-400a-b5ff-39670f51364e,user-12,incident-platform,Security,CI/CD Assistant,Support Agent,1,1569,1109,2678,0.02678,3387,success,prod
+2026-06-25T01:57:27.241408,GitHub Copilot,Copilot-Chat,493e6072-f8ce-402f-95ed-3ba4313c8505,user-25,security-copilot,Data Engineering,CI/CD Assistant,Code Assistant,1,1115,646,1761,0.01761,458,error,prod
+2026-06-09T14:10:27.241439,GitHub Copilot,Copilot-Chat,b15f0491-bf7c-4b00-a67a-afe23f6b2e0e,user-32,aiopsvista,Product Engineering,Incident Analysis,Incident Agent,1,5077,2383,7460,0.0746,474,success,prod
+2026-06-05T16:23:27.241456,Vertex AI,Gemini-on-Vertex,319557d0-3572-45a6-ac4f-737bcc4cc347,user-1,incident-platform,Product Engineering,CI/CD Assistant,Code Assistant,1,2227,3747,5974,0.05974,3291,success,stage
+2026-06-15T00:13:27.241472,Anthropic,Claude-4-Sonnet,aa37e74f-58cd-4c2d-a4a4-e514788a2802,user-28,aiopsvista,SRE,CI/CD Assistant,Support Agent,1,2343,2683,5026,0.05026,3929,success,prod
+2026-06-15T10:18:27.241488,GitHub Copilot,Copilot-Chat,566fa9c1-c551-48fc-8966-2561dd9a3c03,user-35,security-copilot,Data Engineering,Code Review,Code Assistant,1,3820,3726,7546,0.07546,327,success,prod
+2026-06-22T23:30:27.241503,OpenAI,GPT-4.1,eca96ae3-ace5-415c-ab9c-88317ec6f9fa,user-42,developer-portal,Data Engineering,Knowledge Search,Security Agent,1,3887,298,4185,0.04185,1483,success,prod
+2026-06-04T08:58:27.241518,GitHub Copilot,Copilot-Chat,80e7fbea-15c6-4386-8ad5-f754af3095a4,user-28,developer-portal,Security,Knowledge Search,Support Agent,1,1357,2663,4020,0.0402,296,success,prod
+2026-06-20T21:49:27.241532,Vertex AI,Gemini-on-Vertex,45c791d5-d6d1-471d-b951-0323f3381b94,user-18,incident-platform,Product Engineering,Customer Support,Incident Agent,1,1485,620,2105,0.02105,2690,success,prod
+2026-06-11T08:53:27.241547,OpenAI,GPT-4.1,801c1fc3-9159-45c5-a5c2-76f80e643a45,user-2,incident-platform,Security,Incident Analysis,FinOps Agent,1,5151,2400,7551,0.07551,3847,success,prod
+2026-06-02T13:58:27.241562,Anthropic,Claude-4-Sonnet,43838c3e-4d09-4dee-81b8-ff372bd4c155,user-48,incident-platform,Platform,Incident Analysis,FinOps Agent,1,4771,1279,6050,0.0605,2341,success,stage
+2026-06-01T01:46:27.241576,Gemini,Gemini-2.5-Pro,d162614b-2529-4073-8d7e-85f6433d8d5f,user-22,aiopsvista,Security,Documentation,FinOps Agent,1,5711,1029,6740,0.0674,4646,success,prod
+2026-06-26T04:44:27.241591,Vertex AI,Gemini-on-Vertex,c45a9aaf-76a8-4ca7-a3dd-d4b134bd84d3,user-49,rag-platform,Customer Support,Customer Support,Platform Agent,1,6132,2920,9052,0.09052,1711,success,prod
+2026-06-19T01:11:27.241606,GitHub Copilot,Copilot-Chat,ea0d4852-f3b6-45c6-9564-f51d5742c76e,user-13,support-assistant,Product Engineering,Code Review,Support Agent,1,4135,1336,5471,0.05471,1771,success,prod
+2026-06-28T13:29:27.241621,Vertex AI,Gemini-on-Vertex,8003d9a7-dfae-4bf6-afdd-5f00d207417e,user-13,aiopsvista,Security,Root Cause Analysis,Incident Agent,1,5324,2722,8046,0.08046,1796,success,stage
+2026-06-25T02:54:27.241636,Anthropic,Claude-4-Sonnet,bd269e56-b806-49c2-bca8-162cd803b38b,user-36,aiopsvista,Customer Support,Code Review,Support Agent,1,7437,1395,8832,0.08832,241,success,prod
+2026-06-24T01:30:27.241651,Gemini,Gemini-2.5-Pro,6e1c57b9-d656-45d9-9e02-239bdea05630,user-33,rag-platform,Security,Knowledge Search,Security Agent,1,2499,1437,3936,0.03936,1950,success,prod
+2026-06-07T22:51:27.241666,GitHub Copilot,Copilot-Chat,ed66affa-2923-4d35-8185-45cb2f2828ac,user-13,rag-platform,Customer Support,CI/CD Assistant,Incident Agent,1,511,933,1444,0.01444,852,success,prod
+2026-05-31T21:47:27.241691,OpenAI,GPT-4.1,b9ab6a78-5cdd-4398-a28c-510720dad8b9,user-41,rag-platform,Data Engineering,Knowledge Search,FinOps Agent,1,6814,2383,9197,0.09197,1147,error,prod
+2026-06-01T13:27:27.241714,GitHub Copilot,Copilot-Chat,0ab9d602-a082-4762-800f-d10dcdb3b677,user-34,support-assistant,Product Engineering,Root Cause Analysis,Support Agent,1,4050,2268,6318,0.06318,3591,success,stage
+2026-05-30T22:59:27.241731,Vertex AI,Gemini-on-Vertex,5f1a5893-a0ff-42a9-bdbd-db7291a6a2ef,user-40,rag-platform,Data Engineering,CI/CD Assistant,Platform Agent,1,1610,3512,5122,0.05122,985,success,prod
+2026-06-26T07:41:27.241760,Anthropic,Claude-4-Sonnet,70ca9d94-73db-4262-9063-ca3f1b907e7e,user-10,support-assistant,Customer Support,Knowledge Search,Incident Agent,1,2428,597,3025,0.03025,348,success,stage
+2026-06-21T18:37:27.241777,Anthropic,Claude-4-Sonnet,26934204-d08b-4022-822e-07a2953e34e7,user-8,developer-portal,SRE,Knowledge Search,Code Assistant,1,2298,333,2631,0.02631,983,success,prod
+2026-06-05T19:34:27.241792,OpenAI,GPT-4o,a3ca532e-3f79-438c-9190-3cb942859d46,user-42,aiopsvista,Security,Root Cause Analysis,Incident Agent,1,6608,1900,8508,0.08508,1999,success,prod
+2026-06-17T19:19:27.241808,Vertex AI,Gemini-on-Vertex,e5204809-19ac-47e0-9223-922fd1759d73,user-41,aiopsvista,Platform,Customer Support,Support Agent,1,5053,3984,9037,0.09037,1014,success,prod
+2026-06-11T20:03:27.241823,Anthropic,Claude-4-Sonnet,70dcdd68-782a-42ed-8766-52ee6b83f95d,user-26,aiopsvista,Data Engineering,Documentation,FinOps Agent,1,507,2316,2823,0.02823,3793,success,prod
+2026-06-08T23:35:27.241838,OpenAI,GPT-4.1,3babdfa2-ead2-4c63-acdd-68ed63412a65,user-8,security-copilot,Security,Code Review,Support Agent,1,7406,621,8027,0.08027,2095,success,prod
+2026-06-08T20:34:27.241904,Vertex AI,Gemini-on-Vertex,81f7779f-d78d-480a-a23a-feb1fad7af88,user-20,aiopsvista,Data Engineering,Code Review,Security Agent,1,6217,2101,8318,0.08318,3022,success,stage
+2026-06-04T02:28:27.241935,Vertex AI,Gemini-on-Vertex,e39af93d-50b8-4090-9986-deb377ec91f8,user-11,incident-platform,Customer Support,Knowledge Search,Support Agent,1,3554,2546,6100,0.061,1189,success,stage
+2026-06-20T06:49:27.241954,Vertex AI,Gemini-on-Vertex,ecd151e9-f6d9-4835-b7f4-5d5fb0750967,user-7,aiopsvista,Platform,Incident Analysis,Security Agent,1,499,3586,4085,0.04085,970,success,dev
+2026-06-19T00:53:27.241972,OpenAI,GPT-4.1,194d0d46-d718-4a31-a5f0-12c3f8c2f717,user-2,security-copilot,Product Engineering,Knowledge Search,Platform Agent,1,6771,3306,10077,0.10077,2324,success,prod
+2026-06-06T09:13:27.242024,Vertex AI,Gemini-on-Vertex,b4f8196b-58df-4819-8b49-1126a58c7bf9,user-24,developer-portal,Security,Code Review,Incident Agent,1,1726,2519,4245,0.04245,524,success,prod
+2026-06-28T19:55:27.242076,OpenAI,GPT-4o,f49bfec9-7cea-4b29-af0a-e05b085ba94c,user-45,security-copilot,Customer Support,Code Review,Support Agent,1,4932,2804,7736,0.07736,1152,success,prod
+2026-06-20T09:07:27.242115,Vertex AI,Gemini-on-Vertex,5cf42e7a-9945-4c01-b867-4f6dcccdd4c8,user-35,rag-platform,Customer Support,Knowledge Search,Code Assistant,1,7884,142,8026,0.08026,2154,success,dev
+2026-05-31T15:39:27.242135,Anthropic,Claude-4-Sonnet,99f23543-eefa-4ba7-8c3d-862e56dded7a,user-36,incident-platform,SRE,Root Cause Analysis,Platform Agent,1,2144,2829,4973,0.04973,2276,success,prod
+2026-06-19T06:43:27.242152,GitHub Copilot,Copilot-Chat,649840b0-7a63-40bb-b2cb-ee4da102237f,user-26,aiopsvista,SRE,Knowledge Search,Security Agent,1,5849,3991,9840,0.0984,1852,success,prod
+2026-06-18T16:09:27.242167,Vertex AI,Gemini-on-Vertex,aa6cfd94-2ba2-4d73-9dab-e1d7aa5680fd,user-42,security-copilot,Product Engineering,Documentation,FinOps Agent,1,2185,2891,5076,0.05076,4265,success,stage
+2026-06-14T02:31:27.242183,Anthropic,Claude-4-Sonnet,f63bfc3c-6384-420d-ac68-35f035438006,user-32,developer-portal,Product Engineering,Customer Support,Security Agent,1,2169,3327,5496,0.05496,1115,success,prod
+2026-06-17T16:52:27.242198,GitHub Copilot,Copilot-Chat,95f7dd8e-4072-46cb-9c1d-bd7a6cd7081e,user-47,support-assistant,Customer Support,CI/CD Assistant,Support Agent,1,1633,657,2290,0.0229,2118,success,prod
+2026-06-27T09:55:27.242214,GitHub Copilot,Copilot-Chat,e1330c68-b412-4d1a-b7e5-52c657622e05,user-17,support-assistant,Platform,Code Review,Support Agent,1,567,2209,2776,0.02776,1172,success,prod
+2026-06-23T12:51:27.242229,Gemini,Gemini-2.5-Flash,b5a9da4d-d45b-4c08-a0fd-1914a3f7b7b0,user-42,aiopsvista,Security,CI/CD Assistant,Platform Agent,1,2285,722,3007,0.03007,4534,success,prod
+2026-06-13T17:21:27.242245,OpenAI,GPT-4o,38f23875-a8e0-47bc-babc-bdf9cb9504c3,user-32,support-assistant,Data Engineering,Knowledge Search,Incident Agent,1,1280,577,1857,0.01857,4031,success,prod
+2026-06-20T11:05:27.242260,OpenAI,GPT-4o,d195295d-cf9b-4741-916b-06158544f95c,user-15,incident-platform,Customer Support,Documentation,Incident Agent,1,1005,2132,3137,0.03137,4565,success,prod
+2026-06-16T11:55:27.242275,Vertex AI,Gemini-on-Vertex,89506adb-39a1-47ec-9826-2e83118517e4,user-39,developer-portal,Data Engineering,Documentation,Code Assistant,1,3927,1314,5241,0.05241,3117,success,stage
+2026-06-17T18:50:27.242291,GitHub Copilot,Copilot-Chat,ef6260f5-5d7d-48fa-8aa8-7f9c3b725576,user-49,incident-platform,Product Engineering,Documentation,Support Agent,1,3616,2188,5804,0.05804,3119,success,prod
+2026-06-02T13:05:27.242307,Anthropic,Claude-4-Sonnet,6ef3891b-a62f-4df6-bd45-31711a64e2a9,user-46,security-copilot,Security,Code Review,Incident Agent,1,4764,2505,7269,0.07269,4912,success,prod
+2026-06-27T19:35:27.242322,GitHub Copilot,Copilot-Chat,9de6ad9a-e572-49a1-b9af-2bd27464370f,user-12,rag-platform,Product Engineering,Customer Support,FinOps Agent,1,2368,3563,5931,0.05931,3463,success,prod
+2026-06-18T06:21:27.242336,Anthropic,Claude-4-Sonnet,3b51200b-b595-447a-8025-4611c8bff63e,user-49,rag-platform,Data Engineering,CI/CD Assistant,Code Assistant,1,6401,733,7134,0.07134,2618,success,prod
+2026-06-11T04:21:27.242351,Gemini,Gemini-2.5-Flash,16f66192-eac2-4d56-bdde-6767b72367d0,user-34,incident-platform,Security,CI/CD Assistant,Support Agent,1,4748,649,5397,0.05397,623,success,prod
+2026-06-24T14:38:27.242366,Vertex AI,Gemini-on-Vertex,78d70940-70e4-480a-b822-01af2bf26e1b,user-23,rag-platform,Customer Support,Root Cause Analysis,Security Agent,1,7141,3663,10804,0.10804,3590,success,stage
+2026-06-26T10:16:27.242381,OpenAI,GPT-4.1,2bb35fa6-4161-4ed8-bf18-02395bdea5b0,user-46,rag-platform,SRE,Code Review,Platform Agent,1,275,1433,1708,0.01708,4548,success,prod
+2026-06-13T14:11:27.242396,GitHub Copilot,Copilot-Chat,49d9bbbf-2c7e-47d4-b71a-b499e499fffe,user-15,security-copilot,Security,Documentation,Code Assistant,1,1538,625,2163,0.02163,820,success,prod
+2026-06-07T03:23:27.242414,GitHub Copilot,Copilot-Chat,b958c700-1e34-431e-9e2e-49de692b53dd,user-25,rag-platform,Platform,Incident Analysis,FinOps Agent,1,7691,149,7840,0.0784,684,success,stage
+2026-06-18T11:19:27.242441,OpenAI,GPT-4.1,bc5e469f-53ba-46fe-b5a3-b43a7e7678e6,user-1,developer-portal,Platform,Documentation,FinOps Agent,1,5943,2313,8256,0.08256,1426,success,prod
+2026-06-22T15:03:27.242457,Vertex AI,Gemini-on-Vertex,96a9079c-3e51-493b-b4a5-664730eacdd2,user-2,support-assistant,Platform,Code Review,Support Agent,1,4804,3545,8349,0.08349,1686,success,stage
+2026-06-10T00:58:27.242472,GitHub Copilot,Copilot-Chat,11ebe4a6-6ab5-4fc0-a521-26e50da51655,user-45,rag-platform,Security,Knowledge Search,Security Agent,1,2280,716,2996,0.02996,3174,success,prod
+2026-06-30T04:38:27.242487,Vertex AI,Gemini-on-Vertex,7e2ab02e-20b6-4165-8472-21de3bab6a54,user-49,support-assistant,SRE,Code Review,Code Assistant,1,5594,1857,7451,0.07451,3885,success,prod
+2026-06-09T14:36:27.242502,Gemini,Gemini-2.5-Flash,e781a5a7-aff1-4c75-bcb6-161f3b68fed6,user-32,rag-platform,Product Engineering,Root Cause Analysis,Platform Agent,1,7194,1970,9164,0.09164,1722,success,stage
+2026-06-28T17:15:27.242517,Gemini,Gemini-2.5-Flash,8c5c1288-349c-49f8-a040-85afe1f6eaa2,user-49,security-copilot,Customer Support,Incident Analysis,FinOps Agent,1,657,3190,3847,0.03847,2332,success,prod
+2026-06-04T07:33:27.242532,OpenAI,GPT-4o,be464a39-ad36-42c3-ab7b-a3e4f1abb458,user-3,developer-portal,Customer Support,Root Cause Analysis,Incident Agent,1,4171,2032,6203,0.06203,3044,success,prod
+2026-06-25T18:16:27.242547,Vertex AI,Gemini-on-Vertex,96b3194f-0ae0-40ce-950f-c418febd3190,user-43,incident-platform,Data Engineering,Documentation,FinOps Agent,1,3280,1519,4799,0.04799,2876,success,prod
+2026-06-29T17:28:27.242562,Anthropic,Claude-4-Sonnet,25e56368-cdef-4877-b4e5-84084564d3a0,user-49,aiopsvista,Product Engineering,CI/CD Assistant,FinOps Agent,1,2955,913,3868,0.03868,1427,success,prod
+2026-06-17T07:21:27.242576,Vertex AI,Gemini-on-Vertex,2558c3e2-0f7a-43bc-bc52-54ef29fdd814,user-36,security-copilot,Data Engineering,Code Review,Platform Agent,1,3828,1762,5590,0.0559,1722,success,dev
+2026-06-02T09:12:27.242592,Vertex AI,Gemini-on-Vertex,5d103163-2256-43d6-a32e-f3dea9d58211,user-15,developer-portal,Customer Support,Knowledge Search,Incident Agent,1,7386,2675,10061,0.10061,2583,success,prod
+2026-06-14T14:06:27.242606,OpenAI,GPT-4o,3a6dbdfb-5990-4316-9694-69d5ef09ab2a,user-10,incident-platform,Platform,CI/CD Assistant,Support Agent,1,5836,1511,7347,0.07347,745,success,prod
+2026-06-07T17:31:27.242621,OpenAI,GPT-4o,9beaef37-3b71-438f-9b96-045ef9f22bea,user-23,developer-portal,Customer Support,CI/CD Assistant,Code Assistant,1,6988,2707,9695,0.09695,1560,success,stage
+2026-05-31T02:36:27.242636,Anthropic,Claude-4-Sonnet,15433af9-3684-4657-ba5a-951a8e7113ee,user-29,incident-platform,SRE,Customer Support,Code Assistant,1,5125,3592,8717,0.08717,1562,success,prod
+2026-06-27T08:14:27.242651,Gemini,Gemini-2.5-Pro,d1e422ab-887a-4d4d-b215-326711e3e795,user-29,developer-portal,Data Engineering,CI/CD Assistant,Incident Agent,1,4703,2114,6817,0.06817,4147,success,prod
+2026-06-03T04:02:27.242666,OpenAI,GPT-4o,51d3691e-ee55-4cb8-b73f-79eb01f63b9c,user-47,aiopsvista,Security,Code Review,Incident Agent,1,3931,2360,6291,0.06291,4052,success,prod
+2026-06-11T03:53:27.242741,Vertex AI,Gemini-on-Vertex,0749898c-4310-42d3-84f1-d7c928910958,user-28,incident-platform,Customer Support,Root Cause Analysis,FinOps Agent,1,5610,373,5983,0.05983,1123,success,prod
+2026-06-07T22:46:27.242772,OpenAI,GPT-4o,8564ccf3-e78e-42a0-a6de-a0b8d7a03fd3,user-50,aiopsvista,Product Engineering,CI/CD Assistant,Support Agent,1,5131,616,5747,0.05747,4840,success,stage
+2026-06-11T11:56:27.242791,GitHub Copilot,Copilot-Chat,bfc5a090-60c1-4293-a1eb-25816528354f,user-5,support-assistant,Data Engineering,Root Cause Analysis,Support Agent,1,3364,2565,5929,0.05929,2853,success,prod
+2026-06-20T09:56:27.242807,Gemini,Gemini-2.5-Pro,9f41feb1-c3b5-4fd9-a66f-ad1f96da579e,user-47,support-assistant,Customer Support,CI/CD Assistant,Incident Agent,1,4328,3184,7512,0.07512,3975,success,prod
+2026-06-23T18:58:27.242824,OpenAI,GPT-4o,5db9d807-419f-460c-9a40-5a4ec414df94,user-42,developer-portal,Data Engineering,Incident Analysis,Security Agent,1,3861,1924,5785,0.05785,2511,success,prod
+2026-06-20T03:30:27.242840,OpenAI,GPT-4o,a862a12e-1701-49b8-bc18-0f3641734c16,user-18,incident-platform,SRE,Knowledge Search,Security Agent,1,7507,3217,10724,0.10724,2849,success,prod
+2026-06-07T07:20:27.242856,Vertex AI,Gemini-on-Vertex,f01399fc-32b5-4f41-aaec-7bf107c302f2,user-10,developer-portal,Data Engineering,Documentation,Security Agent,1,2966,1468,4434,0.04434,1555,success,prod
+2026-06-09T19:50:27.242872,Gemini,Gemini-2.5-Flash,3c6883a2-040e-4b9a-a75a-91fdb300656e,user-25,security-copilot,SRE,Root Cause Analysis,FinOps Agent,1,6283,1290,7573,0.07573,2408,success,stage
+2026-06-12T01:37:27.242887,Vertex AI,Gemini-on-Vertex,0ba0a71f-732d-4c31-b5c7-9caea99a2532,user-49,aiopsvista,Data Engineering,CI/CD Assistant,Code Assistant,1,4713,564,5277,0.05277,897,success,prod
+2026-06-08T18:05:27.242903,OpenAI,GPT-4o,9fad64db-c589-49bc-b28c-280e2229c72c,user-17,aiopsvista,Product Engineering,Customer Support,Incident Agent,1,6319,790,7109,0.07109,4509,success,prod
+2026-06-27T12:56:27.242918,GitHub Copilot,Copilot-Chat,62713904-5a88-41a7-b099-69cd47fb19b3,user-38,security-copilot,Platform,Customer Support,Code Assistant,1,522,782,1304,0.01304,1668,success,prod
+2026-06-01T14:40:27.242933,Anthropic,Claude-4-Sonnet,49835084-1a6e-4c1a-afde-e2658e7e2ab7,user-46,rag-platform,SRE,Customer Support,Security Agent,1,6178,3088,9266,0.09266,1986,success,dev
+2026-06-12T19:37:27.242948,Vertex AI,Gemini-on-Vertex,b40832de-360a-457f-852e-b7fc4b4fc529,user-23,developer-portal,SRE,CI/CD Assistant,Security Agent,1,5529,587,6116,0.06116,2680,success,prod
+2026-06-29T17:18:27.242963,GitHub Copilot,Copilot-Chat,fc663a34-74d8-489f-bb00-299814e78f57,user-11,security-copilot,Customer Support,Documentation,Code Assistant,1,2228,3394,5622,0.05622,3612,success,prod
+2026-06-19T23:57:27.242977,GitHub Copilot,Copilot-Chat,09793538-b4a6-4cd9-80ba-1306d20762e6,user-6,incident-platform,Platform,Incident Analysis,Support Agent,1,6597,2824,9421,0.09421,713,success,dev
+2026-06-30T00:01:27.242993,GitHub Copilot,Copilot-Chat,382ce56c-f946-409f-9cff-c9fd13cda40f,user-21,developer-portal,Data Engineering,CI/CD Assistant,Code Assistant,1,6657,99,6756,0.06756,3783,success,prod
+2026-06-15T03:09:27.243009,Vertex AI,Gemini-on-Vertex,12c48d2b-d03e-4fff-9c01-0f07ad6a5157,user-26,security-copilot,Data Engineering,Root Cause Analysis,Code Assistant,1,1096,364,1460,0.0146,432,success,prod
+2026-06-16T21:51:27.243024,OpenAI,GPT-4o,efff72b8-4453-4108-8faa-125958e74953,user-43,aiopsvista,Platform,Incident Analysis,Code Assistant,1,7452,1474,8926,0.08926,1990,success,dev
+2026-06-18T10:55:27.243039,GitHub Copilot,Copilot-Chat,6456ea21-962f-41b2-9041-d454b3809b45,user-46,security-copilot,Platform,Code Review,Security Agent,1,340,3306,3646,0.03646,4173,success,stage
+2026-06-15T14:47:27.243070,Anthropic,Claude-4-Sonnet,247719fb-97e6-4d93-9d33-da0f6a78d243,user-41,security-copilot,SRE,Documentation,Security Agent,1,2830,3860,6690,0.0669,1608,success,prod
+2026-05-30T23:07:27.243087,GitHub Copilot,Copilot-Chat,06bc84b4-2e05-4b34-bcb2-8c0a62eaa18d,user-1,aiopsvista,Product Engineering,Knowledge Search,Incident Agent,1,4724,2383,7107,0.07107,523,success,prod
+2026-06-09T16:58:27.243103,GitHub Copilot,Copilot-Chat,f1b68d2e-a739-4864-a299-441dab431fb2,user-16,developer-portal,SRE,CI/CD Assistant,FinOps Agent,1,5806,713,6519,0.06519,2426,success,prod
+2026-06-11T12:02:27.243118,GitHub Copilot,Copilot-Chat,bec7cfd9-1e78-422d-8312-512141c47944,user-20,aiopsvista,Security,CI/CD Assistant,Platform Agent,1,3045,118,3163,0.03163,2867,success,prod
+2026-06-03T19:55:27.243134,Gemini,Gemini-2.5-Pro,529000b8-a36b-4b3c-b143-ddaddb52fe94,user-6,developer-portal,Product Engineering,Knowledge Search,Platform Agent,1,117,2362,2479,0.02479,3655,error,stage
+2026-06-24T02:58:27.243149,Vertex AI,Gemini-on-Vertex,824ab1c6-43b9-44e1-a321-4132a0cf6058,user-21,developer-portal,Platform,Documentation,Incident Agent,1,337,2125,2462,0.02462,4435,success,prod
+2026-06-11T07:47:27.243164,Vertex AI,Gemini-on-Vertex,29deca6e-8352-4a9e-b99b-da8882003f02,user-44,aiopsvista,Customer Support,Knowledge Search,Support Agent,1,3288,3512,6800,0.068,4065,success,prod
+2026-06-07T20:48:27.243179,GitHub Copilot,Copilot-Chat,3c5e85d0-d7bd-4eae-9db6-e1928f92cbc1,user-8,support-assistant,Platform,Code Review,Security Agent,1,4420,2701,7121,0.07121,4238,success,prod
+2026-06-17T10:21:27.243194,Gemini,Gemini-2.5-Pro,a3a3f009-6c13-4316-b49c-6c2413fccd53,user-5,rag-platform,Platform,Incident Analysis,Incident Agent,1,4188,1289,5477,0.05477,897,success,dev
+2026-06-27T15:52:27.243209,Anthropic,Claude-4-Sonnet,3e3b65fb-66f8-4a01-b362-07cb6be6d08a,user-18,aiopsvista,Customer Support,Customer Support,Support Agent,1,1942,2473,4415,0.04415,999,success,prod
+2026-06-24T14:23:27.243223,OpenAI,GPT-4o,646f076e-be57-44eb-a9dd-fb2a78deb5e0,user-17,security-copilot,Customer Support,Knowledge Search,Security Agent,1,5447,2086,7533,0.07533,636,success,prod
+2026-06-07T02:44:27.243238,Vertex AI,Gemini-on-Vertex,280789e2-7331-47e7-a0da-a9613b973670,user-12,incident-platform,Customer Support,Code Review,Code Assistant,1,6757,1552,8309,0.08309,4155,success,prod
+2026-06-02T02:09:27.243253,OpenAI,GPT-4o,8ab43845-ea80-4fe9-b8bb-94f2b0f0f4b4,user-47,incident-platform,Platform,Code Review,Incident Agent,1,2132,739,2871,0.02871,4767,success,prod
+2026-06-29T13:26:27.243268,GitHub Copilot,Copilot-Chat,e310ba19-7ca3-4ad7-8ea0-5685373eb961,user-20,support-assistant,SRE,Code Review,Support Agent,1,1365,253,1618,0.01618,1251,success,stage
+2026-06-08T14:25:27.243283,GitHub Copilot,Copilot-Chat,aad5d059-64a5-414a-932b-718533e64413,user-10,rag-platform,Customer Support,CI/CD Assistant,FinOps Agent,1,6028,3558,9586,0.09586,657,success,stage
+2026-06-26T08:20:27.243298,Vertex AI,Gemini-on-Vertex,c7562065-73f2-446e-8387-f8d7a9f4424b,user-14,incident-platform,Product Engineering,Documentation,Support Agent,1,7497,559,8056,0.08056,4948,success,dev
+2026-06-19T06:11:27.243313,OpenAI,GPT-4o,0302df50-7d91-4c45-b1a4-8208b2f290d6,user-7,support-assistant,Platform,CI/CD Assistant,Security Agent,1,7303,3620,10923,0.10923,153,success,stage
+2026-06-04T10:25:27.243328,OpenAI,GPT-4.1,512fe6e9-222b-44a3-a62a-6c10a14e834f,user-16,aiopsvista,SRE,Code Review,Platform Agent,1,6621,1159,7780,0.0778,4942,success,prod
+2026-06-26T22:28:27.243349,Gemini,Gemini-2.5-Flash,84593041-5f70-4560-bc73-810716b61809,user-21,incident-platform,Data Engineering,Customer Support,Platform Agent,1,2337,2045,4382,0.04382,4736,success,dev
+2026-06-15T06:11:27.243373,GitHub Copilot,Copilot-Chat,23094bef-6897-4d98-acd2-98af96b6ff67,user-18,support-assistant,Security,Code Review,Code Assistant,1,4813,1228,6041,0.06041,4562,success,prod
+2026-06-23T11:38:27.243389,Anthropic,Claude-4-Sonnet,b105af93-31db-4a6f-a672-21eca8dde841,user-36,rag-platform,Platform,Knowledge Search,Security Agent,1,3452,3282,6734,0.06734,631,success,stage
+2026-06-10T19:29:27.243404,OpenAI,GPT-4o,522e67a6-ed1f-4c3b-b1e5-dfe7deaacab7,user-38,aiopsvista,SRE,Incident Analysis,Code Assistant,1,2567,1378,3945,0.03945,2603,success,prod
+2026-06-12T21:29:27.243419,OpenAI,GPT-4o,ba6557c8-b3f7-41d6-8781-7dec23d51dea,user-27,incident-platform,SRE,Documentation,Security Agent,1,1741,2840,4581,0.04581,2496,success,prod
+2026-06-03T21:42:27.243487,GitHub Copilot,Copilot-Chat,14491f47-82bd-436a-b44b-c73b7c83cb44,user-41,developer-portal,Product Engineering,Documentation,Code Assistant,1,782,1152,1934,0.01934,4815,success,prod
+2026-06-23T17:29:27.243530,Anthropic,Claude-4-Sonnet,a876bd1a-fffe-4514-a126-8e351e7af497,user-4,incident-platform,Platform,Documentation,Support Agent,1,4636,927,5563,0.05563,1829,success,prod
+2026-06-11T11:47:27.243551,GitHub Copilot,Copilot-Chat,43f0eb75-4932-4b59-b9b1-6f88171234a0,user-6,incident-platform,Platform,Root Cause Analysis,Incident Agent,1,1290,1862,3152,0.03152,3022,success,prod
+2026-05-31T14:38:27.243568,Anthropic,Claude-4-Sonnet,3ce86992-df3b-478e-80cf-062cd8fc7609,user-47,support-assistant,Product Engineering,Root Cause Analysis,Support Agent,1,7151,1948,9099,0.09099,1001,success,prod
+2026-06-25T10:38:27.243585,Anthropic,Claude-4-Sonnet,ace1ae50-f884-4fef-b535-d2bc02a53d52,user-34,rag-platform,Data Engineering,Incident Analysis,Security Agent,1,4570,1988,6558,0.06558,3767,success,prod
+2026-06-04T00:26:27.243602,GitHub Copilot,Copilot-Chat,88c53092-1318-4538-ad50-d3ad875b8101,user-3,security-copilot,Platform,Root Cause Analysis,Code Assistant,1,4378,3013,7391,0.07391,4430,success,prod
+2026-06-25T12:03:27.243617,OpenAI,GPT-4o,11c75823-b091-479b-b967-16935f686d1b,user-31,developer-portal,Platform,Documentation,Security Agent,1,596,764,1360,0.0136,4141,success,prod
+2026-06-13T12:17:27.243633,OpenAI,GPT-4o,0d7ab15c-317b-4934-81d7-e36ffc35c6d4,user-50,aiopsvista,Product Engineering,Incident Analysis,Security Agent,1,2431,3595,6026,0.06026,567,success,stage
+2026-06-28T02:54:27.243650,Vertex AI,Gemini-on-Vertex,624899c9-bc9c-4e01-94f7-014e08306798,user-15,security-copilot,Platform,Incident Analysis,Incident Agent,1,4324,807,5131,0.05131,1782,success,prod
+2026-06-28T03:05:27.243679,OpenAI,GPT-4o,5a6a7a1e-a0b6-4dfc-b2c9-4f8d55d59dfd,user-32,incident-platform,SRE,Root Cause Analysis,Support Agent,1,4538,1660,6198,0.06198,3202,success,prod
+2026-06-17T09:45:27.243696,Vertex AI,Gemini-on-Vertex,a37c51d3-d022-4a66-9576-67d43fb8428d,user-17,rag-platform,SRE,Documentation,Platform Agent,1,3564,2620,6184,0.06184,2630,error,prod
+2026-06-13T06:03:27.243712,Gemini,Gemini-2.5-Pro,a436f3a1-8d81-4e87-bc59-ee172aa8eac9,user-6,rag-platform,Product Engineering,CI/CD Assistant,Security Agent,1,7848,2890,10738,0.10738,4490,success,prod
+2026-06-15T23:26:27.243728,GitHub Copilot,Copilot-Chat,763d8f9a-a981-4e4f-ac12-f9aac09735cc,user-31,rag-platform,Security,Incident Analysis,Code Assistant,1,5195,2550,7745,0.07745,1428,success,prod
+2026-05-30T19:17:27.243744,OpenAI,GPT-4o,087104ca-fdda-43fb-80a2-62c47a93cc87,user-33,support-assistant,Data Engineering,CI/CD Assistant,Security Agent,1,4296,1591,5887,0.05887,843,success,prod
+2026-06-13T17:49:27.243760,Vertex AI,Gemini-on-Vertex,9f53c22f-545d-465f-8f3b-2bb17dc3309d,user-50,security-copilot,Product Engineering,Root Cause Analysis,Code Assistant,1,4998,1261,6259,0.06259,1253,success,prod
+2026-06-28T20:53:27.243776,Gemini,Gemini-2.5-Pro,a3ffc1b3-88c3-4025-8af5-f5754b0a4f42,user-20,support-assistant,Platform,Code Review,FinOps Agent,1,7680,200,7880,0.0788,1033,success,prod
+2026-06-02T01:10:27.243792,Anthropic,Claude-4-Sonnet,e3ed6904-97b4-4f64-84ff-b5c35153d44b,user-27,rag-platform,SRE,Incident Analysis,Security Agent,1,6564,1714,8278,0.08278,363,error,prod
+2026-06-02T12:23:27.243807,Anthropic,Claude-4-Sonnet,a957a665-9e52-45a4-9280-d6a6f128d925,user-41,incident-platform,SRE,Code Review,Code Assistant,1,5887,2394,8281,0.08281,2191,success,stage
+2026-06-07T07:32:27.243822,Vertex AI,Gemini-on-Vertex,bb144be0-2750-48be-bf71-663c625105b5,user-47,rag-platform,Customer Support,Root Cause Analysis,Code Assistant,1,3237,2351,5588,0.05588,3527,success,dev
+2026-06-14T17:33:27.243838,GitHub Copilot,Copilot-Chat,20551616-40dd-46e3-9ecf-6c2f2c59134a,user-9,security-copilot,Security,Customer Support,Code Assistant,1,4609,1422,6031,0.06031,2582,success,prod
+2026-06-10T23:38:27.243854,Anthropic,Claude-4-Sonnet,e0e8fc21-ae5f-4901-b4da-b0c4c60c8001,user-20,developer-portal,Product Engineering,Code Review,Support Agent,1,7200,2717,9917,0.09917,1016,success,prod
+2026-06-07T17:41:27.243869,Anthropic,Claude-4-Sonnet,1cd32bb6-8e23-41c6-8e2a-3a000b3c3256,user-8,security-copilot,Security,Root Cause Analysis,Incident Agent,1,7778,3390,11168,0.11168,2807,success,prod
+2026-06-09T06:25:27.243885,Anthropic,Claude-4-Sonnet,49bfa747-c746-4c33-8636-7fce092577a6,user-44,rag-platform,Product Engineering,CI/CD Assistant,Platform Agent,1,6647,1732,8379,0.08379,2489,timeout,prod
+2026-06-26T20:40:27.243900,Gemini,Gemini-2.5-Flash,ed0b54b3-ceaa-452c-8d5d-5a56b511acbb,user-48,rag-platform,Customer Support,Knowledge Search,Platform Agent,1,7650,2878,10528,0.10528,4479,success,dev
+2026-06-20T02:15:27.243915,Anthropic,Claude-4-Sonnet,1e5b9528-c83d-4358-a7fe-63b3dab82c14,user-2,security-copilot,Data Engineering,Incident Analysis,Incident Agent,1,5667,3467,9134,0.09134,4593,success,stage
+2026-06-07T14:43:27.243930,Anthropic,Claude-4-Sonnet,315c33d9-169b-4ffc-9344-1bf5f4cb49a3,user-24,support-assistant,Security,Documentation,Platform Agent,1,1096,528,1624,0.01624,2300,success,prod
+2026-06-12T07:02:27.243945,OpenAI,GPT-4o,69a81142-03cf-4524-88af-8e1ba11a9967,user-7,developer-portal,Security,Customer Support,Security Agent,1,5364,196,5560,0.0556,194,success,dev
+2026-06-13T23:03:27.243963,OpenAI,GPT-4o,b69d001c-b928-4cbe-87e6-15b8b6241618,user-33,developer-portal,Data Engineering,Root Cause Analysis,Platform Agent,1,7973,430,8403,0.08403,2686,success,stage
+2026-05-31T09:17:27.243990,Anthropic,Claude-4-Sonnet,cd054f75-2904-439e-8328-9b554121d4a7,user-47,aiopsvista,Customer Support,Code Review,FinOps Agent,1,2688,3705,6393,0.06393,1192,success,prod
+2026-06-24T10:01:27.244006,OpenAI,GPT-4o,76cfb8d7-a790-4623-ac94-2ba18163857e,user-19,support-assistant,Customer Support,Knowledge Search,Security Agent,1,5349,1164,6513,0.06513,2122,success,prod
+2026-06-22T02:34:27.244021,OpenAI,GPT-4o,951cbf81-7449-4b68-b839-30f8b8352eee,user-32,security-copilot,Security,Knowledge Search,Incident Agent,1,4660,838,5498,0.05498,3516,success,stage
+2026-06-13T11:02:27.244036,Anthropic,Claude-4-Sonnet,16a4ae99-12af-4806-aba0-6756312544e5,user-41,incident-platform,Platform,CI/CD Assistant,Platform Agent,1,1339,475,1814,0.01814,4885,success,prod
+2026-06-18T15:14:27.244051,OpenAI,GPT-4o,1d0ab789-63b7-4582-bdd1-14646df573b1,user-34,rag-platform,Product Engineering,Code Review,FinOps Agent,1,2579,2495,5074,0.05074,4345,success,prod
+2026-06-26T23:12:27.244066,GitHub Copilot,Copilot-Chat,ffcb1731-df22-405a-a2aa-ad1820651c97,user-2,aiopsvista,SRE,Customer Support,FinOps Agent,1,5870,52,5922,0.05922,2327,success,stage
+2026-05-31T14:55:27.244081,Anthropic,Claude-4-Sonnet,0754bb48-f07a-45e0-8dc5-6ad2435d5fed,user-30,aiopsvista,Product Engineering,Code Review,Platform Agent,1,6687,1475,8162,0.08162,3109,success,prod
+2026-06-09T19:03:27.244096,OpenAI,GPT-4.1,aa6d3feb-c22f-4067-a156-54b075f12a81,user-46,developer-portal,Customer Support,Knowledge Search,FinOps Agent,1,6289,762,7051,0.07051,4270,success,prod
+2026-06-20T09:00:27.244111,OpenAI,GPT-4o,6acac313-7a43-4d73-b5ea-d0c849efa396,user-34,incident-platform,Platform,Documentation,Code Assistant,1,6852,3468,10320,0.1032,4265,success,prod
+2026-06-21T04:32:27.244126,Vertex AI,Gemini-on-Vertex,9bc360e1-d7ae-45fd-9b3a-3132a2e08423,user-23,incident-platform,Data Engineering,Knowledge Search,FinOps Agent,1,4642,1050,5692,0.05692,4204,success,stage
+2026-06-08T17:27:27.244160,Vertex AI,Gemini-on-Vertex,fe71f18f-940c-479d-b35d-165cea29c560,user-18,incident-platform,Security,Documentation,FinOps Agent,1,2211,2251,4462,0.04462,1529,error,prod
+2026-06-11T17:02:27.244195,Vertex AI,Gemini-on-Vertex,3975c188-1621-4614-9eba-cd54bf8ae117,user-38,incident-platform,SRE,Documentation,Security Agent,1,4653,905,5558,0.05558,3421,success,prod
+2026-06-01T07:25:27.244216,OpenAI,GPT-4.1,61cc2553-bbb1-4022-b27c-49112a513931,user-39,support-assistant,SRE,Customer Support,Support Agent,1,7012,1472,8484,0.08484,4687,error,stage
+2026-06-22T14:34:27.244233,OpenAI,GPT-4.1,aaa5abe0-dfd9-4902-8737-cfdf47a795d6,user-17,rag-platform,Platform,Root Cause Analysis,Code Assistant,1,7226,3837,11063,0.11063,4192,success,prod
+2026-06-23T21:17:27.244317,Anthropic,Claude-4-Sonnet,f25c77cf-ebdf-4027-a6b1-f490eae61059,user-41,security-copilot,Security,Root Cause Analysis,Platform Agent,1,5027,3463,8490,0.0849,1649,success,dev
+2026-06-20T07:22:27.244369,GitHub Copilot,Copilot-Chat,dc3b5269-5484-4d67-9daf-e2b2beafe367,user-48,aiopsvista,Security,CI/CD Assistant,Support Agent,1,7972,399,8371,0.08371,2657,success,prod
+2026-06-15T08:20:27.244394,Anthropic,Claude-4-Sonnet,bdc5e49a-c7dd-4f9e-9a14-ac0bb1b4d794,user-12,aiopsvista,Product Engineering,Customer Support,Code Assistant,1,7165,2253,9418,0.09418,2343,success,prod
+2026-06-01T07:28:27.244412,GitHub Copilot,Copilot-Chat,99887ac5-9a58-484e-9d42-e14337604782,user-13,aiopsvista,Data Engineering,Documentation,Platform Agent,1,7920,2578,10498,0.10498,2758,success,prod
+2026-06-17T01:16:27.244430,Gemini,Gemini-2.5-Flash,b949fcfc-0d57-4557-9ff0-9abf30d31cd3,user-7,aiopsvista,SRE,Incident Analysis,Code Assistant,1,1427,73,1500,0.015,3434,success,prod
+2026-06-20T18:21:27.244447,Gemini,Gemini-2.5-Pro,ed4dc31d-91b7-4044-aab2-1ae2f7a1d26b,user-45,aiopsvista,SRE,Root Cause Analysis,Incident Agent,1,5773,2448,8221,0.08221,177,success,stage
+2026-06-25T13:08:27.244463,GitHub Copilot,Copilot-Chat,1374ef31-52ef-44f2-a86d-d7025f4b94af,user-50,developer-portal,Security,Customer Support,Platform Agent,1,1760,1774,3534,0.03534,3464,success,stage
+2026-06-02T16:20:27.244479,OpenAI,GPT-4.1,07bb9d79-9bba-4167-bbfe-11561ac2daff,user-18,aiopsvista,SRE,Root Cause Analysis,Platform Agent,1,1339,115,1454,0.01454,4819,success,prod
+2026-06-13T08:06:27.244495,Anthropic,Claude-4-Sonnet,f2ee80ee-eb2f-44f6-bbae-d0b2d95fceb8,user-34,developer-portal,Product Engineering,Root Cause Analysis,Security Agent,1,2553,2544,5097,0.05097,2894,success,prod
+2026-06-22T16:47:27.244510,Gemini,Gemini-2.5-Flash,23aea819-ec49-4c5e-a9cc-3137398f471d,user-38,rag-platform,Security,Incident Analysis,Security Agent,1,4285,348,4633,0.04633,596,success,prod
+2026-06-15T05:44:27.244526,GitHub Copilot,Copilot-Chat,08c1c4ea-226a-4453-87e6-b802f2eaea0e,user-50,support-assistant,Data Engineering,Code Review,Support Agent,1,1965,2752,4717,0.04717,1034,success,prod
+2026-06-20T09:03:27.244541,Vertex AI,Gemini-on-Vertex,f29ee06e-cf60-4d39-b75a-3d2950db813a,user-32,rag-platform,SRE,Root Cause Analysis,Platform Agent,1,830,2953,3783,0.03783,2550,success,prod
+2026-06-19T21:16:27.244556,Vertex AI,Gemini-on-Vertex,1d682543-ec08-4fc5-9840-28a7b76eb4ae,user-29,support-assistant,Platform,Code Review,Security Agent,1,1841,2985,4826,0.04826,1104,success,prod
+2026-06-25T23:28:27.244572,GitHub Copilot,Copilot-Chat,3d833f43-4dbf-4537-b2a5-232c0edf9137,user-30,aiopsvista,Customer Support,Incident Analysis,Platform Agent,1,7451,1991,9442,0.09442,4576,success,prod
+2026-06-13T14:06:27.244587,Anthropic,Claude-4-Sonnet,39077dd7-c001-45de-af11-1cfb496b4e74,user-49,aiopsvista,Platform,Code Review,Security Agent,1,7031,3421,10452,0.10452,2743,success,dev
+2026-06-04T02:09:27.244604,GitHub Copilot,Copilot-Chat,9d677fa1-e5cd-4dbc-ba58-15c28f8e9958,user-50,aiopsvista,Customer Support,Customer Support,Platform Agent,1,4025,724,4749,0.04749,2169,success,prod
+2026-06-29T18:23:27.244637,Anthropic,Claude-4-Sonnet,fe6fbcd7-7e07-444c-b691-df169efac3a1,user-35,rag-platform,Security,Documentation,Security Agent,1,936,3854,4790,0.0479,2098,success,prod
+2026-06-02T08:22:27.244655,OpenAI,GPT-4.1,355e3d88-a161-4273-87ff-41aab8f3fbb0,user-10,support-assistant,Data Engineering,Customer Support,Code Assistant,1,7125,2750,9875,0.09875,2366,error,prod
+2026-06-22T16:08:27.244672,Anthropic,Claude-4-Sonnet,6f330caa-ce47-4b36-9903-28ff4a92de79,user-39,incident-platform,SRE,Root Cause Analysis,Support Agent,1,2204,2913,5117,0.05117,3720,success,prod
+2026-06-25T23:28:27.244687,OpenAI,GPT-4o,5fbd7b38-947b-47b4-a491-899658af3435,user-40,aiopsvista,Platform,Incident Analysis,Support Agent,1,1012,1110,2122,0.02122,1508,success,prod
+2026-06-08T02:53:27.244702,Gemini,Gemini-2.5-Pro,d3331a19-8d44-49bb-aeb5-9f53dff9da9a,user-18,rag-platform,Product Engineering,Documentation,Incident Agent,1,4639,840,5479,0.05479,931,success,prod
+2026-06-17T01:48:27.244717,Gemini,Gemini-2.5-Pro,489e90cc-36b8-4109-a00f-1b38f0a1a2a1,user-25,rag-platform,Data Engineering,Incident Analysis,FinOps Agent,1,2900,839,3739,0.03739,4618,success,prod
+2026-06-12T19:02:27.244732,GitHub Copilot,Copilot-Chat,8222b36a-6c12-49e8-9bbf-71f8b0f7b68f,user-37,security-copilot,Product Engineering,Customer Support,Security Agent,1,3848,2459,6307,0.06307,548,success,stage
+2026-06-29T08:16:27.244747,OpenAI,GPT-4o,782a2cfd-6c70-4ff6-82c7-fef3fb3f3eb3,user-49,support-assistant,Customer Support,Customer Support,Platform Agent,1,2950,1156,4106,0.04106,2352,success,prod
+2026-06-08T16:07:27.244762,GitHub Copilot,Copilot-Chat,10bba412-d0df-486d-b694-deab2443ac65,user-12,incident-platform,Security,Incident Analysis,Incident Agent,1,3272,1263,4535,0.04535,3850,success,prod
+2026-06-23T19:13:27.244778,OpenAI,GPT-4.1,43be0a49-d154-40df-a328-2fbc7e73b97d,user-38,developer-portal,Data Engineering,CI/CD Assistant,Incident Agent,1,7653,2175,9828,0.09828,2644,success,prod
+2026-06-02T16:26:27.244794,Gemini,Gemini-2.5-Flash,35f40380-4432-447d-a634-01bad2b2254a,user-38,aiopsvista,Data Engineering,Documentation,Security Agent,1,2785,2806,5591,0.05591,2693,success,dev
+2026-06-22T19:53:27.244809,OpenAI,GPT-4.1,bdb0364e-6ec1-4cad-a8fc-90013cc80352,user-22,developer-portal,Customer Support,Customer Support,Code Assistant,1,2682,2425,5107,0.05107,2721,success,stage
+2026-06-10T22:09:27.244824,Anthropic,Claude-4-Sonnet,aad569dd-9b5b-4ddb-8b76-9621db1ec954,user-37,aiopsvista,Product Engineering,Root Cause Analysis,Platform Agent,1,6934,98,7032,0.07032,958,timeout,prod
+2026-06-11T10:33:27.244873,Vertex AI,Gemini-on-Vertex,33409b5d-23d9-48e0-84b8-d348817b08e8,user-33,developer-portal,Platform,Documentation,FinOps Agent,1,5049,106,5155,0.05155,2506,success,prod
+2026-06-23T02:15:27.244910,Gemini,Gemini-2.5-Pro,b9b73888-1ba0-46d8-88d6-59f30bbb1e15,user-22,support-assistant,Customer Support,Knowledge Search,Code Assistant,1,6005,2895,8900,0.089,4691,success,prod
+2026-06-11T02:34:27.244930,Anthropic,Claude-4-Sonnet,ce2f6988-0057-4ba4-ba3b-55401a279132,user-26,security-copilot,Product Engineering,Documentation,Code Assistant,1,4434,163,4597,0.04597,377,success,prod
+2026-06-07T17:01:27.244948,Gemini,Gemini-2.5-Pro,ef2a04f9-2eae-41b9-9b6a-42e7fe079de6,user-18,rag-platform,Security,Customer Support,Security Agent,1,5429,3182,8611,0.08611,3269,success,prod
+2026-06-10T00:17:27.244965,Anthropic,Claude-4-Sonnet,45a87840-f977-4c15-a093-cd4fa44cb844,user-28,support-assistant,Security,Documentation,Security Agent,1,2404,1194,3598,0.03598,4617,success,prod
+2026-06-27T15:48:27.244999,Anthropic,Claude-4-Sonnet,fb2bfeb8-d37e-4320-9afe-e1f3c13c6764,user-8,support-assistant,Security,Incident Analysis,FinOps Agent,1,4851,2870,7721,0.07721,2324,success,stage
+2026-06-14T01:39:27.245019,OpenAI,GPT-4.1,cf2efe4f-3a11-44d6-9e9d-0aaed70d39d3,user-37,aiopsvista,Platform,Incident Analysis,Security Agent,1,4907,3324,8231,0.08231,3501,success,prod
+2026-06-20T20:39:27.245036,GitHub Copilot,Copilot-Chat,1159bdf0-20e1-4eaa-a1a6-1cef742b54ec,user-22,security-copilot,Product Engineering,Knowledge Search,Platform Agent,1,5071,1582,6653,0.06653,366,success,dev
+2026-06-07T19:51:27.245053,GitHub Copilot,Copilot-Chat,cf219785-70de-443b-a7c0-88978a3db44d,user-39,rag-platform,Data Engineering,Customer Support,Security Agent,1,1993,670,2663,0.02663,289,success,prod
+2026-06-01T06:45:27.245069,GitHub Copilot,Copilot-Chat,c7f2c896-2ae2-4c01-b9a6-41fd7f85dd8f,user-42,rag-platform,Platform,Root Cause Analysis,FinOps Agent,1,7535,3963,11498,0.11498,343,success,prod
+2026-06-25T16:48:27.245086,Vertex AI,Gemini-on-Vertex,19ab99fa-3058-40e3-a133-72f0b6b97806,user-3,developer-portal,Security,Incident Analysis,Incident Agent,1,3611,2406,6017,0.06017,3115,success,prod
+2026-06-08T16:23:27.245101,Vertex AI,Gemini-on-Vertex,46b6d301-8d49-4bb3-94e2-88facb072535,user-36,rag-platform,Data Engineering,Documentation,Security Agent,1,4099,1530,5629,0.05629,4856,success,prod
+2026-05-31T17:41:27.245117,OpenAI,GPT-4.1,dac027a8-9768-407c-b9b6-ab344641aede,user-41,rag-platform,Platform,Incident Analysis,Security Agent,1,2609,3449,6058,0.06058,3340,success,prod
+2026-06-11T02:51:27.245198,Vertex AI,Gemini-on-Vertex,fd39224c-a100-44dd-bd5e-49cb3fe3efe5,user-30,support-assistant,Customer Support,Knowledge Search,Platform Agent,1,5776,3373,9149,0.09149,1268,success,prod
+2026-06-05T14:42:27.245231,Vertex AI,Gemini-on-Vertex,5bb80752-322d-47b9-a489-86b75900c77c,user-30,incident-platform,Customer Support,Knowledge Search,Code Assistant,1,7294,3175,10469,0.10469,193,error,prod
+2026-06-30T02:39:27.245251,Anthropic,Claude-4-Sonnet,334b97c6-044d-4196-9c70-fdf18c660dce,user-26,aiopsvista,Data Engineering,Incident Analysis,FinOps Agent,1,2565,2324,4889,0.04889,4704,success,prod
+2026-06-25T23:19:27.245270,GitHub Copilot,Copilot-Chat,eb6c2289-f659-4f87-b41e-668df2a99394,user-13,incident-platform,Platform,Knowledge Search,Security Agent,1,5591,3262,8853,0.08853,2151,success,stage
+2026-06-27T18:42:27.245287,OpenAI,GPT-4.1,3465544c-8e0f-4735-8a93-d2fb1888a6d6,user-4,aiopsvista,Customer Support,Customer Support,Code Assistant,1,2725,1267,3992,0.03992,2044,timeout,stage
+2026-06-18T14:42:27.245304,Vertex AI,Gemini-on-Vertex,e78d9364-ba16-4ea2-8da0-a7a1a817ba0a,user-8,security-copilot,Platform,Incident Analysis,Code Assistant,1,3234,3208,6442,0.06442,2291,success,prod
+2026-06-09T10:33:27.245326,GitHub Copilot,Copilot-Chat,d461ffe5-3ca8-42e6-92f0-0e085b537a3c,user-26,incident-platform,SRE,CI/CD Assistant,Platform Agent,1,3854,398,4252,0.04252,3396,success,prod
+2026-06-11T15:09:27.245358,GitHub Copilot,Copilot-Chat,4f015803-13b6-4942-9471-dea88ef7b9cd,user-20,incident-platform,Customer Support,CI/CD Assistant,FinOps Agent,1,5392,1925,7317,0.07317,2455,success,stage
+2026-06-01T11:23:27.245376,Gemini,Gemini-2.5-Flash,145c8bd8-9557-457f-a779-973679486855,user-3,support-assistant,Customer Support,Incident Analysis,Incident Agent,1,6994,1395,8389,0.08389,472,success,stage
+2026-06-18T20:45:27.245393,Anthropic,Claude-4-Sonnet,7762fb10-3efd-4d83-a7a1-97882656d014,user-5,support-assistant,Security,Documentation,Platform Agent,1,6575,2247,8822,0.08822,4261,success,prod
+2026-06-14T03:49:27.245409,Anthropic,Claude-4-Sonnet,053120b3-1109-4ec3-8e93-0b5b8dc73b2a,user-5,incident-platform,Security,Root Cause Analysis,Platform Agent,1,7820,2540,10360,0.1036,3437,success,stage
+2026-06-15T00:52:27.245573,OpenAI,GPT-4.1,6b2095e2-8046-4a0f-a5ad-6870530032e3,user-29,aiopsvista,Platform,Incident Analysis,Incident Agent,1,3089,2414,5503,0.05503,905,success,dev
+2026-06-01T00:41:27.245628,GitHub Copilot,Copilot-Chat,85a2075c-1ba0-4316-8dfa-6ee6d9135075,user-14,aiopsvista,Security,Documentation,Code Assistant,1,6201,384,6585,0.06585,4230,success,prod
+2026-06-25T03:59:27.245667,OpenAI,GPT-4.1,4c5c5185-2857-4902-bcb6-cbe9df05808e,user-34,support-assistant,Product Engineering,Customer Support,FinOps Agent,1,754,3627,4381,0.04381,4537,success,prod
+2026-06-21T20:54:27.245707,OpenAI,GPT-4o,d0600bb9-e5dd-4e66-862b-e47c7cb3d2c4,user-9,security-copilot,Platform,Code Review,Platform Agent,1,2653,1321,3974,0.03974,1559,success,prod
+2026-06-11T01:14:27.245738,OpenAI,GPT-4.1,f0c6558b-e55e-4d3f-8d10-1f082121f164,user-21,support-assistant,Security,Root Cause Analysis,Security Agent,1,6917,160,7077,0.07077,3736,success,prod
+2026-06-23T22:51:27.245764,OpenAI,GPT-4o,e05fe3d0-2dfa-460a-b7e5-7df8ff3a20b5,user-18,rag-platform,Security,Root Cause Analysis,FinOps Agent,1,1000,1311,2311,0.02311,4983,success,prod
+2026-06-07T17:44:27.245827,OpenAI,GPT-4o,20a6d5f3-753f-42ab-bc33-468fd3480876,user-41,incident-platform,Data Engineering,Code Review,FinOps Agent,1,7397,608,8005,0.08005,4956,success,prod
+2026-06-09T20:17:27.245868,Gemini,Gemini-2.5-Pro,ae054f5d-e5be-4d52-adf7-896d79cc0cff,user-37,security-copilot,Data Engineering,Root Cause Analysis,Code Assistant,1,6495,852,7347,0.07347,2135,success,prod
+2026-06-12T15:43:27.245896,Gemini,Gemini-2.5-Pro,b218b631-d484-42ec-8366-d5bcc0a5fcf5,user-13,incident-platform,Customer Support,Knowledge Search,Incident Agent,1,1423,2690,4113,0.04113,1610,success,dev
+2026-06-07T23:48:27.245915,OpenAI,GPT-4.1,cbfdd26d-e9ca-49c9-8b40-369a854e4092,user-3,support-assistant,Product Engineering,Root Cause Analysis,FinOps Agent,1,2560,2285,4845,0.04845,2529,success,stage
+2026-06-01T05:58:27.245933,Vertex AI,Gemini-on-Vertex,81c6bba0-9dd5-44c3-a0b0-4a1127918b85,user-22,developer-portal,Product Engineering,Incident Analysis,Incident Agent,1,4055,3126,7181,0.07181,4099,success,stage
+2026-06-07T13:57:27.245952,Vertex AI,Gemini-on-Vertex,a04f0766-3e2b-42d3-810f-fba51b684d09,user-43,support-assistant,Product Engineering,Knowledge Search,Incident Agent,1,262,2481,2743,0.02743,962,success,stage
+2026-06-22T15:44:27.245969,Gemini,Gemini-2.5-Flash,dde28c99-cf39-428c-8cec-d9d307d827e0,user-17,aiopsvista,SRE,Code Review,Security Agent,1,4234,1411,5645,0.05645,1181,success,prod
+2026-06-04T11:36:27.245990,GitHub Copilot,Copilot-Chat,2d0be4dc-e583-4968-bdcf-3bf1a2ddf727,user-36,security-copilot,Platform,Knowledge Search,FinOps Agent,1,6082,1471,7553,0.07553,274,success,prod
+2026-06-12T16:51:27.246050,GitHub Copilot,Copilot-Chat,e7a18b9d-1f98-49b2-83c5-4830b80c14df,user-43,incident-platform,Security,Root Cause Analysis,Platform Agent,1,4948,579,5527,0.05527,3000,timeout,prod
+2026-06-23T19:44:27.246108,Anthropic,Claude-4-Sonnet,fce2f714-cf43-46c0-b6d3-5e7ab09165f3,user-13,aiopsvista,Customer Support,Root Cause Analysis,Support Agent,1,952,354,1306,0.01306,1926,success,stage
+2026-06-10T01:37:27.246170,OpenAI,GPT-4o,b9324861-d090-40a2-9725-b387541a7a4c,user-33,incident-platform,Data Engineering,Root Cause Analysis,FinOps Agent,1,1115,2661,3776,0.03776,4961,success,prod
+2026-05-30T10:19:27.246202,GitHub Copilot,Copilot-Chat,96549096-4d96-43bf-a4f2-000e46f83157,user-50,incident-platform,Data Engineering,Knowledge Search,Security Agent,1,3347,604,3951,0.03951,1979,rate_limited,prod
+2026-06-12T00:20:27.246222,Anthropic,Claude-4-Sonnet,6639eb5b-3d89-485c-bc60-d3afffc98064,user-6,support-assistant,Data Engineering,Code Review,Security Agent,1,265,3061,3326,0.03326,3549,success,prod
+2026-06-18T18:41:27.246331,Anthropic,Claude-4-Sonnet,93b3c4d4-7b93-4ae1-af49-cfe6f2cbb66a,user-45,security-copilot,Product Engineering,Documentation,Incident Agent,1,4906,360,5266,0.05266,2491,success,prod
+2026-06-13T08:06:27.246364,Anthropic,Claude-4-Sonnet,283c7c22-e80d-4809-886f-30e8e1720e9d,user-9,incident-platform,Platform,Root Cause Analysis,FinOps Agent,1,7894,2864,10758,0.10758,2025,success,prod
+2026-06-27T17:44:27.246385,Gemini,Gemini-2.5-Pro,5dd0b4fb-081a-470d-bde9-827cac6a88c7,user-19,incident-platform,Platform,Code Review,Incident Agent,1,941,3750,4691,0.04691,2204,success,prod
+2026-06-02T13:32:27.246403,Anthropic,Claude-4-Sonnet,726db18c-ef4c-427c-818b-f77eaba58826,user-45,aiopsvista,Security,CI/CD Assistant,Platform Agent,1,7502,2047,9549,0.09549,3369,success,prod
+2026-06-28T13:45:27.246421,Anthropic,Claude-4-Sonnet,ba97a9d8-a428-4c12-b65f-08784822cb5f,user-2,support-assistant,Security,CI/CD Assistant,Code Assistant,1,391,1631,2022,0.02022,2257,success,prod
+2026-06-21T22:08:27.246439,OpenAI,GPT-4.1,15aa5089-52fd-4082-b3c7-4f2fd51f8912,user-42,developer-portal,Security,Incident Analysis,Incident Agent,1,7942,752,8694,0.08694,2992,success,prod
+2026-06-06T17:46:27.246456,Anthropic,Claude-4-Sonnet,94c215fe-dfc2-4811-9862-372578a16d97,user-50,support-assistant,Platform,Code Review,Security Agent,1,4274,3670,7944,0.07944,2501,success,prod
+2026-06-13T20:36:27.246473,Vertex AI,Gemini-on-Vertex,42ee7993-029a-4e4c-a5f7-bb298a51507e,user-38,rag-platform,Customer Support,Code Review,Incident Agent,1,7791,1961,9752,0.09752,1485,success,prod
+2026-06-03T05:23:27.246490,OpenAI,GPT-4.1,f4231a6a-7c27-4ce2-b49e-41e92c2604e6,user-36,aiopsvista,Security,Code Review,Support Agent,1,7509,2289,9798,0.09798,3059,success,prod
+2026-06-07T05:02:27.246511,Vertex AI,Gemini-on-Vertex,d57984e4-b240-4679-945a-eff9b2942cf2,user-29,security-copilot,Security,Incident Analysis,Security Agent,1,6480,1153,7633,0.07633,1268,success,prod
+2026-06-06T06:07:27.246543,Vertex AI,Gemini-on-Vertex,10411dd3-e09e-41ff-bda7-24b18c790b4a,user-8,incident-platform,Customer Support,Code Review,Code Assistant,1,365,1310,1675,0.01675,4954,success,prod
+2026-06-09T12:32:27.246563,OpenAI,GPT-4o,b99c38a7-6e46-44ad-93c1-eb778d4a4e22,user-44,incident-platform,SRE,Customer Support,Security Agent,1,3574,245,3819,0.03819,342,success,dev
+2026-06-02T22:09:27.246664,GitHub Copilot,Copilot-Chat,120faf75-a5da-4518-bb28-e2acecab7de7,user-4,support-assistant,Product Engineering,Code Review,Code Assistant,1,7334,366,7700,0.077,4439,success,prod
+2026-06-19T21:21:27.246699,Vertex AI,Gemini-on-Vertex,3207fec3-ddb2-428b-8881-a315bb380c5e,user-2,rag-platform,Customer Support,Documentation,Incident Agent,1,2530,3851,6381,0.06381,950,success,prod
+2026-06-10T03:01:27.246721,Vertex AI,Gemini-on-Vertex,ce62c986-e432-41da-860e-8eb28624a874,user-13,aiopsvista,Data Engineering,Code Review,Platform Agent,1,7445,3822,11267,0.11267,1297,success,prod
+2026-06-10T20:59:27.246742,GitHub Copilot,Copilot-Chat,57b2a4d8-3b57-46bf-9198-2e21b48c314d,user-16,incident-platform,SRE,Knowledge Search,Incident Agent,1,3018,1220,4238,0.04238,4128,success,prod
+2026-06-01T15:45:27.246777,GitHub Copilot,Copilot-Chat,53b9c4eb-8d5b-4be9-8541-ee7b3975e718,user-16,support-assistant,Customer Support,Customer Support,FinOps Agent,1,3072,3858,6930,0.0693,4580,success,prod
+2026-06-01T06:44:27.246797,Vertex AI,Gemini-on-Vertex,f94c5bdc-7da9-4ec0-acda-43e85ab21146,user-36,developer-portal,Platform,Knowledge Search,Support Agent,1,7711,1639,9350,0.0935,4231,success,prod
+2026-06-16T03:58:27.246815,Vertex AI,Gemini-on-Vertex,f61f38f7-6da9-43bc-9084-35ea0dde0485,user-3,security-copilot,Platform,Customer Support,Security Agent,1,2020,3466,5486,0.05486,3843,success,prod
+2026-06-11T18:33:27.246833,OpenAI,GPT-4o,d66dc936-1a65-4299-b9b9-236736ac59fa,user-28,aiopsvista,SRE,Code Review,FinOps Agent,1,5201,2784,7985,0.07985,4015,success,dev
+2026-06-21T05:58:27.246850,OpenAI,GPT-4o,377a5902-4b0f-487d-8eb1-8fddc976b6fe,user-33,developer-portal,Data Engineering,Incident Analysis,FinOps Agent,1,1550,1265,2815,0.02815,645,success,prod
+2026-06-24T18:17:27.246868,Vertex AI,Gemini-on-Vertex,32ab207a-699d-4461-9b7d-bf26e4129668,user-26,incident-platform,Platform,Knowledge Search,Code Assistant,1,4615,2975,7590,0.0759,2769,success,dev
+2026-06-24T07:47:27.246885,Gemini,Gemini-2.5-Pro,6a0cde75-17a6-4b42-9fd0-c41834a9de5d,user-19,incident-platform,Data Engineering,Code Review,Security Agent,1,7542,511,8053,0.08053,4283,success,dev
+2026-06-10T00:54:27.246908,Vertex AI,Gemini-on-Vertex,40de0374-2ea6-4fc3-bc06-e5f3dc48ff3f,user-36,developer-portal,Customer Support,CI/CD Assistant,Code Assistant,1,1662,2509,4171,0.04171,3780,success,prod
+2026-06-18T07:23:27.246938,Gemini,Gemini-2.5-Pro,a4e6b940-b93d-441b-8b5d-d1454821f2df,user-50,developer-portal,SRE,Documentation,Security Agent,1,5513,814,6327,0.06327,2890,success,prod
+2026-06-20T23:39:27.246956,Anthropic,Claude-4-Sonnet,68b2901a-5f85-43f6-b6f1-24f26b0ef360,user-8,aiopsvista,Customer Support,Incident Analysis,Code Assistant,1,2907,1590,4497,0.04497,2948,success,prod
+2026-06-03T07:03:27.246974,OpenAI,GPT-4o,3a0b271b-8fff-4a6c-8221-236342afca78,user-40,incident-platform,Customer Support,Root Cause Analysis,Security Agent,1,7930,895,8825,0.08825,1540,success,stage
+2026-06-17T17:14:27.246991,GitHub Copilot,Copilot-Chat,44953cb0-0ee4-43ae-9092-5972773c520f,user-42,aiopsvista,SRE,Code Review,Support Agent,1,6649,547,7196,0.07196,3419,success,prod
+2026-06-14T18:06:27.247008,OpenAI,GPT-4.1,f5476a82-1d3f-45a6-a111-4ffb6a830610,user-14,rag-platform,SRE,Knowledge Search,Support Agent,1,4407,2545,6952,0.06952,4192,success,prod
+2026-06-09T00:22:27.247025,OpenAI,GPT-4.1,c1381ccf-d08f-4752-84cb-80894db25932,user-26,rag-platform,SRE,Code Review,Platform Agent,1,5265,3193,8458,0.08458,4251,success,stage
+2026-06-03T01:32:27.247041,Vertex AI,Gemini-on-Vertex,b29481d5-ac08-452a-9c2d-2bbddaf42479,user-33,incident-platform,Customer Support,Code Review,Security Agent,1,1959,1333,3292,0.03292,3097,success,prod
+2026-06-23T03:01:27.247059,Gemini,Gemini-2.5-Pro,73f6604b-ab47-4581-baad-40fedab191d8,user-50,incident-platform,Data Engineering,Incident Analysis,Support Agent,1,5301,1879,7180,0.0718,3565,success,prod
+2026-06-02T15:39:27.247076,Gemini,Gemini-2.5-Pro,5cca1e21-df7b-427f-89e6-6c50156d761c,user-16,support-assistant,Customer Support,Knowledge Search,Incident Agent,1,5380,2131,7511,0.07511,829,success,dev
+2026-06-29T17:29:27.247093,Anthropic,Claude-4-Sonnet,a9437074-c0ae-4078-91f2-7abad47c7ee8,user-10,aiopsvista,Security,Knowledge Search,Support Agent,1,214,1946,2160,0.0216,2056,success,prod
+2026-05-31T07:52:27.247111,Gemini,Gemini-2.5-Flash,0849faf3-2605-493c-9fe3-15fb339a09ac,user-46,incident-platform,Platform,Knowledge Search,Incident Agent,1,1943,2510,4453,0.04453,3137,timeout,prod
+2026-05-31T05:34:27.247129,Vertex AI,Gemini-on-Vertex,07d990f0-f255-4942-925f-3895423804ab,user-10,aiopsvista,Customer Support,Code Review,Support Agent,1,5024,1149,6173,0.06173,4428,success,prod
+2026-06-28T07:36:27.247147,Vertex AI,Gemini-on-Vertex,a6d6acb6-d3a7-4926-be1b-db9c0c431c7a,user-31,aiopsvista,Data Engineering,Customer Support,FinOps Agent,1,3981,466,4447,0.04447,1306,success,prod
+2026-06-17T06:31:27.247164,Anthropic,Claude-4-Sonnet,16cfa454-10da-4b8a-a0fd-5985a51ae75b,user-36,support-assistant,Security,Customer Support,FinOps Agent,1,4386,1460,5846,0.05846,3275,success,prod
+2026-06-27T03:07:27.247182,GitHub Copilot,Copilot-Chat,1968b267-55fb-48e7-b145-289eef0edb18,user-25,aiopsvista,Customer Support,Customer Support,FinOps Agent,1,1285,2866,4151,0.04151,1058,success,stage
+2026-06-17T10:49:27.247199,Vertex AI,Gemini-on-Vertex,858f3ad3-a667-4f64-a9de-18a0c367dcae,user-38,security-copilot,Data Engineering,Documentation,Support Agent,1,1852,3759,5611,0.05611,2319,success,prod
+2026-06-23T23:35:27.247216,GitHub Copilot,Copilot-Chat,6be43415-4fab-4eac-8489-24cab895e731,user-28,incident-platform,Data Engineering,Incident Analysis,Code Assistant,1,5779,1671,7450,0.0745,4883,success,prod
+2026-06-13T15:56:27.247233,Gemini,Gemini-2.5-Pro,c9630d02-c520-4e92-bb26-b5f730364d08,user-17,support-assistant,Customer Support,Knowledge Search,Code Assistant,1,1411,2462,3873,0.03873,3914,success,prod
+2026-06-23T07:19:27.247249,OpenAI,GPT-4.1,a7416fa5-bfdf-48c8-86dd-71aef1fd7403,user-14,developer-portal,Customer Support,Customer Support,Code Assistant,1,6655,400,7055,0.07055,4457,success,prod
+2026-06-26T23:08:27.247275,OpenAI,GPT-4o,b4a675b6-ddd0-4561-ac1d-2eb1b1976fea,user-12,aiopsvista,Product Engineering,Knowledge Search,Security Agent,1,5815,331,6146,0.06146,2419,success,prod
+2026-06-07T02:05:27.247300,Vertex AI,Gemini-on-Vertex,81e0c695-0222-4d85-a878-9b75c666fa4e,user-14,developer-portal,SRE,Documentation,FinOps Agent,1,6138,1413,7551,0.07551,4541,success,prod
+2026-06-13T10:50:27.247318,Anthropic,Claude-4-Sonnet,6997707b-4b18-4982-8cd1-41c81e98d100,user-39,support-assistant,Platform,Knowledge Search,Incident Agent,1,4651,2707,7358,0.07358,4220,success,prod
+2026-06-20T08:22:27.247335,Gemini,Gemini-2.5-Pro,e8cb0ada-c129-4f70-9552-80f91cedb984,user-20,aiopsvista,Customer Support,Knowledge Search,Platform Agent,1,4890,3502,8392,0.08392,2391,success,prod
+2026-05-31T16:47:27.247352,Anthropic,Claude-4-Sonnet,c8f87794-4d16-436f-9ff3-0d5740553069,user-5,incident-platform,Product Engineering,Knowledge Search,FinOps Agent,1,1497,1187,2684,0.02684,4455,success,dev
+2026-06-22T18:22:27.247369,Anthropic,Claude-4-Sonnet,7401ed67-1e01-40ba-95aa-309428f60850,user-21,aiopsvista,Data Engineering,CI/CD Assistant,Code Assistant,1,6602,1070,7672,0.07672,2450,success,prod
+2026-06-22T03:19:27.247385,Anthropic,Claude-4-Sonnet,27dd014c-09f2-4a96-862d-4b5c45e9e57a,user-13,rag-platform,Security,Customer Support,FinOps Agent,1,6473,470,6943,0.06943,645,success,stage
+2026-06-18T12:02:27.247402,GitHub Copilot,Copilot-Chat,03743c34-9240-49a8-bb2c-78ce1f4dc50c,user-39,security-copilot,Product Engineering,Knowledge Search,Support Agent,1,1964,2446,4410,0.0441,4244,success,prod
+2026-06-07T22:27:27.247419,Vertex AI,Gemini-on-Vertex,7f02585c-6c4b-4f7b-80ee-1c897b18eefd,user-44,rag-platform,Customer Support,Code Review,Security Agent,1,535,3973,4508,0.04508,3852,success,stage
+2026-06-25T15:18:27.247436,Gemini,Gemini-2.5-Pro,e1574e4b-f1e8-4545-8add-b3c1765b76c6,user-48,incident-platform,Product Engineering,Documentation,Support Agent,1,4066,165,4231,0.04231,778,success,prod
+2026-06-06T02:14:27.247453,Anthropic,Claude-4-Sonnet,051135ef-45f0-415d-95b2-7fbd56a8ab12,user-45,rag-platform,Platform,Customer Support,FinOps Agent,1,5389,631,6020,0.0602,2037,success,stage
+2026-05-31T08:49:27.247534,OpenAI,GPT-4o,db138aec-815f-4198-a410-d658c7f68e54,user-24,aiopsvista,SRE,CI/CD Assistant,FinOps Agent,1,1810,2620,4430,0.0443,2051,success,prod
+2026-06-27T20:31:27.247568,GitHub Copilot,Copilot-Chat,7254a823-d3c0-4c67-9102-06139430985b,user-32,incident-platform,SRE,Code Review,Incident Agent,1,6718,850,7568,0.07568,300,success,prod
+2026-06-09T19:40:27.247587,Gemini,Gemini-2.5-Flash,8c821f18-756d-4fb5-9c95-094ac3f4e53b,user-31,support-assistant,Customer Support,Incident Analysis,Incident Agent,1,597,2319,2916,0.02916,4420,success,prod
+2026-05-30T11:41:27.247604,Gemini,Gemini-2.5-Flash,94c5f5fd-6814-4c09-98a0-4bc4599c830a,user-40,rag-platform,Data Engineering,Customer Support,Code Assistant,1,449,469,918,0.00918,872,success,prod
+2026-06-21T05:46:27.247621,GitHub Copilot,Copilot-Chat,df8b33cd-09d3-41a0-9524-c53396afec7f,user-36,aiopsvista,Security,Incident Analysis,Code Assistant,1,6041,1426,7467,0.07467,639,success,prod
+2026-06-03T04:39:27.247653,Anthropic,Claude-4-Sonnet,723cec7b-2051-4529-9dba-de9b43976672,user-8,support-assistant,Product Engineering,Knowledge Search,Code Assistant,1,7040,3777,10817,0.10817,1925,success,prod
+2026-06-03T08:57:27.247673,GitHub Copilot,Copilot-Chat,8c5dc149-5cf4-485a-8575-5a7a3cf322f7,user-11,rag-platform,Customer Support,Root Cause Analysis,Code Assistant,1,4571,2488,7059,0.07059,2249,success,prod
+2026-06-21T16:02:27.247689,Gemini,Gemini-2.5-Flash,6466b3ce-4be5-4c31-a48e-304eab6aafa6,user-8,aiopsvista,SRE,Customer Support,Security Agent,1,7375,836,8211,0.08211,1088,success,prod
+2026-06-10T21:39:27.247705,OpenAI,GPT-4o,bf10e7b1-fff1-46c9-b4d4-bb03a20f19d1,user-19,security-copilot,Platform,Customer Support,Support Agent,1,2239,919,3158,0.03158,4863,success,prod
+2026-05-30T16:17:27.247721,Gemini,Gemini-2.5-Flash,88a50bb7-4a34-4579-b847-5e3348e057e0,user-30,rag-platform,Customer Support,Root Cause Analysis,Security Agent,1,3517,701,4218,0.04218,4027,success,dev
+2026-06-21T15:13:27.247737,Vertex AI,Gemini-on-Vertex,c857dbfb-0288-4664-a95f-b1200d11a9d5,user-41,aiopsvista,Data Engineering,Code Review,Support Agent,1,6599,376,6975,0.06975,2686,success,stage
+2026-06-24T23:31:27.247752,Gemini,Gemini-2.5-Pro,0448116d-8def-4f43-9156-49850292dbc7,user-46,security-copilot,SRE,Customer Support,Incident Agent,1,928,2843,3771,0.03771,2604,success,stage
+2026-05-31T06:46:27.247768,GitHub Copilot,Copilot-Chat,6a9e0e5f-a29c-4c59-a511-094232f3dec9,user-41,support-assistant,Data Engineering,CI/CD Assistant,FinOps Agent,1,5787,218,6005,0.06005,3197,success,stage
+2026-06-02T01:10:27.247784,Vertex AI,Gemini-on-Vertex,43b50d16-e918-4613-900c-cfa862dec84d,user-42,support-assistant,Platform,Documentation,Support Agent,1,6788,199,6987,0.06987,606,success,prod
+2026-06-21T01:23:27.247799,GitHub Copilot,Copilot-Chat,44123a29-fe5d-4e6c-af7a-17f37cc4fde8,user-47,aiopsvista,Product Engineering,Documentation,FinOps Agent,1,5978,3914,9892,0.09892,999,success,stage
+2026-06-06T18:38:27.247830,GitHub Copilot,Copilot-Chat,0ab89931-3b03-4ce7-8c17-3e372ae3089c,user-20,support-assistant,Platform,Documentation,Support Agent,1,7638,1574,9212,0.09212,4425,success,prod
+2026-06-19T00:32:27.247870,Gemini,Gemini-2.5-Flash,01d7c361-40c3-48cd-a158-5ff740bdef76,user-15,developer-portal,SRE,Knowledge Search,Security Agent,1,4762,298,5060,0.0506,2397,success,prod
+2026-06-24T03:18:27.247891,Gemini,Gemini-2.5-Flash,a6de7544-5996-4107-a28c-2cd92ae89f1b,user-3,developer-portal,Customer Support,Root Cause Analysis,FinOps Agent,1,1057,1589,2646,0.02646,4186,success,prod
+2026-06-07T09:55:27.247909,Gemini,Gemini-2.5-Pro,30c08e3b-1f97-4126-a93f-61a152eac72b,user-9,support-assistant,SRE,Customer Support,Security Agent,1,2864,3532,6396,0.06396,2358,success,stage
+2026-06-26T08:53:27.247925,Anthropic,Claude-4-Sonnet,3a465498-cc75-4eea-bb98-0d71a04b64d2,user-18,aiopsvista,Customer Support,CI/CD Assistant,Platform Agent,1,2684,2486,5170,0.0517,2500,success,prod
+2026-06-12T21:05:27.247941,Anthropic,Claude-4-Sonnet,c32fb72f-9d83-42b6-9b75-1b2e3ff217d7,user-37,security-copilot,Data Engineering,Incident Analysis,Security Agent,1,4740,93,4833,0.04833,964,success,prod
+2026-06-02T11:09:27.247957,OpenAI,GPT-4.1,2c898a69-2398-46b2-b690-5fa0acfec83a,user-45,incident-platform,Product Engineering,Root Cause Analysis,Incident Agent,1,4934,2649,7583,0.07583,4682,success,stage
+2026-06-20T00:36:27.247972,Anthropic,Claude-4-Sonnet,9ede4927-8fbf-4620-8924-6e4c0c232f38,user-44,developer-portal,SRE,Incident Analysis,Incident Agent,1,6689,3501,10190,0.1019,4348,success,stage
+2026-06-17T16:27:27.247987,Anthropic,Claude-4-Sonnet,a560a853-5f6e-4517-bbad-f176739b274f,user-25,developer-portal,Security,Incident Analysis,Incident Agent,1,2331,2633,4964,0.04964,4472,success,dev
+2026-06-17T22:37:27.248003,GitHub Copilot,Copilot-Chat,1f3844b3-9034-44dd-8e58-ee35fb4bf446,user-20,security-copilot,SRE,Root Cause Analysis,Platform Agent,1,2397,1816,4213,0.04213,2789,success,prod
+2026-06-01T01:37:27.248018,OpenAI,GPT-4.1,2676674e-5abc-4fb8-bb47-012ef6bc5f78,user-11,aiopsvista,Data Engineering,Incident Analysis,Code Assistant,1,2505,3155,5660,0.0566,4123,success,prod
+2026-06-14T21:33:27.248051,Anthropic,Claude-4-Sonnet,5d494687-6044-4cf4-afbd-02e4257c23e6,user-10,support-assistant,Customer Support,Incident Analysis,Incident Agent,1,5931,638,6569,0.06569,791,success,stage
+2026-06-25T15:45:27.248069,Gemini,Gemini-2.5-Flash,b57ea661-b757-4923-9a4b-9a3cc4d314f3,user-11,aiopsvista,Product Engineering,Root Cause Analysis,Code Assistant,1,2999,926,3925,0.03925,3136,success,prod
+2026-06-17T14:47:27.248085,Vertex AI,Gemini-on-Vertex,0fe4f6c5-e840-4d86-b929-8cbb7b482e24,user-28,security-copilot,Product Engineering,Customer Support,Code Assistant,1,5796,2092,7888,0.07888,3175,success,stage
+2026-06-27T01:27:27.248101,Vertex AI,Gemini-on-Vertex,c83b2f03-0852-4866-ba2b-3f69068f1ff8,user-3,aiopsvista,SRE,Customer Support,Incident Agent,1,3266,3014,6280,0.0628,4529,success,prod
+2026-06-02T07:04:27.248117,Vertex AI,Gemini-on-Vertex,03226d17-195a-495f-8c4c-421c473d9d4a,user-17,security-copilot,SRE,Knowledge Search,FinOps Agent,1,7799,3544,11343,0.11343,4690,success,prod
+2026-06-05T02:50:27.248133,GitHub Copilot,Copilot-Chat,8451e909-acf2-4f07-859d-0fd7ae2d2e6e,user-8,developer-portal,Customer Support,Incident Analysis,Support Agent,1,3588,3131,6719,0.06719,4704,success,dev
+2026-06-25T08:49:27.248148,GitHub Copilot,Copilot-Chat,977d1438-46ed-4b33-869a-358092d05b45,user-17,rag-platform,Product Engineering,Documentation,FinOps Agent,1,7934,898,8832,0.08832,2360,success,stage
+2026-06-22T21:22:27.248165,Anthropic,Claude-4-Sonnet,a655a4bd-74bd-480a-944d-776f13be6438,user-1,security-copilot,Platform,Knowledge Search,Support Agent,1,4884,3426,8310,0.0831,2743,success,prod
+2026-06-14T08:19:27.248182,Anthropic,Claude-4-Sonnet,e107f8ab-71c6-4a44-9e83-28f1c58f1cce,user-6,developer-portal,Platform,CI/CD Assistant,Support Agent,1,7805,3143,10948,0.10948,1385,success,stage
+2026-06-08T23:20:27.248198,Gemini,Gemini-2.5-Flash,ae857c07-8489-4e59-b8e2-f34887b5acf4,user-27,support-assistant,Customer Support,Root Cause Analysis,Security Agent,1,5815,2796,8611,0.08611,4255,success,prod
+2026-06-28T12:26:27.248213,Vertex AI,Gemini-on-Vertex,e4308136-a6a9-4b8d-a5ca-645781a4d6fc,user-2,security-copilot,Data Engineering,Documentation,Support Agent,1,1503,3552,5055,0.05055,4691,success,stage
+2026-06-01T12:10:27.248228,OpenAI,GPT-4.1,8a19f275-cc8a-4c4b-ae18-aed2ad6ea026,user-21,security-copilot,SRE,Incident Analysis,Platform Agent,1,455,778,1233,0.01233,1189,success,prod
+2026-06-01T19:58:27.248244,GitHub Copilot,Copilot-Chat,65089048-d9ea-4c0d-84d0-78ae6edd2984,user-47,incident-platform,Product Engineering,Knowledge Search,Security Agent,1,1159,2695,3854,0.03854,853,success,prod
+2026-06-28T14:08:27.248260,Gemini,Gemini-2.5-Pro,31a34c0d-5928-4a69-a12a-a8f9bac3a124,user-25,aiopsvista,SRE,Documentation,Support Agent,1,4508,1497,6005,0.06005,3160,success,stage
+2026-06-26T16:04:27.248276,Gemini,Gemini-2.5-Pro,9b14f01f-6715-4e9c-bcbc-a406033d2c7c,user-11,support-assistant,Customer Support,Knowledge Search,Platform Agent,1,1183,234,1417,0.01417,621,success,prod
+2026-06-24T06:04:27.248292,Anthropic,Claude-4-Sonnet,8ab90a5d-ff3b-4f7c-83ff-7b85cde67480,user-50,rag-platform,Data Engineering,Root Cause Analysis,Code Assistant,1,2517,3526,6043,0.06043,979,success,prod
+2026-06-23T20:44:27.248383,Vertex AI,Gemini-on-Vertex,0e9e160c-6725-4d31-84d5-a612dee0e8c4,user-12,support-assistant,Customer Support,Knowledge Search,Incident Agent,1,2462,202,2664,0.02664,1462,success,stage
+2026-06-29T18:08:27.248424,GitHub Copilot,Copilot-Chat,dc6d179b-6fde-40b8-98af-8fd27ea60b6d,user-40,rag-platform,Security,Incident Analysis,Platform Agent,1,3627,3263,6890,0.0689,1259,success,prod
+2026-06-29T02:35:27.248444,Gemini,Gemini-2.5-Flash,4be15296-ec58-4874-abbf-2eb77867d0e9,user-23,aiopsvista,Platform,CI/CD Assistant,Incident Agent,1,7602,3509,11111,0.11111,4062,success,prod
+2026-06-21T05:07:27.248462,Anthropic,Claude-4-Sonnet,8c3dec5a-ae9e-4dea-9135-1bdbcecdeab7,user-22,aiopsvista,Platform,Incident Analysis,Security Agent,1,5836,3608,9444,0.09444,4910,success,prod
+2026-06-26T18:32:27.248478,GitHub Copilot,Copilot-Chat,9f224e73-3373-4d3a-8a56-bd45af65fe95,user-22,developer-portal,Platform,Code Review,FinOps Agent,1,3700,1588,5288,0.05288,670,success,prod
+2026-06-17T21:27:27.248495,Anthropic,Claude-4-Sonnet,f27160d3-0889-46fe-bbd8-259d91ca88b6,user-28,support-assistant,Security,Customer Support,FinOps Agent,1,966,1339,2305,0.02305,1138,success,stage
+2026-06-13T17:40:27.248511,Anthropic,Claude-4-Sonnet,4605f57a-d08d-43c1-bd93-e76d27b5cdba,user-43,rag-platform,SRE,Incident Analysis,Platform Agent,1,3154,3532,6686,0.06686,2893,success,prod
+2026-06-13T08:43:27.248526,Gemini,Gemini-2.5-Pro,509d968b-c0eb-4452-9d7e-b5df4247be0c,user-24,aiopsvista,SRE,CI/CD Assistant,Incident Agent,1,6974,2847,9821,0.09821,4930,timeout,prod
+2026-06-01T05:02:27.248542,Vertex AI,Gemini-on-Vertex,b7535508-2aab-438e-86cd-03d3ca7630b6,user-35,aiopsvista,Customer Support,Root Cause Analysis,Support Agent,1,3731,1639,5370,0.0537,3473,success,prod
+2026-06-15T00:33:27.248558,GitHub Copilot,Copilot-Chat,6b428001-64ad-4eb6-93eb-f208dea9e168,user-6,developer-portal,Data Engineering,Code Review,Incident Agent,1,1957,1539,3496,0.03496,2714,success,prod
+2026-06-14T02:42:27.248574,Gemini,Gemini-2.5-Flash,6b6ce388-7fe1-437f-a28b-21202f2d8d83,user-2,security-copilot,Platform,Code Review,Platform Agent,1,5422,1230,6652,0.06652,3074,success,prod
+2026-06-03T04:50:27.248590,OpenAI,GPT-4.1,be2ea36f-6d87-4d0e-961c-6d83498714c4,user-37,rag-platform,Data Engineering,Customer Support,Code Assistant,1,5108,1481,6589,0.06589,2675,success,prod
+2026-06-02T12:52:27.248605,OpenAI,GPT-4o,369c6db4-ec96-4ccb-b1b6-5adebec205fa,user-2,support-assistant,SRE,CI/CD Assistant,Security Agent,1,7163,394,7557,0.07557,1066,success,prod
+2026-06-04T22:38:27.248620,Gemini,Gemini-2.5-Flash,028b59ab-07af-4b91-a2f5-a9615a9f0df2,user-21,support-assistant,Data Engineering,Incident Analysis,Code Assistant,1,7454,1902,9356,0.09356,1589,success,prod
+2026-06-15T03:50:27.248636,Anthropic,Claude-4-Sonnet,e986254e-de00-4a2f-b67e-490e413a83b3,user-30,support-assistant,SRE,CI/CD Assistant,FinOps Agent,1,4488,639,5127,0.05127,3677,success,stage
+2026-06-13T05:31:27.248651,Gemini,Gemini-2.5-Pro,3a422aa0-2c37-4b37-b1b0-389cfd137e22,user-4,support-assistant,Product Engineering,Code Review,Code Assistant,1,2832,2410,5242,0.05242,4888,success,prod
+2026-06-26T03:46:27.248666,Anthropic,Claude-4-Sonnet,bab2b17d-669e-482c-b057-2a9098c84662,user-15,rag-platform,Security,Documentation,Incident Agent,1,6686,1595,8281,0.08281,3064,success,prod
+2026-06-30T00:52:27.248681,GitHub Copilot,Copilot-Chat,8d848519-b4db-473d-9b76-aacf2ee9de25,user-27,incident-platform,Customer Support,Customer Support,Platform Agent,1,2459,3164,5623,0.05623,652,success,stage
+2026-06-28T21:26:27.248697,Anthropic,Claude-4-Sonnet,21092443-8775-4170-8a65-9a305a761bde,user-25,developer-portal,Product Engineering,Knowledge Search,Incident Agent,1,6874,1745,8619,0.08619,2874,success,stage
+2026-06-26T23:39:27.248713,GitHub Copilot,Copilot-Chat,cf0fa243-c866-4896-91de-7dda7c7b9c21,user-11,support-assistant,Security,Incident Analysis,Incident Agent,1,1806,3759,5565,0.05565,4612,success,stage
+2026-06-20T08:41:27.248729,Anthropic,Claude-4-Sonnet,cdf005d5-3a76-430e-82f3-0bd0a8a82802,user-30,rag-platform,Product Engineering,Incident Analysis,Incident Agent,1,3435,3826,7261,0.07261,2829,error,stage
+2026-06-23T23:55:27.248745,GitHub Copilot,Copilot-Chat,a2817aec-3d6d-4ee5-b2ee-8fd773199e0c,user-11,rag-platform,Platform,Incident Analysis,Security Agent,1,1178,381,1559,0.01559,4323,success,prod
+2026-06-21T17:39:27.248761,Gemini,Gemini-2.5-Pro,f3621e7b-7043-458c-b726-23d35e84d18f,user-25,security-copilot,Product Engineering,Code Review,Support Agent,1,3770,611,4381,0.04381,3622,success,prod
+2026-06-06T08:41:27.248784,Anthropic,Claude-4-Sonnet,39952cef-52a3-4f1e-967b-d97974dc7718,user-48,aiopsvista,Data Engineering,Incident Analysis,Platform Agent,1,2712,2997,5709,0.05709,1184,success,prod
+2026-06-03T19:06:27.248810,OpenAI,GPT-4o,e616816d-3841-4e48-9683-8ee6942700f8,user-3,rag-platform,SRE,CI/CD Assistant,Platform Agent,1,4772,890,5662,0.05662,3190,success,prod
+2026-06-14T16:35:27.248826,OpenAI,GPT-4.1,9d9b0cbb-786c-41cb-9303-97917e3946a4,user-25,incident-platform,Security,Documentation,Code Assistant,1,3611,3719,7330,0.0733,237,success,prod
+2026-06-06T07:14:27.248916,Vertex AI,Gemini-on-Vertex,2b5f504c-a7b0-41cf-b2a0-861309bfd6a9,user-21,incident-platform,SRE,Root Cause Analysis,FinOps Agent,1,2054,629,2683,0.02683,4877,success,prod
+2026-06-11T13:01:27.248958,Anthropic,Claude-4-Sonnet,604c3efc-6b43-47d7-8e32-09ea4fea8c89,user-49,rag-platform,Product Engineering,Root Cause Analysis,Platform Agent,1,3090,2979,6069,0.06069,2768,success,prod
+2026-06-24T16:38:27.248978,Anthropic,Claude-4-Sonnet,218b3feb-1abd-450e-8f01-792d124adb83,user-44,support-assistant,Product Engineering,Root Cause Analysis,Support Agent,1,4199,3036,7235,0.07235,2897,success,prod
+2026-06-29T08:53:27.248995,Anthropic,Claude-4-Sonnet,4eef1294-8dd5-496c-a445-1071222c4548,user-41,support-assistant,Security,Documentation,Support Agent,1,1185,1037,2222,0.02222,4584,success,prod
+2026-06-26T17:20:27.249012,Anthropic,Claude-4-Sonnet,6622c54f-703d-4d5c-b260-867715970e35,user-44,rag-platform,Product Engineering,Documentation,Code Assistant,1,3545,1175,4720,0.0472,4432,success,prod
+2026-06-04T01:00:27.249029,Anthropic,Claude-4-Sonnet,570f1ee5-5b10-41dc-9f1f-e33835c8f871,user-50,developer-portal,SRE,Knowledge Search,Security Agent,1,1088,3864,4952,0.04952,2641,success,dev
+2026-06-19T07:41:27.249045,Anthropic,Claude-4-Sonnet,b23959e6-7228-4f43-ae8a-49b99e0ea72f,user-48,incident-platform,Platform,Customer Support,Code Assistant,1,7878,1095,8973,0.08973,2510,success,prod
+2026-06-21T10:17:27.249061,Vertex AI,Gemini-on-Vertex,624e3fee-0258-41ff-9252-97f02e4b1f13,user-20,aiopsvista,Customer Support,Knowledge Search,Security Agent,1,6685,1056,7741,0.07741,4928,success,prod
+2026-06-14T05:41:27.249077,GitHub Copilot,Copilot-Chat,a94b5e46-1a4a-4abe-b9d3-449b0e11935a,user-33,support-assistant,Customer Support,Documentation,Incident Agent,1,4661,1885,6546,0.06546,1122,success,dev
+2026-06-13T19:05:27.249094,GitHub Copilot,Copilot-Chat,ba2ad3b9-ff58-47db-9a84-f66f8cf094c5,user-50,incident-platform,Security,CI/CD Assistant,Support Agent,1,3717,2278,5995,0.05995,1154,success,stage
+2026-06-12T03:05:27.249109,OpenAI,GPT-4o,03d924a5-1675-4986-bd1d-7602f8fa0e2a,user-12,support-assistant,Customer Support,Documentation,Incident Agent,1,5841,240,6081,0.06081,722,success,stage
+2026-06-19T03:24:27.249141,GitHub Copilot,Copilot-Chat,479604ec-1fce-4310-90a5-f37cf279ae5c,user-31,support-assistant,Data Engineering,Root Cause Analysis,Support Agent,1,1392,1727,3119,0.03119,1373,success,prod
+2026-06-22T02:48:27.249160,Gemini,Gemini-2.5-Pro,0745cf6e-38bb-450e-aa4b-849208d73ca8,user-5,aiopsvista,Data Engineering,Customer Support,Code Assistant,1,2187,3067,5254,0.05254,2562,success,dev
+2026-05-31T23:25:27.249176,OpenAI,GPT-4o,76f9715e-9242-46dc-ad90-e3a5a48d4d8e,user-31,support-assistant,Product Engineering,Knowledge Search,Platform Agent,1,164,940,1104,0.01104,1443,success,stage
+2026-06-02T05:34:27.249193,GitHub Copilot,Copilot-Chat,136fc319-7513-4efa-a27a-daff0b45dbe9,user-21,aiopsvista,Security,Root Cause Analysis,Code Assistant,1,2382,2355,4737,0.04737,4122,success,prod
+2026-06-05T02:39:27.249209,Gemini,Gemini-2.5-Pro,286d61d3-b188-4a3c-ad4e-e6fc6720be1f,user-41,rag-platform,Security,Incident Analysis,FinOps Agent,1,6936,1466,8402,0.08402,1965,success,prod
+2026-06-02T09:56:27.249295,Gemini,Gemini-2.5-Flash,71e36bc1-b79f-4d59-95f7-5d6172cf8e8c,user-12,incident-platform,Product Engineering,Incident Analysis,Code Assistant,1,1411,933,2344,0.02344,375,success,stage
+2026-06-29T05:29:27.249328,GitHub Copilot,Copilot-Chat,ed3dbb7a-1275-4a4f-adf0-765c9d3d49b6,user-35,support-assistant,Data Engineering,Root Cause Analysis,Support Agent,1,3547,1230,4777,0.04777,3076,success,prod
+2026-06-21T11:35:27.249347,GitHub Copilot,Copilot-Chat,0d36065b-0e8e-4a23-88dd-e88b0ed9a360,user-2,aiopsvista,Platform,CI/CD Assistant,FinOps Agent,1,3065,2631,5696,0.05696,4638,success,prod
+2026-06-21T03:04:27.249365,Anthropic,Claude-4-Sonnet,388be793-a17e-4f9e-a38c-8a8d276eb8a5,user-1,support-assistant,Product Engineering,Code Review,FinOps Agent,1,5620,3878,9498,0.09498,4949,success,prod
+2026-06-23T07:12:27.249381,Anthropic,Claude-4-Sonnet,fc79b3fc-f772-4e8b-a5d2-670f17f88c2c,user-5,developer-portal,Platform,Customer Support,FinOps Agent,1,6819,2133,8952,0.08952,3467,success,prod
+2026-06-26T18:49:27.249398,Anthropic,Claude-4-Sonnet,41246b5e-95e5-4509-b730-d506a49334a4,user-43,support-assistant,Platform,Code Review,Platform Agent,1,7069,3551,10620,0.1062,1892,success,stage
+2026-06-16T00:03:27.249414,OpenAI,GPT-4o,0948e8e0-67e2-4c10-b893-24469aae7f7f,user-14,security-copilot,Platform,Root Cause Analysis,Platform Agent,1,7061,3870,10931,0.10931,4418,error,stage
+2026-06-24T17:48:27.249429,Anthropic,Claude-4-Sonnet,1f6643a7-03b5-45eb-a5f0-6ed8f23a5503,user-19,support-assistant,Data Engineering,Code Review,Platform Agent,1,3481,3309,6790,0.0679,406,success,prod
+2026-06-21T16:41:27.249446,Anthropic,Claude-4-Sonnet,cb8f00fa-8b61-4d46-8be7-44aad47d11ae,user-31,developer-portal,Product Engineering,CI/CD Assistant,Code Assistant,1,3287,2534,5821,0.05821,489,success,prod
+2026-06-12T10:24:27.249461,OpenAI,GPT-4.1,183c916a-2745-4ae7-ab88-d0b3c8309659,user-49,developer-portal,Platform,CI/CD Assistant,Platform Agent,1,3666,2441,6107,0.06107,241,success,prod
+2026-06-19T23:29:27.249495,Vertex AI,Gemini-on-Vertex,d895ba5b-5aba-4a09-b1e3-d07772b7e8d7,user-23,incident-platform,Product Engineering,Customer Support,Security Agent,1,1824,3373,5197,0.05197,1154,success,dev
+2026-06-11T02:19:27.249513,OpenAI,GPT-4o,82dbbc21-2f3d-4994-861e-3106d9bc6a6b,user-35,aiopsvista,Customer Support,Incident Analysis,Security Agent,1,177,2209,2386,0.02386,1257,success,prod
+2026-06-17T10:59:27.249529,OpenAI,GPT-4.1,ed884ff9-5f6e-4c05-b32e-55a7a23d61ec,user-29,incident-platform,Platform,Documentation,Code Assistant,1,7956,1293,9249,0.09249,4078,success,stage
+2026-05-31T01:05:27.249545,GitHub Copilot,Copilot-Chat,9000c903-1175-4c59-9813-323555eeae61,user-5,developer-portal,Platform,Code Review,FinOps Agent,1,2427,3014,5441,0.05441,3328,success,stage
+2026-06-21T02:40:27.249560,GitHub Copilot,Copilot-Chat,9722601b-4633-4f5a-90c9-8bab2a40db82,user-28,security-copilot,SRE,Knowledge Search,FinOps Agent,1,6221,1716,7937,0.07937,3672,rate_limited,prod
+2026-06-14T15:53:27.249576,Anthropic,Claude-4-Sonnet,b5ad0c8d-19c3-4684-959b-d6ae1c528453,user-12,incident-platform,Data Engineering,Root Cause Analysis,Platform Agent,1,2607,558,3165,0.03165,4848,success,stage
+2026-06-14T13:06:27.249591,Anthropic,Claude-4-Sonnet,6db3742f-3224-4f13-bd6d-5884b456c542,user-18,rag-platform,Security,Incident Analysis,Incident Agent,1,552,1741,2293,0.02293,4504,success,prod
+2026-06-20T07:06:27.249607,Vertex AI,Gemini-on-Vertex,69773afd-220b-43ac-92c0-57aa870b279c,user-38,incident-platform,Product Engineering,Knowledge Search,Incident Agent,1,1377,1568,2945,0.02945,322,success,prod
+2026-06-07T10:38:27.249622,Gemini,Gemini-2.5-Pro,b14381b8-f4f6-4b8b-b3d0-646248f04a72,user-7,rag-platform,Product Engineering,Knowledge Search,Support Agent,1,5915,1085,7000,0.07,1183,success,prod
+2026-06-05T23:42:27.249638,Gemini,Gemini-2.5-Pro,8d8ffa7d-05be-420a-a642-18a2b697abdf,user-34,rag-platform,Platform,Incident Analysis,Platform Agent,1,4657,1526,6183,0.06183,4874,success,prod
+2026-06-22T17:53:27.249654,OpenAI,GPT-4.1,6fe1d1c8-5d28-4335-85ab-9ff54d29227e,user-24,support-assistant,Data Engineering,Code Review,Code Assistant,1,6315,1974,8289,0.08289,3787,success,stage
+2026-06-13T00:10:27.249670,OpenAI,GPT-4o,269facc9-aeb7-4f6c-ad24-70b30fd13196,user-11,aiopsvista,Product Engineering,Knowledge Search,FinOps Agent,1,5732,3248,8980,0.0898,2653,success,dev
+2026-05-31T09:28:27.249685,Gemini,Gemini-2.5-Flash,30a57294-5ffc-48ca-9d06-fe3390939ce1,user-11,developer-portal,SRE,Knowledge Search,Incident Agent,1,7014,442,7456,0.07456,2168,success,stage
+2026-06-27T17:10:27.249701,Vertex AI,Gemini-on-Vertex,3d8cba28-e547-44fe-baa1-5807416dbc1a,user-11,developer-portal,Data Engineering,Customer Support,Code Assistant,1,3724,2073,5797,0.05797,1072,error,prod
+2026-06-05T13:33:27.249717,Anthropic,Claude-4-Sonnet,6005b0e7-44b7-4e75-8893-4bade6c02ec8,user-40,support-assistant,Platform,Documentation,Code Assistant,1,1747,1943,3690,0.0369,2867,success,prod
+2026-06-12T04:21:27.249733,GitHub Copilot,Copilot-Chat,f9ba56db-5964-4934-a712-2ed9ad228541,user-14,security-copilot,Data Engineering,CI/CD Assistant,Incident Agent,1,1037,476,1513,0.01513,2551,success,prod
+2026-06-08T02:02:27.249749,Anthropic,Claude-4-Sonnet,cb79fd82-8730-41d6-9c53-016674cac7b6,user-39,aiopsvista,Platform,Code Review,Code Assistant,1,791,2749,3540,0.0354,3558,success,prod
+2026-06-13T17:00:27.249764,OpenAI,GPT-4o,7f562398-8b9c-4b0b-99d6-3bdc4d7a49d5,user-47,developer-portal,Platform,Code Review,Support Agent,1,7719,3590,11309,0.11309,4026,success,stage
+2026-06-24T04:00:27.249781,GitHub Copilot,Copilot-Chat,4ff16178-82ba-4d75-a2e7-3fc255673662,user-5,rag-platform,Data Engineering,Incident Analysis,Code Assistant,1,7284,982,8266,0.08266,4318,success,prod
+2026-06-05T23:36:27.249796,Gemini,Gemini-2.5-Pro,765a2279-12a4-42d1-80b9-c07627fe7a1a,user-40,aiopsvista,Product Engineering,CI/CD Assistant,Incident Agent,1,2800,3374,6174,0.06174,3190,success,stage
+2026-06-05T02:19:27.249823,GitHub Copilot,Copilot-Chat,074316ac-5dce-439d-9736-09b1dac4f5d7,user-40,developer-portal,Security,CI/CD Assistant,Incident Agent,1,7098,1730,8828,0.08828,837,success,stage
+2026-06-06T22:10:27.249845,Vertex AI,Gemini-on-Vertex,6eef4449-95c0-4707-a746-d00396c3ddf7,user-27,rag-platform,SRE,Incident Analysis,Security Agent,1,1486,1472,2958,0.02958,4003,success,prod
+2026-06-13T18:54:27.249862,Anthropic,Claude-4-Sonnet,9acab788-6630-4bd5-b994-d5660b53986a,user-47,security-copilot,Data Engineering,Documentation,Platform Agent,1,355,2641,2996,0.02996,3237,success,stage
+2026-06-25T00:54:27.249879,GitHub Copilot,Copilot-Chat,ccd697ed-2d5e-482d-85e2-18cfadb81002,user-17,rag-platform,Data Engineering,Incident Analysis,FinOps Agent,1,1194,64,1258,0.01258,235,success,dev
+2026-06-18T21:59:27.249895,OpenAI,GPT-4o,cdecd8de-4c42-4ba8-83ca-23ce479571a2,user-40,security-copilot,SRE,CI/CD Assistant,Security Agent,1,1120,2505,3625,0.03625,998,success,dev
+2026-06-17T18:17:27.249911,OpenAI,GPT-4o,052b9c39-fc5c-4eed-95ae-d2020a12b51c,user-20,aiopsvista,Security,Root Cause Analysis,Security Agent,1,2212,3335,5547,0.05547,2438,error,prod
+2026-06-22T22:43:27.249927,GitHub Copilot,Copilot-Chat,37b2cca4-90c3-4daa-a9a3-450db5ffce1f,user-38,rag-platform,Security,Knowledge Search,Code Assistant,1,6960,2492,9452,0.09452,3539,success,prod
+2026-06-13T09:48:27.249974,Gemini,Gemini-2.5-Flash,36adf833-fc36-44ca-abd4-1b6f3e7f1dc4,user-49,aiopsvista,Security,Documentation,Code Assistant,1,3424,2704,6128,0.06128,4824,success,prod
+2026-06-12T20:47:27.249997,Vertex AI,Gemini-on-Vertex,eda20398-a51f-43d4-8976-0542f238237f,user-46,support-assistant,Security,Root Cause Analysis,Security Agent,1,4183,67,4250,0.0425,4975,success,prod
+2026-06-02T11:51:27.250016,Gemini,Gemini-2.5-Flash,c657169b-8f60-4b87-8503-dd5123e9d29e,user-26,support-assistant,Product Engineering,CI/CD Assistant,Support Agent,1,4325,2718,7043,0.07043,3050,success,dev
+2026-06-15T14:49:27.250034,GitHub Copilot,Copilot-Chat,a1773ff5-fd4b-4185-ab4e-8ee1185040de,user-44,security-copilot,Security,Root Cause Analysis,Support Agent,1,3133,1976,5109,0.05109,3794,success,dev
+2026-06-11T16:45:27.250051,GitHub Copilot,Copilot-Chat,3d207fe0-2230-4be2-8218-0b9292edeb28,user-31,aiopsvista,Data Engineering,Knowledge Search,Incident Agent,1,658,2434,3092,0.03092,3536,success,stage
+2026-06-09T00:25:27.250147,Vertex AI,Gemini-on-Vertex,6de25b6c-e412-486d-9159-d21548b9face,user-16,aiopsvista,SRE,Incident Analysis,Code Assistant,1,7690,3649,11339,0.11339,1920,success,prod
+2026-06-25T07:49:27.250180,Gemini,Gemini-2.5-Pro,44dceaf8-2ea2-414c-921c-8070b5760b0f,user-37,developer-portal,Platform,Knowledge Search,Platform Agent,1,1426,2840,4266,0.04266,1264,success,prod
+2026-06-15T11:29:27.250200,Gemini,Gemini-2.5-Flash,fad69093-8b75-45f6-90e6-508e2720b729,user-27,rag-platform,Security,Customer Support,Code Assistant,1,7530,500,8030,0.0803,4900,success,dev
+2026-06-15T10:15:27.250229,OpenAI,GPT-4.1,f4d12bc5-0b25-40ef-bb79-5137d1e752ce,user-46,security-copilot,Customer Support,Incident Analysis,Security Agent,1,3327,3984,7311,0.07311,1821,success,prod
+2026-06-21T17:24:27.250266,OpenAI,GPT-4.1,af209525-75e4-4f40-aab4-8200685a7e33,user-23,rag-platform,Data Engineering,Customer Support,Code Assistant,1,5960,1241,7201,0.07201,1693,success,prod
+2026-06-17T19:20:27.250286,OpenAI,GPT-4o,be026db7-ccd5-424d-9a2a-fbab580efcbf,user-7,security-copilot,Security,Documentation,Code Assistant,1,7578,2622,10200,0.102,3289,success,dev
+2026-06-26T18:05:27.250303,OpenAI,GPT-4.1,28afba2c-b8f1-497d-818f-99b49cda1db2,user-4,incident-platform,Platform,Documentation,Code Assistant,1,7361,2473,9834,0.09834,1728,success,prod
+2026-06-15T04:24:27.250319,Anthropic,Claude-4-Sonnet,692f5e7f-7573-4674-bd0b-a4fccf868dfe,user-13,developer-portal,Security,Code Review,Incident Agent,1,4864,281,5145,0.05145,2543,success,prod
+2026-06-07T11:24:27.250336,GitHub Copilot,Copilot-Chat,e9a0686e-1dd0-4b4e-a56a-ab54ea459252,user-25,incident-platform,Security,CI/CD Assistant,Incident Agent,1,6422,143,6565,0.06565,3736,success,dev
+2026-06-09T21:08:27.250352,Vertex AI,Gemini-on-Vertex,2989249b-22ec-4a4b-a738-765190c38199,user-5,rag-platform,SRE,Root Cause Analysis,Platform Agent,1,4590,3853,8443,0.08443,2027,success,prod
+2026-06-10T18:59:27.250369,Vertex AI,Gemini-on-Vertex,b568ec7f-226d-46f7-9242-2986d1fe87cb,user-33,security-copilot,Data Engineering,Documentation,Code Assistant,1,6374,2974,9348,0.09348,2638,success,prod
+2026-06-13T18:02:27.250385,Gemini,Gemini-2.5-Pro,6ff5c689-1186-4871-84b6-364e7e8eec1f,user-45,rag-platform,SRE,Incident Analysis,Code Assistant,1,618,2419,3037,0.03037,3296,success,prod
+2026-06-11T21:13:27.250401,OpenAI,GPT-4o,ad0b4b3d-3985-4ea6-ab1e-2d6dcfdfd998,user-43,developer-portal,Platform,CI/CD Assistant,FinOps Agent,1,322,417,739,0.00739,4749,success,prod
+2026-06-16T19:28:27.250417,Vertex AI,Gemini-on-Vertex,a612b847-0823-47e5-bbb9-50c78e53b03d,user-18,support-assistant,SRE,Incident Analysis,Code Assistant,1,4164,2365,6529,0.06529,2576,success,stage
+2026-06-02T14:21:27.250432,GitHub Copilot,Copilot-Chat,a8a9cad4-66fd-42d5-8192-ec40c935f03e,user-9,aiopsvista,Data Engineering,CI/CD Assistant,Incident Agent,1,4930,959,5889,0.05889,3730,success,prod
+2026-05-30T18:49:27.250449,Vertex AI,Gemini-on-Vertex,f1481531-bed3-47fd-b5d6-f0beb6cbe12d,user-35,aiopsvista,Platform,Root Cause Analysis,FinOps Agent,1,7128,109,7237,0.07237,822,success,prod
+2026-06-05T21:54:27.250490,Anthropic,Claude-4-Sonnet,750d2254-39ab-422d-89bd-41ba7815aa1b,user-7,aiopsvista,Data Engineering,Code Review,FinOps Agent,1,5743,2461,8204,0.08204,3443,success,prod
+2026-06-21T11:09:27.250523,OpenAI,GPT-4o,09ff8c94-14c0-478d-82ff-e7fdb7798c1a,user-22,support-assistant,Customer Support,Code Review,Security Agent,1,2919,1843,4762,0.04762,4389,success,prod
+2026-06-01T16:04:27.250542,Gemini,Gemini-2.5-Flash,c038b4b4-a3ab-419a-bd95-0b5af9b3f8c4,user-45,developer-portal,SRE,Documentation,FinOps Agent,1,7891,2778,10669,0.10669,4068,error,stage
+2026-06-23T18:59:27.250566,Vertex AI,Gemini-on-Vertex,f626d15f-8702-48a8-b423-193721352142,user-13,aiopsvista,SRE,Knowledge Search,FinOps Agent,1,1408,2629,4037,0.04037,2356,success,dev
+2026-06-03T11:12:27.250595,Gemini,Gemini-2.5-Flash,ca59dc03-e95f-4846-8207-8bf0dfc55ac8,user-41,aiopsvista,Platform,Knowledge Search,Code Assistant,1,4857,373,5230,0.0523,4587,success,prod
+2026-06-04T08:48:27.250613,Gemini,Gemini-2.5-Pro,f9eb59e1-d472-4f37-9536-c6d8599847f3,user-12,support-assistant,Data Engineering,Incident Analysis,Platform Agent,1,6784,2906,9690,0.0969,1853,success,dev
+2026-06-19T15:45:27.250630,Gemini,Gemini-2.5-Pro,ef7b07d6-cc75-4f64-9f1e-c999b325a51c,user-12,support-assistant,Platform,Code Review,Platform Agent,1,1107,3668,4775,0.04775,4628,success,prod
+2026-05-30T16:41:27.250647,OpenAI,GPT-4o,692bbbda-a3a2-4dfa-aef8-78fd842e2d3e,user-8,aiopsvista,Platform,CI/CD Assistant,Incident Agent,1,2568,1306,3874,0.03874,3083,success,prod
+2026-06-22T18:30:27.250663,GitHub Copilot,Copilot-Chat,d43e59ce-4eee-414e-a530-a778a07208a2,user-1,security-copilot,Customer Support,Code Review,Code Assistant,1,2533,3314,5847,0.05847,4337,error,prod
+2026-06-11T17:27:27.250680,Gemini,Gemini-2.5-Flash,c4f219b5-5810-4275-be4e-ec553e85bd02,user-49,incident-platform,Security,Code Review,Security Agent,1,756,1559,2315,0.02315,2182,success,prod
+2026-06-24T11:05:27.250696,OpenAI,GPT-4o,123b63fb-0684-4af6-ab5f-07ee68aef16a,user-13,support-assistant,Platform,Code Review,Platform Agent,1,1546,1624,3170,0.0317,971,success,prod
+2026-06-05T13:17:27.250712,OpenAI,GPT-4.1,237ebbf5-9327-481d-a056-a48c4d351e47,user-11,incident-platform,Security,Customer Support,Platform Agent,1,7766,1975,9741,0.09741,1539,success,prod
+2026-06-17T19:07:27.250728,Anthropic,Claude-4-Sonnet,75f910b2-ff3d-4a95-82a3-2f9c2e6dff44,user-33,developer-portal,Product Engineering,Documentation,Incident Agent,1,538,2780,3318,0.03318,1032,success,prod
+2026-06-23T05:29:27.250744,Anthropic,Claude-4-Sonnet,a199f7f2-44e3-43c1-a00d-8a0b81f9a080,user-14,security-copilot,Product Engineering,CI/CD Assistant,Platform Agent,1,297,1580,1877,0.01877,2700,success,stage
+2026-06-13T03:24:27.250761,Anthropic,Claude-4-Sonnet,69724781-2e89-4200-b886-31f1a74a269e,user-34,aiopsvista,Platform,Knowledge Search,Platform Agent,1,7449,2982,10431,0.10431,3131,success,prod
+2026-06-06T12:46:27.250777,Gemini,Gemini-2.5-Pro,b8b9c89e-16a0-41c8-99cd-26a1027d6ee4,user-36,support-assistant,Security,Knowledge Search,FinOps Agent,1,3854,3328,7182,0.07182,874,success,prod
+2026-06-07T17:48:27.250792,GitHub Copilot,Copilot-Chat,405888e1-bb08-4613-8f4d-d51bb8b4cff7,user-38,aiopsvista,Platform,Customer Support,Platform Agent,1,6979,1861,8840,0.0884,3993,success,stage
+2026-05-31T14:59:27.250808,OpenAI,GPT-4.1,9d68d9e3-9fc6-45b9-a574-b262a375eb78,user-44,aiopsvista,Customer Support,Code Review,Support Agent,1,3501,429,3930,0.0393,4170,success,prod
+2026-06-23T01:27:27.250824,Gemini,Gemini-2.5-Flash,1b641aae-e90a-42c7-b5fd-ddb104697dea,user-23,developer-portal,Customer Support,Customer Support,Support Agent,1,5482,630,6112,0.06112,4334,success,stage
+2026-06-08T21:08:27.250840,GitHub Copilot,Copilot-Chat,390e11fb-6702-44b0-a636-2b98cc5266e7,user-8,support-assistant,Product Engineering,Documentation,Code Assistant,1,6715,251,6966,0.06966,3854,error,prod
+2026-06-20T00:34:27.250856,GitHub Copilot,Copilot-Chat,6d5a1af0-c5ac-4c98-91cf-9eaae26568c7,user-4,aiopsvista,Product Engineering,CI/CD Assistant,Support Agent,1,3400,2873,6273,0.06273,1855,success,prod
+2026-06-08T13:27:27.250872,OpenAI,GPT-4o,97160fd9-d5ed-465c-abea-21ecf23721ed,user-8,security-copilot,Security,Documentation,Platform Agent,1,2249,1134,3383,0.03383,1217,success,prod
+2026-06-10T02:43:27.250889,GitHub Copilot,Copilot-Chat,722c9c2b-f0e2-47d0-9a4b-ed46bfacb899,user-34,support-assistant,Product Engineering,Documentation,Incident Agent,1,4618,722,5340,0.0534,2151,success,prod
+2026-06-19T06:05:27.250906,OpenAI,GPT-4.1,47adfb8b-a7de-416c-a9a3-a4fd55b49a08,user-22,rag-platform,Security,Incident Analysis,Support Agent,1,1574,392,1966,0.01966,2736,success,prod
+2026-06-04T16:45:27.250922,Gemini,Gemini-2.5-Flash,211d9179-4fd5-4130-97a8-ed38a131457a,user-46,rag-platform,Customer Support,Documentation,Incident Agent,1,5352,896,6248,0.06248,445,success,prod
+2026-06-18T00:53:27.250947,Anthropic,Claude-4-Sonnet,5c693f0d-7ec3-4f59-824f-52098fa2b727,user-10,aiopsvista,Platform,Knowledge Search,Platform Agent,1,6138,3737,9875,0.09875,2572,success,prod
+2026-06-21T05:02:27.250967,Vertex AI,Gemini-on-Vertex,1aadfd9c-ccca-4223-a80b-73e9c222a464,user-15,aiopsvista,Product Engineering,Documentation,Support Agent,1,5203,1385,6588,0.06588,1155,success,stage
+2026-06-12T19:34:27.251041,Gemini,Gemini-2.5-Pro,6aa9cb28-5f80-4c25-acd7-1debd96eb52e,user-7,rag-platform,Security,CI/CD Assistant,FinOps Agent,1,5777,2413,8190,0.0819,1677,success,prod
+2026-06-18T14:41:27.251074,OpenAI,GPT-4.1,5d9d5347-a0b9-4bac-b778-7402571133bf,user-1,support-assistant,Product Engineering,Root Cause Analysis,Platform Agent,1,914,2749,3663,0.03663,2056,success,prod
+2026-06-17T07:09:27.251094,GitHub Copilot,Copilot-Chat,81100a12-336f-4ce6-accb-e3e8a6e44923,user-7,rag-platform,SRE,Customer Support,Security Agent,1,1520,3444,4964,0.04964,2113,success,prod
+2026-06-26T01:32:27.251112,GitHub Copilot,Copilot-Chat,363a5461-cff9-4c86-84f4-56ed5c9e6f9e,user-27,rag-platform,Customer Support,Documentation,Incident Agent,1,658,3097,3755,0.03755,1591,success,prod
+2026-06-26T09:18:27.251130,Anthropic,Claude-4-Sonnet,8b24d519-fdc0-438e-8317-58b582d3394e,user-31,developer-portal,Product Engineering,Customer Support,FinOps Agent,1,4517,3136,7653,0.07653,1772,success,prod
+2026-06-24T13:31:27.251147,Anthropic,Claude-4-Sonnet,986687b7-2c8b-47c1-8a7a-1eef08196f68,user-29,security-copilot,SRE,Code Review,Platform Agent,1,1475,3739,5214,0.05214,1765,success,prod
+2026-06-04T19:14:27.251163,OpenAI,GPT-4o,b7290ddd-7848-4211-92e5-4cb6cb3f7cbd,user-38,aiopsvista,SRE,Code Review,FinOps Agent,1,4490,401,4891,0.04891,3506,success,prod
+2026-06-09T01:11:27.251179,GitHub Copilot,Copilot-Chat,31d45602-8052-4bb2-bdc0-8910f7c2fd58,user-41,developer-portal,Platform,Customer Support,Code Assistant,1,5330,338,5668,0.05668,3250,success,prod
+2026-06-16T09:18:27.251195,OpenAI,GPT-4o,6ea74ce0-0f56-4f16-9a4f-3e330bcfcf94,user-40,rag-platform,Platform,Root Cause Analysis,FinOps Agent,1,3366,1958,5324,0.05324,4362,success,prod
+2026-06-16T17:52:27.251212,GitHub Copilot,Copilot-Chat,d13d4b2d-efc2-4807-a7a1-ee134c035094,user-34,support-assistant,Product Engineering,CI/CD Assistant,Security Agent,1,5473,2801,8274,0.08274,3824,success,prod
+2026-06-18T23:47:27.251229,OpenAI,GPT-4o,67ee004b-023a-4ca5-9fd2-8d85e857edf6,user-22,aiopsvista,Platform,Root Cause Analysis,FinOps Agent,1,7065,854,7919,0.07919,1706,success,prod
+2026-06-18T00:57:27.251245,Vertex AI,Gemini-on-Vertex,de56d9b9-7813-41bb-ab59-b68632878059,user-50,aiopsvista,SRE,Incident Analysis,Code Assistant,1,3217,3130,6347,0.06347,4689,success,prod
+2026-06-20T08:02:27.251260,Anthropic,Claude-4-Sonnet,bca87360-028f-4091-b44c-75c8a900ba91,user-44,developer-portal,Customer Support,Root Cause Analysis,FinOps Agent,1,7936,2656,10592,0.10592,512,success,prod
+2026-06-23T15:37:27.251279,GitHub Copilot,Copilot-Chat,2ef36d37-cc3b-42e3-974a-cda626ac2b56,user-42,developer-portal,SRE,CI/CD Assistant,FinOps Agent,1,702,2420,3122,0.03122,4615,success,prod
+2026-06-08T05:53:27.251313,Vertex AI,Gemini-on-Vertex,114fb566-e662-4254-b131-1909966c6814,user-47,aiopsvista,Security,Root Cause Analysis,Code Assistant,1,6311,1895,8206,0.08206,276,success,stage
+2026-06-04T15:41:27.251331,Anthropic,Claude-4-Sonnet,a5f411f6-0dc5-419c-8e98-62e35718ac3d,user-8,rag-platform,SRE,Code Review,Incident Agent,1,7490,2578,10068,0.10068,4350,success,prod
+2026-06-04T05:36:27.251347,Gemini,Gemini-2.5-Pro,d7ab4bbf-2ae1-4e57-96da-ba56bddbe667,user-32,aiopsvista,Security,CI/CD Assistant,Security Agent,1,3325,2593,5918,0.05918,3343,success,prod
+2026-06-21T06:45:27.251363,OpenAI,GPT-4.1,3f8a6e18-89ca-459c-9494-33d65c65db84,user-48,incident-platform,Data Engineering,Customer Support,Code Assistant,1,3620,3105,6725,0.06725,924,success,prod
+2026-06-03T07:57:27.251379,Gemini,Gemini-2.5-Pro,750a787b-edb9-4db9-81d3-cca6d5abb680,user-32,aiopsvista,SRE,CI/CD Assistant,Support Agent,1,3712,395,4107,0.04107,2496,success,prod
+2026-06-07T09:49:27.251394,Vertex AI,Gemini-on-Vertex,6d2e2a2d-e7a6-4771-b98f-38b1b4b8dcc9,user-9,developer-portal,SRE,Knowledge Search,Platform Agent,1,2509,3479,5988,0.05988,348,success,prod
+2026-06-24T18:04:27.251410,Anthropic,Claude-4-Sonnet,023afbf7-a574-46a3-8e29-5da5f1066c97,user-45,support-assistant,Product Engineering,Knowledge Search,Incident Agent,1,5060,3684,8744,0.08744,3803,success,prod
+2026-06-22T23:12:27.251426,GitHub Copilot,Copilot-Chat,60d4450f-4f7a-4d32-95ad-ffb59403f6a4,user-50,rag-platform,Security,Root Cause Analysis,Code Assistant,1,4090,893,4983,0.04983,1661,success,dev
+2026-06-10T17:31:27.251442,Gemini,Gemini-2.5-Pro,d97d4c69-f11b-4cae-b6e7-89694168fb5f,user-4,security-copilot,SRE,Documentation,Platform Agent,1,1530,1741,3271,0.03271,291,success,prod
+2026-06-03T08:52:27.251458,Vertex AI,Gemini-on-Vertex,cfaafcfa-4437-48c8-9450-b9d795d9804d,user-7,security-copilot,Platform,Code Review,FinOps Agent,1,4354,2944,7298,0.07298,4201,success,prod
+2026-06-28T22:02:27.251474,GitHub Copilot,Copilot-Chat,240f8633-ebf3-4c54-8e54-9cedb1ef8559,user-18,security-copilot,Platform,Customer Support,Security Agent,1,5108,470,5578,0.05578,254,success,prod
+2026-06-24T19:24:27.251490,GitHub Copilot,Copilot-Chat,270f4f68-314b-4e15-b16c-66aa680f5260,user-21,aiopsvista,Product Engineering,CI/CD Assistant,Platform Agent,1,6019,3500,9519,0.09519,2157,success,dev
+2026-06-13T22:40:27.251506,Vertex AI,Gemini-on-Vertex,8bed6961-8845-4531-83e9-8dd65dad3814,user-27,developer-portal,Customer Support,Code Review,Security Agent,1,1715,352,2067,0.02067,4266,success,prod
+2026-06-08T15:25:27.251522,OpenAI,GPT-4o,c53054a4-2cef-4c0b-a98f-1e2f11239c76,user-15,developer-portal,Customer Support,Code Review,Security Agent,1,6494,2432,8926,0.08926,711,success,dev
+2026-06-06T12:09:27.251538,Anthropic,Claude-4-Sonnet,027d5d57-dc6a-4c93-853e-5507e44038da,user-19,incident-platform,Customer Support,Incident Analysis,Security Agent,1,218,1888,2106,0.02106,1737,success,prod
+2026-06-08T00:06:27.251555,Vertex AI,Gemini-on-Vertex,30a4345c-dc18-4e88-98b0-98cf2a6635d9,user-30,aiopsvista,Product Engineering,Code Review,FinOps Agent,1,5029,1098,6127,0.06127,2979,success,prod
+2026-06-29T02:54:27.251571,Anthropic,Claude-4-Sonnet,cc068268-3195-44d6-b45e-7fb9337c2bdd,user-28,incident-platform,Security,Incident Analysis,Security Agent,1,6089,1653,7742,0.07742,4588,success,stage
+2026-06-16T18:55:27.251587,GitHub Copilot,Copilot-Chat,b9f79073-a643-41b3-bddc-3aa611a09392,user-40,support-assistant,Platform,CI/CD Assistant,Platform Agent,1,7580,928,8508,0.08508,3993,success,prod
+2026-06-04T19:24:27.251603,Vertex AI,Gemini-on-Vertex,d172b693-47ba-4166-b246-68d01d876305,user-35,developer-portal,Data Engineering,Documentation,Code Assistant,1,4846,3872,8718,0.08718,484,success,prod
+2026-06-24T11:28:27.251619,GitHub Copilot,Copilot-Chat,8174a79e-91ef-4997-89d1-1b4c80b1ae55,user-12,support-assistant,Customer Support,Knowledge Search,Incident Agent,1,4732,3277,8009,0.08009,1951,success,prod
+2026-06-14T07:10:27.251649,Gemini,Gemini-2.5-Pro,d97b6391-40ad-4342-89cb-ab07610188a6,user-42,support-assistant,SRE,Code Review,Security Agent,1,4290,3165,7455,0.07455,891,success,prod
+2026-06-29T08:48:27.251667,GitHub Copilot,Copilot-Chat,c20c8c8a-ab7c-495f-8897-abe72925e4b9,user-33,rag-platform,Customer Support,Code Review,Security Agent,1,6477,2660,9137,0.09137,4633,success,prod
+2026-06-10T01:00:27.251683,Anthropic,Claude-4-Sonnet,404b3ff7-e52a-46f7-b7d6-1e721486928e,user-49,support-assistant,Customer Support,CI/CD Assistant,Platform Agent,1,7534,2853,10387,0.10387,1324,success,prod
+2026-06-12T12:41:27.251699,Gemini,Gemini-2.5-Flash,868e984f-61a2-4d04-8eea-b8fe32c56f4a,user-2,security-copilot,Customer Support,Knowledge Search,Code Assistant,1,685,743,1428,0.01428,1350,success,prod
+2026-06-25T17:05:27.251715,Anthropic,Claude-4-Sonnet,324fe8fa-36f7-42f5-a68d-5964633fa57f,user-12,support-assistant,Security,Root Cause Analysis,Support Agent,1,3404,2754,6158,0.06158,1741,success,prod
+2026-06-28T02:13:27.251731,Vertex AI,Gemini-on-Vertex,8d5b3229-d359-4556-920e-d8ae2f1b1425,user-5,incident-platform,Security,Root Cause Analysis,Security Agent,1,7169,1683,8852,0.08852,2345,success,prod
+2026-06-21T01:27:27.251748,GitHub Copilot,Copilot-Chat,2cc273ce-4f91-420e-b3f4-e332c9acf134,user-24,incident-platform,Product Engineering,Root Cause Analysis,Incident Agent,1,4389,1186,5575,0.05575,4596,success,prod
+2026-06-27T14:59:27.251764,OpenAI,GPT-4o,ad3ac060-4785-409b-a293-1e135c5ef217,user-14,incident-platform,Data Engineering,CI/CD Assistant,Security Agent,1,6864,1839,8703,0.08703,2621,success,prod
+2026-06-20T07:44:27.251841,Anthropic,Claude-4-Sonnet,4c3668b3-6850-4620-8e9c-f20c9472908c,user-17,developer-portal,Product Engineering,Customer Support,Code Assistant,1,343,468,811,0.00811,2421,success,prod
+2026-06-23T01:10:27.251874,Anthropic,Claude-4-Sonnet,0537258b-dca9-4937-be0f-c63bc9756a33,user-45,support-assistant,Platform,Incident Analysis,Code Assistant,1,5926,563,6489,0.06489,2793,success,prod
+2026-06-10T12:54:27.251895,OpenAI,GPT-4.1,5a049b41-acdf-4ee0-98ca-a92f7231180e,user-42,aiopsvista,Data Engineering,CI/CD Assistant,Support Agent,1,7057,588,7645,0.07645,1921,success,prod
+2026-06-03T00:05:27.251914,Vertex AI,Gemini-on-Vertex,d8716c63-3370-41aa-a7a6-26f5408a81c3,user-1,incident-platform,Product Engineering,Code Review,Code Assistant,1,201,2249,2450,0.0245,2968,success,prod
+2026-06-08T14:59:27.251931,Gemini,Gemini-2.5-Flash,4224ffc5-ebd8-4edb-a29a-1631fed34854,user-13,support-assistant,Customer Support,Code Review,Security Agent,1,968,1354,2322,0.02322,162,success,stage
+2026-06-23T02:14:27.251948,Anthropic,Claude-4-Sonnet,09f74c46-0d7d-4b00-8d6b-4d58cc124b4d,user-2,security-copilot,Customer Support,Knowledge Search,Incident Agent,1,7493,3840,11333,0.11333,1794,success,prod
+2026-06-25T02:52:27.251968,OpenAI,GPT-4o,9df2a1d8-68cb-4624-b88a-98d9a9f1819d,user-1,developer-portal,Security,Root Cause Analysis,Support Agent,1,2548,878,3426,0.03426,2920,success,dev
+2026-06-26T06:12:27.252001,GitHub Copilot,Copilot-Chat,c1f7ecdc-36b7-4699-baaf-9f327fd1a058,user-31,support-assistant,Platform,Knowledge Search,Support Agent,1,6383,2528,8911,0.08911,438,success,prod
+2026-06-05T19:00:27.252020,GitHub Copilot,Copilot-Chat,3dcea41c-710b-4ca1-baab-910882838539,user-13,security-copilot,Data Engineering,Root Cause Analysis,Security Agent,1,4989,3712,8701,0.08701,2677,success,prod
+2026-06-19T13:11:27.252037,Gemini,Gemini-2.5-Pro,ff27cb70-fc85-49fd-8c42-0844459e21eb,user-43,security-copilot,Platform,Root Cause Analysis,Security Agent,1,376,1054,1430,0.0143,2982,success,prod
+2026-06-05T02:57:27.252054,OpenAI,GPT-4.1,ec543f10-8a7b-4e02-a697-0fde0b486f7f,user-18,rag-platform,Data Engineering,Root Cause Analysis,FinOps Agent,1,6996,1288,8284,0.08284,507,success,prod
+2026-06-04T21:26:27.252070,GitHub Copilot,Copilot-Chat,bc457189-e777-456e-aa04-eaf19b35f175,user-49,aiopsvista,Customer Support,Code Review,Code Assistant,1,4769,1011,5780,0.0578,2055,success,stage
+2026-06-13T09:59:27.252087,Anthropic,Claude-4-Sonnet,731d8694-d615-49de-a1a0-e10e56573320,user-32,developer-portal,Platform,Documentation,Platform Agent,1,4341,2525,6866,0.06866,406,success,prod
+2026-06-15T11:46:27.252103,Vertex AI,Gemini-on-Vertex,0c5b00cf-0f1d-4cc1-a65a-dcb833ab7101,user-14,developer-portal,Data Engineering,Code Review,Support Agent,1,453,3533,3986,0.03986,436,success,prod
+2026-06-19T07:52:27.252119,Anthropic,Claude-4-Sonnet,7445e8ce-064a-4359-acb8-caf7941c42cb,user-21,security-copilot,Data Engineering,Incident Analysis,Incident Agent,1,3359,2791,6150,0.0615,635,success,prod
+2026-06-24T18:48:27.252135,Vertex AI,Gemini-on-Vertex,e491a0cd-18df-4166-bb4d-edad784f96ce,user-40,support-assistant,SRE,Customer Support,Code Assistant,1,5417,1006,6423,0.06423,4671,success,prod
+2026-06-12T15:24:27.252151,GitHub Copilot,Copilot-Chat,846b77ff-f0e6-4101-888f-a1f16c4eadd1,user-43,developer-portal,Customer Support,Customer Support,Support Agent,1,1139,3484,4623,0.04623,660,success,prod
+2026-06-07T06:48:27.252167,OpenAI,GPT-4.1,1fd20ddb-fd1b-4627-a909-b2b3bc30819a,user-7,rag-platform,Product Engineering,Knowledge Search,Support Agent,1,4380,900,5280,0.0528,3441,success,prod
+2026-06-10T09:08:27.252183,OpenAI,GPT-4.1,e437d079-7283-46e9-8e0f-ee800c0a0843,user-7,security-copilot,Customer Support,Incident Analysis,Support Agent,1,4371,755,5126,0.05126,931,success,prod
+2026-06-10T05:20:27.252199,GitHub Copilot,Copilot-Chat,6e325fe7-440c-4bac-88f3-0c251f750e60,user-5,developer-portal,Security,Customer Support,Platform Agent,1,7648,416,8064,0.08064,1773,success,prod
+2026-06-19T20:29:27.252215,Vertex AI,Gemini-on-Vertex,9c251759-ac10-48d0-a313-6437a4008007,user-20,developer-portal,SRE,Incident Analysis,Security Agent,1,3298,2206,5504,0.05504,1578,success,prod
+2026-06-25T09:05:27.252231,GitHub Copilot,Copilot-Chat,d4758fe3-99c5-4c55-8a75-d7911a9ccea2,user-3,rag-platform,Data Engineering,Customer Support,Code Assistant,1,4782,730,5512,0.05512,643,success,stage
+2026-06-16T19:54:27.252247,Vertex AI,Gemini-on-Vertex,fa56f7b9-db57-4cc1-b5f9-83e95b09d30c,user-31,security-copilot,Security,CI/CD Assistant,FinOps Agent,1,1147,2173,3320,0.0332,527,success,prod
+2026-06-12T14:40:27.252263,Vertex AI,Gemini-on-Vertex,766178bd-86a6-4207-a2e7-36b2bd04a4cf,user-13,security-copilot,Security,Knowledge Search,FinOps Agent,1,565,2055,2620,0.0262,2538,success,dev
+2026-06-08T16:57:27.252278,Gemini,Gemini-2.5-Pro,2c628db8-289d-4d65-9900-0d11b666cc64,user-43,aiopsvista,Product Engineering,Incident Analysis,Code Assistant,1,2926,2803,5729,0.05729,3628,success,prod
+2026-06-09T12:12:27.252295,Vertex AI,Gemini-on-Vertex,fb10a332-9d42-48d2-929e-d8c9b5a7712c,user-36,aiopsvista,Product Engineering,CI/CD Assistant,Security Agent,1,3860,1119,4979,0.04979,1209,success,prod
+2026-06-15T00:01:27.252319,Gemini,Gemini-2.5-Pro,da5b2ceb-bd17-492b-8c50-a62f6a53e6be,user-42,rag-platform,Platform,Customer Support,Security Agent,1,135,2888,3023,0.03023,4505,success,prod
+2026-06-27T02:33:27.252370,Vertex AI,Gemini-on-Vertex,b1b37fca-fef2-44ca-a7da-a59a38e4b931,user-44,incident-platform,Security,Root Cause Analysis,Platform Agent,1,4703,758,5461,0.05461,3643,success,prod
+2026-06-20T07:45:27.252406,Anthropic,Claude-4-Sonnet,af0b8756-f42b-4e48-ae20-b1e9c9bb5abe,user-42,incident-platform,Customer Support,Root Cause Analysis,FinOps Agent,1,3527,2073,5600,0.056,3155,success,prod
+2026-06-16T23:50:27.252443,Gemini,Gemini-2.5-Flash,97f93314-0346-4723-8d5c-c0d6a364fb30,user-23,rag-platform,Security,CI/CD Assistant,Code Assistant,1,4094,3603,7697,0.07697,4760,success,stage
+2026-06-27T14:34:27.252467,Gemini,Gemini-2.5-Pro,336bf98f-ffd1-4093-9918-e14b49fcd422,user-34,aiopsvista,Customer Support,Customer Support,Platform Agent,1,6040,548,6588,0.06588,2890,success,prod
+2026-06-01T13:17:27.252485,GitHub Copilot,Copilot-Chat,13c9e190-debe-4eea-af1e-198b140f46ee,user-5,rag-platform,Security,CI/CD Assistant,Security Agent,1,5358,669,6027,0.06027,2593,success,stage
+2026-06-10T22:33:27.252502,Gemini,Gemini-2.5-Pro,81267b93-445c-4268-9628-2bf29cb66e8f,user-46,developer-portal,Data Engineering,Documentation,Code Assistant,1,1175,3587,4762,0.04762,1414,success,prod
+2026-06-08T16:58:27.252521,OpenAI,GPT-4.1,0cd71eb2-efed-4a4b-95b8-5306f3da2aeb,user-25,security-copilot,Platform,Incident Analysis,Support Agent,1,3450,824,4274,0.04274,3780,success,prod
+2026-06-11T05:05:27.252570,GitHub Copilot,Copilot-Chat,362998a6-e21c-4fef-90ec-b4494334b587,user-27,support-assistant,Product Engineering,Customer Support,Code Assistant,1,765,2949,3714,0.03714,1406,success,prod
+2026-06-04T03:09:27.252652,Vertex AI,Gemini-on-Vertex,68fcebe8-a42f-4c9f-aa43-f3a1b10342d8,user-26,aiopsvista,Security,CI/CD Assistant,FinOps Agent,1,5199,3698,8897,0.08897,1006,success,dev
+2026-06-28T00:09:27.252681,Gemini,Gemini-2.5-Flash,90f633aa-ac74-4c04-82d3-47925c447284,user-38,incident-platform,Data Engineering,Root Cause Analysis,Support Agent,1,2276,909,3185,0.03185,265,success,stage
+2026-06-01T02:45:27.252715,Vertex AI,Gemini-on-Vertex,e336a3ec-bc3b-4e58-96ba-796c2b83b92b,user-39,aiopsvista,SRE,Customer Support,Platform Agent,1,5011,1854,6865,0.06865,309,success,prod
+2026-06-03T06:23:27.252756,Gemini,Gemini-2.5-Pro,59d01ffa-fc62-4675-8df4-f1ed121c68df,user-24,aiopsvista,Customer Support,Incident Analysis,Code Assistant,1,7419,127,7546,0.07546,1393,success,prod
+2026-06-02T00:14:27.252785,Gemini,Gemini-2.5-Flash,cf39093c-f1f7-48c9-8596-8724fe338596,user-7,incident-platform,Data Engineering,Customer Support,FinOps Agent,1,4364,2840,7204,0.07204,4544,success,prod
+2026-06-18T20:27:27.252804,OpenAI,GPT-4.1,be8e764f-a8a4-4e0f-9bc8-62dbfdce19ba,user-41,developer-portal,Customer Support,Customer Support,Security Agent,1,6580,3415,9995,0.09995,4090,success,stage
+2026-06-27T08:22:27.252821,Vertex AI,Gemini-on-Vertex,15254b9a-6bdc-4bf5-90a5-d643d0ffab2f,user-32,security-copilot,Customer Support,Incident Analysis,FinOps Agent,1,4976,493,5469,0.05469,3085,success,prod
+2026-06-06T09:57:27.252947,GitHub Copilot,Copilot-Chat,01f2c7c2-2ba4-4e2a-8139-f5a0f7fc4e3b,user-41,support-assistant,Customer Support,Incident Analysis,Security Agent,1,6589,757,7346,0.07346,4672,success,stage
+2026-06-10T05:34:27.253012,Anthropic,Claude-4-Sonnet,6a841a15-43d6-4ead-9465-0d3a3704b481,user-27,rag-platform,Customer Support,Code Review,Support Agent,1,1193,1066,2259,0.02259,703,success,stage
+2026-06-24T16:37:27.253046,Vertex AI,Gemini-on-Vertex,a2aa997a-bff7-49c7-b69e-195e27f5c6fb,user-24,rag-platform,Product Engineering,Root Cause Analysis,Platform Agent,1,6802,165,6967,0.06967,4932,success,prod
+2026-06-03T03:17:27.253067,Gemini,Gemini-2.5-Flash,cb81b073-a2ad-468e-82eb-936a6b32756c,user-25,support-assistant,Customer Support,Customer Support,Support Agent,1,2184,1558,3742,0.03742,2513,success,prod
+2026-06-20T08:34:27.253085,GitHub Copilot,Copilot-Chat,a23a37ae-9bb0-4f1b-9c80-d4bb3437c225,user-41,aiopsvista,Security,Code Review,Security Agent,1,5099,1297,6396,0.06396,1809,success,prod
+2026-06-22T10:00:27.253102,Vertex AI,Gemini-on-Vertex,20a608ba-a590-4f7e-9efe-99390dc38288,user-34,incident-platform,Data Engineering,Root Cause Analysis,Platform Agent,1,450,2935,3385,0.03385,2747,success,prod
+2026-06-14T06:08:27.253119,GitHub Copilot,Copilot-Chat,e0ab0216-95a4-48cf-8532-008895cbea40,user-6,incident-platform,Product Engineering,Documentation,Security Agent,1,488,2359,2847,0.02847,2390,success,prod
+2026-06-11T08:58:27.253136,GitHub Copilot,Copilot-Chat,c4061a7f-aa5b-4890-94ec-95f9ec741daa,user-45,rag-platform,Customer Support,Knowledge Search,FinOps Agent,1,2721,2668,5389,0.05389,662,success,stage
+2026-06-03T20:18:27.253152,Vertex AI,Gemini-on-Vertex,ebdd33be-048b-4c6d-b3cb-8dac0f0c2c56,user-15,support-assistant,Platform,Documentation,Security Agent,1,5931,426,6357,0.06357,3494,success,prod
+2026-06-05T06:30:27.253168,OpenAI,GPT-4.1,6f0a46a9-1584-4dfb-92cf-ae4e7457ed32,user-20,support-assistant,Data Engineering,Code Review,Incident Agent,1,764,1027,1791,0.01791,1277,success,prod
+2026-06-09T00:54:27.253195,Anthropic,Claude-4-Sonnet,87c4904b-6a65-45e2-a2d5-84256d333fb8,user-10,security-copilot,Customer Support,Knowledge Search,Code Assistant,1,2709,3827,6536,0.06536,2404,success,prod
+2026-05-31T19:45:27.253233,GitHub Copilot,Copilot-Chat,c1ba1d11-5f68-45a8-8642-8a5fc22944be,user-43,security-copilot,Platform,Documentation,Security Agent,1,1523,297,1820,0.0182,3176,success,prod
+2026-06-27T17:05:27.253253,OpenAI,GPT-4o,08749d05-c2e2-4a13-8cf7-24d8b70fdcb8,user-48,incident-platform,Platform,Knowledge Search,Code Assistant,1,6790,3757,10547,0.10547,2799,success,prod
+2026-06-25T03:57:27.253270,Gemini,Gemini-2.5-Flash,ba38510f-db00-4796-a0cf-032de36a60f9,user-8,support-assistant,Security,Documentation,Incident Agent,1,3394,1189,4583,0.04583,3211,success,prod
+2026-06-04T23:28:27.253287,Vertex AI,Gemini-on-Vertex,a4093216-e1cf-48fe-a454-f8a5fa6b65fd,user-38,support-assistant,Platform,Documentation,Platform Agent,1,2621,3487,6108,0.06108,4866,success,prod
+2026-06-27T17:03:27.253304,Vertex AI,Gemini-on-Vertex,65dbe12e-e080-4b2e-9960-2c79c287929d,user-1,rag-platform,Security,Knowledge Search,FinOps Agent,1,534,2226,2760,0.0276,3088,success,prod
+2026-06-08T18:37:27.253320,Gemini,Gemini-2.5-Pro,4b9ae28e-cf1a-4ffe-a4d3-7d878792ccb3,user-13,developer-portal,Data Engineering,Code Review,Support Agent,1,7167,2360,9527,0.09527,586,success,prod
+2026-06-13T13:37:27.253337,OpenAI,GPT-4.1,c2edae7e-b723-4463-b092-41df16bfbfca,user-39,rag-platform,Security,Documentation,Incident Agent,1,969,1627,2596,0.02596,653,timeout,dev
+2026-06-05T08:18:27.253353,Vertex AI,Gemini-on-Vertex,93edb600-07f6-46ad-8d4c-8fb778e7406d,user-37,aiopsvista,Product Engineering,Customer Support,FinOps Agent,1,6634,540,7174,0.07174,3900,success,dev
+2026-06-20T19:54:27.253369,OpenAI,GPT-4o,320b6b9b-2fbf-454e-94fa-19567aec4862,user-41,rag-platform,Product Engineering,Customer Support,Support Agent,1,4661,1126,5787,0.05787,1442,success,prod
+2026-06-14T13:11:27.253385,OpenAI,GPT-4.1,bd945256-76b0-4666-aa5f-b033445f8223,user-2,incident-platform,Data Engineering,Documentation,Platform Agent,1,954,3272,4226,0.04226,710,success,prod
+2026-06-29T09:02:27.253400,OpenAI,GPT-4.1,9321c7a1-399e-4ac2-89fd-1bcada83be37,user-13,developer-portal,Product Engineering,Root Cause Analysis,Support Agent,1,4096,2711,6807,0.06807,4953,success,dev
+2026-06-15T00:52:27.253416,Gemini,Gemini-2.5-Pro,fee5c14f-7cd3-4ec4-b2e2-e52c79ecf02e,user-48,support-assistant,Data Engineering,Code Review,Platform Agent,1,4003,2031,6034,0.06034,492,success,prod
+2026-06-25T12:26:27.253431,GitHub Copilot,Copilot-Chat,aab6b8dc-636e-4e2d-9aa9-4a56f26dd3c0,user-32,aiopsvista,SRE,Customer Support,Incident Agent,1,4438,167,4605,0.04605,1060,success,prod
+2026-06-15T14:07:27.253447,GitHub Copilot,Copilot-Chat,c0ee9e10-0098-4bc6-9f2f-08068a36f0bb,user-25,aiopsvista,Security,Root Cause Analysis,Support Agent,1,3064,2278,5342,0.05342,2991,success,prod
+2026-06-23T23:33:27.253463,Vertex AI,Gemini-on-Vertex,cecd30da-70c2-45a1-8dd1-77a5410a0a4f,user-42,security-copilot,Data Engineering,Code Review,Platform Agent,1,4595,965,5560,0.0556,3980,success,prod
+2026-06-05T03:56:27.253479,Vertex AI,Gemini-on-Vertex,82d62151-dca3-4a92-8aae-1298f849d9b7,user-25,security-copilot,Data Engineering,Root Cause Analysis,Security Agent,1,7624,1763,9387,0.09387,4260,success,prod
+2026-06-21T12:00:27.253503,Gemini,Gemini-2.5-Pro,2482d451-229f-497c-b4cc-d55b7761ef5c,user-14,aiopsvista,Platform,Incident Analysis,Incident Agent,1,2104,228,2332,0.02332,2145,success,prod
+2026-05-31T03:50:27.253534,Gemini,Gemini-2.5-Pro,15010cb5-c389-49a8-b214-ba1d58fc8ab4,user-7,support-assistant,Security,Documentation,FinOps Agent,1,1026,1295,2321,0.02321,752,success,prod
+2026-06-18T15:48:27.253565,OpenAI,GPT-4.1,a7029b34-fde9-4547-aeb8-3c52a9da5cf5,user-45,developer-portal,Data Engineering,Customer Support,Code Assistant,1,170,1946,2116,0.02116,3776,success,prod
+2026-06-29T15:03:27.253596,OpenAI,GPT-4o,ed20345a-ee7e-417c-aaf5-c3c927e49c33,user-12,developer-portal,Customer Support,Code Review,Incident Agent,1,5672,251,5923,0.05923,2039,success,stage
+2026-06-04T05:53:27.253620,GitHub Copilot,Copilot-Chat,a124d3df-c740-4cf0-b57e-a65e3fd9103f,user-21,incident-platform,Security,CI/CD Assistant,Incident Agent,1,731,1462,2193,0.02193,3082,success,prod
+2026-06-04T19:37:27.253649,GitHub Copilot,Copilot-Chat,51ee265e-1656-4a02-9a97-8bf64c57b3e3,user-28,security-copilot,Customer Support,CI/CD Assistant,Code Assistant,1,6077,1966,8043,0.08043,1329,success,prod
+2026-06-27T04:57:27.253677,GitHub Copilot,Copilot-Chat,2e91074d-275b-44a1-9271-5209b568801c,user-29,rag-platform,Data Engineering,Root Cause Analysis,Incident Agent,1,7000,1794,8794,0.08794,4528,success,prod
+2026-06-18T18:54:27.253694,Gemini,Gemini-2.5-Pro,68ba878d-0187-4410-a268-33f935becd3c,user-44,security-copilot,Product Engineering,Knowledge Search,Platform Agent,1,6308,624,6932,0.06932,1650,success,stage
+2026-06-15T20:32:27.253812,GitHub Copilot,Copilot-Chat,14d2ed92-2860-4738-bf9f-4fddf944419b,user-4,incident-platform,Customer Support,Customer Support,Security Agent,1,4778,710,5488,0.05488,3484,success,prod
+2026-06-01T16:04:27.253845,Anthropic,Claude-4-Sonnet,ff023ae2-3346-49c5-9dde-0b37675c06f6,user-23,developer-portal,Customer Support,Incident Analysis,Platform Agent,1,7438,3809,11247,0.11247,864,success,prod
+2026-06-27T23:34:27.253883,OpenAI,GPT-4.1,04bb2c17-a8f9-446e-aba5-52ba065604a5,user-28,aiopsvista,Customer Support,CI/CD Assistant,Support Agent,1,6267,1645,7912,0.07912,4301,success,prod
+2026-06-29T01:45:27.253927,Anthropic,Claude-4-Sonnet,3f836d85-7967-4628-b581-b8bfce0b8f0e,user-47,aiopsvista,SRE,Knowledge Search,Incident Agent,1,6990,3943,10933,0.10933,3142,success,prod
+2026-06-13T17:21:27.253972,OpenAI,GPT-4.1,3ef91291-7c1f-49a1-82fa-a33fae8a1b4f,user-27,aiopsvista,Product Engineering,Code Review,FinOps Agent,1,6781,1778,8559,0.08559,546,success,prod
+2026-06-23T17:56:27.254017,GitHub Copilot,Copilot-Chat,f952afa3-abfa-4320-b5c8-17c7cf80a35b,user-16,security-copilot,SRE,Root Cause Analysis,Support Agent,1,413,333,746,0.00746,2834,success,prod
+2026-05-30T18:56:27.254066,OpenAI,GPT-4o,d6738932-0347-45b5-a546-7ec8144d5c98,user-28,developer-portal,Data Engineering,Documentation,Platform Agent,1,7084,3142,10226,0.10226,808,success,prod
+2026-06-07T12:12:27.254229,OpenAI,GPT-4o,4a4b416f-0bba-4c80-8486-45e67958910f,user-20,incident-platform,Platform,Code Review,Security Agent,1,5602,3827,9429,0.09429,1395,success,prod
+2026-06-14T20:33:27.254285,OpenAI,GPT-4.1,55cefadf-65a3-474b-91eb-46bcfb74eeaa,user-27,rag-platform,SRE,Root Cause Analysis,Platform Agent,1,7887,1920,9807,0.09807,1387,success,stage
+2026-06-02T19:38:27.254374,Anthropic,Claude-4-Sonnet,cd8d6db6-3a6f-4f60-8f8b-7b4b419b3e1b,user-30,rag-platform,Product Engineering,Incident Analysis,FinOps Agent,1,3383,1355,4738,0.04738,3040,success,stage
+2026-06-23T02:56:27.254438,GitHub Copilot,Copilot-Chat,85a9de56-380e-4c05-ad04-04f5c786048c,user-10,security-copilot,Data Engineering,Code Review,Platform Agent,1,3365,3110,6475,0.06475,3743,success,prod
+2026-06-18T03:17:27.254487,Vertex AI,Gemini-on-Vertex,148b1411-02a4-4d2d-beb4-7628b4ef5247,user-15,rag-platform,Security,Incident Analysis,FinOps Agent,1,4210,3064,7274,0.07274,4134,success,prod
+2026-06-01T17:35:27.254717,GitHub Copilot,Copilot-Chat,d5533813-0d56-4149-ba49-e53ba8e7af8f,user-41,developer-portal,Product Engineering,Knowledge Search,Code Assistant,1,2639,2021,4660,0.0466,2311,success,prod
+2026-06-10T13:07:27.254900,GitHub Copilot,Copilot-Chat,974bb1f2-9ac3-4cf4-ba8c-a8b07e164b84,user-33,aiopsvista,Data Engineering,Documentation,Security Agent,1,2690,1170,3860,0.0386,265,success,stage
+2026-06-03T02:15:27.254991,GitHub Copilot,Copilot-Chat,c7c09df7-6e87-4f30-84d9-4b2fdde00ccc,user-36,incident-platform,Security,Documentation,Support Agent,1,3095,151,3246,0.03246,3925,success,prod
+2026-06-07T04:02:27.255016,Anthropic,Claude-4-Sonnet,6477892d-bc46-4b00-9d82-fb418e69be75,user-24,incident-platform,Security,Knowledge Search,Code Assistant,1,7289,2628,9917,0.09917,170,error,stage
+2026-06-11T17:18:27.255038,Gemini,Gemini-2.5-Pro,a928294e-32e8-4183-a7cd-dff6fbd6e877,user-8,developer-portal,Data Engineering,Knowledge Search,Support Agent,1,3780,2554,6334,0.06334,1314,success,prod
+2026-06-11T13:31:27.255057,GitHub Copilot,Copilot-Chat,8a0085ae-ac91-4e8d-bd90-d3ae1365a2b0,user-40,aiopsvista,Platform,Customer Support,Platform Agent,1,2741,3623,6364,0.06364,410,success,dev
+2026-06-12T19:51:27.255075,OpenAI,GPT-4.1,76223f77-cbd1-46c6-9b46-850aec5ea60b,user-45,aiopsvista,Customer Support,Customer Support,Platform Agent,1,731,3900,4631,0.04631,3392,success,prod
+2026-06-09T06:41:27.255093,OpenAI,GPT-4.1,2e513b0f-5bd7-41f1-a1e7-07311a3ad28e,user-4,incident-platform,Platform,Knowledge Search,Security Agent,1,4394,1797,6191,0.06191,4525,success,prod
+2026-06-12T19:18:27.255111,Gemini,Gemini-2.5-Pro,4d803254-cecf-441d-ba3e-82621d96f96a,user-30,developer-portal,Data Engineering,Documentation,FinOps Agent,1,4399,2401,6800,0.068,1727,success,prod
+2026-06-13T07:19:27.255129,Vertex AI,Gemini-on-Vertex,963f92c9-34df-45a8-847e-57d2664ad761,user-25,incident-platform,Security,CI/CD Assistant,Support Agent,1,4548,296,4844,0.04844,4299,success,prod
+2026-06-12T05:50:27.255147,GitHub Copilot,Copilot-Chat,d488cb43-2707-4e16-b5fa-91a3b22a5e7a,user-14,support-assistant,Customer Support,CI/CD Assistant,Security Agent,1,4626,3807,8433,0.08433,4034,success,prod
+2026-06-06T06:40:27.255165,OpenAI,GPT-4o,c42b5a38-ac1a-4628-b261-96714c1c94d3,user-20,developer-portal,Customer Support,Documentation,Code Assistant,1,4713,2342,7055,0.07055,252,success,stage
+2026-06-15T19:21:27.255184,GitHub Copilot,Copilot-Chat,d432e9b2-a3dd-49a2-a504-25d08a0e31bd,user-40,security-copilot,Platform,CI/CD Assistant,Platform Agent,1,3348,1552,4900,0.049,865,success,prod
+2026-06-01T07:17:27.255201,Gemini,Gemini-2.5-Flash,c4be3b19-1fa5-45fb-a280-298b81b66cf4,user-48,developer-portal,Security,Knowledge Search,Code Assistant,1,5929,1149,7078,0.07078,1833,success,stage
+2026-06-18T07:00:27.255229,Anthropic,Claude-4-Sonnet,bc075b95-d6cd-4728-87d4-35b7486f6ce1,user-34,support-assistant,Platform,Knowledge Search,Code Assistant,1,7968,3145,11113,0.11113,471,success,prod
+2026-06-23T15:33:27.255256,Anthropic,Claude-4-Sonnet,6de63897-08f8-454d-8aa2-12a481daffc1,user-3,security-copilot,Product Engineering,Customer Support,Platform Agent,1,2675,2670,5345,0.05345,3693,success,stage
+2026-06-04T20:26:27.255289,Vertex AI,Gemini-on-Vertex,c42e0659-95ad-4995-9b8a-38461c7f225a,user-50,incident-platform,SRE,Documentation,Security Agent,1,7324,1955,9279,0.09279,4788,success,prod
+2026-06-27T04:10:27.255309,Vertex AI,Gemini-on-Vertex,cfc43013-1b88-4c24-93f5-ccaf5f0e0b2e,user-10,aiopsvista,Customer Support,Root Cause Analysis,Incident Agent,1,3891,2117,6008,0.06008,3267,success,prod
+2026-06-27T21:23:27.255327,Anthropic,Claude-4-Sonnet,19409d40-0f50-4983-9135-5428e798b85a,user-10,incident-platform,Data Engineering,Knowledge Search,Incident Agent,1,974,3570,4544,0.04544,1628,success,dev
+2026-06-14T21:06:27.255345,OpenAI,GPT-4.1,541b0233-3765-4b23-ad53-736bde603c32,user-16,rag-platform,Platform,Documentation,Incident Agent,1,143,1711,1854,0.01854,1707,success,prod
+2026-06-21T10:10:27.255362,Vertex AI,Gemini-on-Vertex,d411955b-55ac-42e8-bab6-a36d49ff4d91,user-44,incident-platform,Product Engineering,CI/CD Assistant,Security Agent,1,1150,2883,4033,0.04033,3233,success,prod
+2026-06-12T05:09:27.255380,Anthropic,Claude-4-Sonnet,31f89f18-610c-4947-8f96-d84f62dea147,user-22,security-copilot,Security,Documentation,FinOps Agent,1,6347,3285,9632,0.09632,2444,error,prod
+2026-06-14T14:51:27.255440,Gemini,Gemini-2.5-Pro,e1a75d38-8ecf-4c1d-85dd-55a2c7230e01,user-43,support-assistant,SRE,Customer Support,Support Agent,1,5291,2427,7718,0.07718,446,success,dev
+2026-06-13T01:15:27.255463,OpenAI,GPT-4.1,7bf364f5-24fc-4dbe-a599-0173f9a6f542,user-7,aiopsvista,Customer Support,Customer Support,FinOps Agent,1,2614,1226,3840,0.0384,3458,success,prod
+2026-06-20T16:56:27.255482,Anthropic,Claude-4-Sonnet,32a3825c-146d-45c7-abf6-f992ee65e809,user-9,aiopsvista,Security,Code Review,FinOps Agent,1,364,518,882,0.00882,224,success,prod
+2026-06-02T20:05:27.255500,GitHub Copilot,Copilot-Chat,f0ac95eb-1b29-465a-988f-941d2cd28408,user-40,incident-platform,Customer Support,Knowledge Search,Incident Agent,1,3093,1140,4233,0.04233,2982,success,dev
+2026-06-01T06:14:27.255519,Vertex AI,Gemini-on-Vertex,675503b5-d636-4b59-98fa-c94de3c4e9b9,user-41,incident-platform,Product Engineering,CI/CD Assistant,Support Agent,1,6866,1520,8386,0.08386,3027,success,prod
+2026-06-02T01:08:27.255538,OpenAI,GPT-4.1,fa068e17-a7dc-4361-8d2a-b1dbe068b42f,user-21,aiopsvista,Product Engineering,Code Review,Platform Agent,1,3884,3483,7367,0.07367,3890,success,stage
+2026-06-07T18:59:27.255570,Vertex AI,Gemini-on-Vertex,28d87add-45a8-4fe0-88a1-8ab86c7768d7,user-35,support-assistant,Customer Support,Documentation,Platform Agent,1,7714,1468,9182,0.09182,217,success,prod
+2026-06-20T11:54:27.255592,OpenAI,GPT-4o,f8469ec8-d145-4683-b272-11315341cffc,user-33,incident-platform,Customer Support,Knowledge Search,Security Agent,1,481,1130,1611,0.01611,919,success,prod
+2026-06-10T07:58:27.255610,Anthropic,Claude-4-Sonnet,40b1ef6b-1cdd-48cf-a8cb-badeaeb36cca,user-3,rag-platform,Data Engineering,Documentation,FinOps Agent,1,3040,2931,5971,0.05971,4482,success,prod
+2026-06-16T15:24:27.255627,Gemini,Gemini-2.5-Pro,7d22df4b-cd0c-4a6a-ba8e-4e3089ac09e2,user-6,developer-portal,Security,Documentation,Platform Agent,1,1371,3715,5086,0.05086,746,success,prod
+2026-06-03T17:06:27.255645,Gemini,Gemini-2.5-Flash,e7e91aa2-d1f7-4b9b-a222-4acdb350950d,user-36,aiopsvista,Customer Support,Knowledge Search,Platform Agent,1,5385,3518,8903,0.08903,1857,success,prod
+2026-06-10T23:16:27.255728,OpenAI,GPT-4o,c34f41cb-4c77-4d0b-916c-d93bfc96bfb5,user-36,aiopsvista,Product Engineering,CI/CD Assistant,FinOps Agent,1,2074,2433,4507,0.04507,4830,success,prod
+2026-06-13T11:04:27.255756,Gemini,Gemini-2.5-Pro,ba8c4584-a685-4add-b35f-5caf805b1b1b,user-27,security-copilot,Customer Support,CI/CD Assistant,FinOps Agent,1,1630,3198,4828,0.04828,3420,success,prod
+2026-06-03T03:47:27.255837,GitHub Copilot,Copilot-Chat,f7da56e6-ae97-4b73-9b94-ec15e7041ed3,user-12,developer-portal,Data Engineering,Documentation,Platform Agent,1,2754,689,3443,0.03443,3475,success,prod
+2026-06-09T11:24:27.255865,Gemini,Gemini-2.5-Pro,137e072f-43d7-4ba4-8d1d-497236414f8f,user-42,rag-platform,SRE,Documentation,Platform Agent,1,3147,3594,6741,0.06741,965,success,prod
+2026-06-28T04:17:27.255975,Vertex AI,Gemini-on-Vertex,f37c8a34-63b3-4982-bf1d-c3e640d2a2d3,user-19,security-copilot,Product Engineering,Customer Support,Support Agent,1,2127,415,2542,0.02542,3739,success,dev
+2026-05-30T21:13:27.256011,Gemini,Gemini-2.5-Flash,cafffb31-ff87-433b-ac97-a878a59d6edf,user-7,aiopsvista,Data Engineering,Code Review,FinOps Agent,1,2028,406,2434,0.02434,3964,success,prod
+2026-06-27T12:46:27.256033,Gemini,Gemini-2.5-Pro,b1cc8094-de6e-4bde-adb4-b29ff27a0cd7,user-4,developer-portal,SRE,Code Review,Support Agent,1,5753,3974,9727,0.09727,543,success,prod
+2026-06-16T02:27:27.256051,GitHub Copilot,Copilot-Chat,6c083995-cb71-4d5c-b0a3-a7dbea1693cf,user-39,aiopsvista,SRE,Incident Analysis,Support Agent,1,2666,3530,6196,0.06196,4019,success,prod
+2026-06-21T20:09:27.256071,GitHub Copilot,Copilot-Chat,f642c2bd-e889-42dd-b139-6d5773865efb,user-27,developer-portal,Product Engineering,Knowledge Search,Incident Agent,1,299,1747,2046,0.02046,3768,success,prod
+2026-06-19T01:27:27.256089,Anthropic,Claude-4-Sonnet,46595103-47e1-4c0f-adad-ab12a658258f,user-10,developer-portal,SRE,CI/CD Assistant,FinOps Agent,1,2775,3419,6194,0.06194,2927,success,prod
+2026-06-23T13:31:27.256108,Anthropic,Claude-4-Sonnet,64d53a76-44fb-42ba-9607-d4af6b23a011,user-49,incident-platform,Security,CI/CD Assistant,Incident Agent,1,5653,291,5944,0.05944,1641,success,prod
+2026-06-03T19:22:27.256125,Gemini,Gemini-2.5-Pro,36c54a62-c9b4-42c0-b153-08dbd69bed3f,user-30,developer-portal,Platform,Root Cause Analysis,Support Agent,1,4747,3385,8132,0.08132,4511,error,prod
+2026-05-30T12:13:27.256143,OpenAI,GPT-4o,fb26c691-c0ab-4423-83ce-8ed6ecc2907d,user-26,rag-platform,Data Engineering,CI/CD Assistant,FinOps Agent,1,691,484,1175,0.01175,4312,success,prod
+2026-06-15T20:18:27.256161,Gemini,Gemini-2.5-Pro,56ecf5db-f1b4-4be2-9fdf-a11583727fd4,user-7,aiopsvista,Product Engineering,Customer Support,Code Assistant,1,668,3193,3861,0.03861,1296,success,prod
+2026-06-16T03:26:27.256179,Gemini,Gemini-2.5-Pro,f1d539f4-0e75-4299-bfbb-0206ad8f1087,user-18,incident-platform,Security,CI/CD Assistant,Support Agent,1,3816,789,4605,0.04605,2513,success,prod
+2026-06-21T07:32:27.256196,Gemini,Gemini-2.5-Pro,fd0a065c-e5e5-49e6-9889-eaad872c2bd4,user-40,security-copilot,Platform,Documentation,Security Agent,1,5447,1033,6480,0.0648,4211,error,dev
+2026-06-05T08:56:27.256213,Anthropic,Claude-4-Sonnet,4462af73-5805-4da1-9a3b-20e6efe20efb,user-20,rag-platform,Platform,Incident Analysis,Code Assistant,1,2007,1247,3254,0.03254,3819,success,prod
+2026-06-07T22:29:27.256231,GitHub Copilot,Copilot-Chat,8c2ba9bd-c59e-4b2e-be20-b04493ced68f,user-39,developer-portal,Platform,Incident Analysis,Support Agent,1,7059,1877,8936,0.08936,2919,success,dev
+2026-06-21T07:30:27.256248,Gemini,Gemini-2.5-Pro,e1556c52-be8a-48b2-a14c-3fbd52e24ae2,user-1,aiopsvista,SRE,Code Review,Support Agent,1,6919,2023,8942,0.08942,3506,success,prod
+2026-06-12T03:18:27.256265,Vertex AI,Gemini-on-Vertex,6d1eba52-d9b6-4bbe-90d2-0efec7bb065a,user-29,support-assistant,SRE,Customer Support,Incident Agent,1,6568,1854,8422,0.08422,1884,success,prod
+2026-06-05T17:47:27.256292,OpenAI,GPT-4.1,008e1964-3126-49f3-8dca-7ec9eda1a7ff,user-31,incident-platform,Platform,Knowledge Search,Support Agent,1,5940,2164,8104,0.08104,2943,success,prod
+2026-06-01T06:16:27.256322,Gemini,Gemini-2.5-Flash,2eea9da7-6e54-4753-bd05-0e63837a552c,user-26,security-copilot,Data Engineering,Customer Support,FinOps Agent,1,1863,3088,4951,0.04951,2973,success,prod
+2026-06-06T17:42:27.256341,GitHub Copilot,Copilot-Chat,b10aae22-b678-4526-a2c9-b021fbeb0828,user-26,aiopsvista,SRE,Incident Analysis,Incident Agent,1,5307,1941,7248,0.07248,719,success,prod
+2026-06-26T13:47:27.256359,Vertex AI,Gemini-on-Vertex,ac2b05d2-8295-485e-8e37-314e53d870c0,user-7,developer-portal,Customer Support,Code Review,FinOps Agent,1,4846,2845,7691,0.07691,3844,success,prod
+2026-06-09T03:16:27.256377,GitHub Copilot,Copilot-Chat,381fc404-935a-474e-bf17-7d4777dcef14,user-49,developer-portal,Platform,Root Cause Analysis,Security Agent,1,1328,1178,2506,0.02506,2637,success,stage
+2026-06-10T23:48:27.256396,GitHub Copilot,Copilot-Chat,af1e2e29-b7fc-4e6c-85dd-15d0a49fa7d6,user-9,support-assistant,Platform,Customer Support,Platform Agent,1,783,3989,4772,0.04772,1362,success,prod
+2026-06-25T20:05:27.256414,Gemini,Gemini-2.5-Flash,ad296c81-7e7f-45da-a761-affa5e53e128,user-12,incident-platform,Data Engineering,Documentation,Incident Agent,1,3085,1838,4923,0.04923,227,success,prod
+2026-06-23T09:38:27.256432,Gemini,Gemini-2.5-Flash,6f4c7fe0-cdb9-4e4f-9f3f-2d957e7c9e23,user-38,support-assistant,Customer Support,Root Cause Analysis,Security Agent,1,2053,3183,5236,0.05236,1080,success,prod
+2026-06-19T01:09:27.256449,Anthropic,Claude-4-Sonnet,95287a91-ff5b-447d-b28f-bc253099ec22,user-49,support-assistant,Data Engineering,Incident Analysis,Incident Agent,1,3637,3918,7555,0.07555,1652,success,prod
+2026-06-11T11:44:27.256467,Gemini,Gemini-2.5-Flash,cfc35e40-1eba-41c6-a9eb-3453f4767727,user-40,security-copilot,Security,Incident Analysis,Platform Agent,1,6529,122,6651,0.06651,4480,success,dev
+2026-05-31T21:57:27.256484,GitHub Copilot,Copilot-Chat,14106a31-2e81-439a-aae1-8396db133b99,user-50,incident-platform,Security,Root Cause Analysis,Incident Agent,1,5035,1855,6890,0.0689,3211,success,prod
+2026-06-23T07:38:27.256502,Anthropic,Claude-4-Sonnet,2a5450ef-0113-4656-b7dc-2fb123d339bf,user-1,aiopsvista,Customer Support,Root Cause Analysis,Code Assistant,1,840,429,1269,0.01269,4611,success,prod
+2026-05-30T14:19:27.256520,Gemini,Gemini-2.5-Flash,5b32625c-a989-4dba-a173-bb9b8f31d24f,user-43,developer-portal,Customer Support,Knowledge Search,Support Agent,1,5023,367,5390,0.0539,1899,success,prod
+2026-06-12T14:44:27.256537,GitHub Copilot,Copilot-Chat,c1723978-8b6e-4a3a-a2bc-53ca1e230488,user-34,incident-platform,SRE,Knowledge Search,Code Assistant,1,2650,75,2725,0.02725,1582,success,prod
+2026-06-03T02:41:27.256554,Gemini,Gemini-2.5-Flash,9c7e30d5-4d7b-4e12-b642-df1123191036,user-47,incident-platform,Security,Incident Analysis,Incident Agent,1,6223,1003,7226,0.07226,3366,success,dev
+2026-06-16T06:46:27.256571,GitHub Copilot,Copilot-Chat,ce0d82fc-d465-4e03-be69-b36953f62904,user-41,aiopsvista,Product Engineering,Knowledge Search,Code Assistant,1,6302,3696,9998,0.09998,1877,success,prod
+2026-06-04T18:05:27.256589,Anthropic,Claude-4-Sonnet,30167d74-7a7c-49cc-9947-188e429456f8,user-11,rag-platform,Product Engineering,Documentation,Code Assistant,1,7470,1600,9070,0.0907,4131,success,prod
+2026-06-05T22:22:27.256606,Gemini,Gemini-2.5-Pro,35334348-45b2-425e-b758-d671ff4d1724,user-26,aiopsvista,Security,Knowledge Search,Platform Agent,1,6791,747,7538,0.07538,3718,success,stage
+2026-06-17T20:14:27.256624,Anthropic,Claude-4-Sonnet,2007e79b-7bd4-4a9a-93ab-cb3d76c6bea9,user-39,support-assistant,Data Engineering,Knowledge Search,Incident Agent,1,3096,635,3731,0.03731,3003,success,stage
+2026-06-02T22:59:27.256692,Gemini,Gemini-2.5-Flash,538d6367-cd05-4dd9-aba3-150c2b6c7806,user-9,aiopsvista,SRE,Code Review,Incident Agent,1,396,3738,4134,0.04134,487,success,prod
+2026-06-27T06:50:27.256737,OpenAI,GPT-4o,9d564b6f-845a-4b0b-8d5e-237fe68491de,user-15,support-assistant,SRE,Root Cause Analysis,Platform Agent,1,1489,1097,2586,0.02586,1646,success,prod
+2026-06-11T15:52:27.256758,Anthropic,Claude-4-Sonnet,f5f58a74-293d-4e7c-a11f-3d03a6783299,user-6,support-assistant,Platform,CI/CD Assistant,FinOps Agent,1,1055,1542,2597,0.02597,4243,rate_limited,prod
+2026-06-03T08:57:27.256777,Gemini,Gemini-2.5-Pro,99384927-71b0-4912-838a-af47bd97bfb7,user-4,incident-platform,Data Engineering,Knowledge Search,Security Agent,1,7344,1885,9229,0.09229,2850,success,dev
+2026-06-13T19:07:27.256796,Anthropic,Claude-4-Sonnet,57bd9430-0b0a-46c1-a8ac-276bb2d4b331,user-3,rag-platform,Product Engineering,Root Cause Analysis,Support Agent,1,1863,283,2146,0.02146,184,success,prod
+2026-06-05T09:06:27.256945,GitHub Copilot,Copilot-Chat,384c798c-78db-4fd1-b43d-362c95af7e54,user-35,rag-platform,Security,Code Review,Code Assistant,1,183,3678,3861,0.03861,3172,success,dev
+2026-06-14T01:38:27.256981,Vertex AI,Gemini-on-Vertex,afd00af9-2daa-44c3-9492-8c937f1d9050,user-40,aiopsvista,SRE,Documentation,Security Agent,1,1364,1559,2923,0.02923,3088,success,dev
+2026-06-25T20:57:27.257081,OpenAI,GPT-4.1,d2238fec-20a8-456f-9d5d-4aa7af914b02,user-35,support-assistant,Platform,Code Review,Code Assistant,1,3729,3885,7614,0.07614,1632,success,prod
+2026-06-12T14:39:27.257116,Vertex AI,Gemini-on-Vertex,2f17d9c5-762e-4a75-a60b-53207bb46e93,user-14,developer-portal,Product Engineering,Code Review,Platform Agent,1,5554,768,6322,0.06322,1754,success,dev
+2026-06-18T02:59:27.257137,Vertex AI,Gemini-on-Vertex,a562d022-3034-4b6f-98ea-c74dc33afe4b,user-1,support-assistant,Platform,Customer Support,FinOps Agent,1,5256,1390,6646,0.06646,4546,success,dev
+2026-06-01T13:49:27.257167,Anthropic,Claude-4-Sonnet,cb702eac-5008-4dc3-b280-d5dc611fbc6f,user-37,support-assistant,SRE,Incident Analysis,Code Assistant,1,3883,3647,7530,0.0753,3877,success,dev
+2026-06-18T21:14:27.257198,Anthropic,Claude-4-Sonnet,8720a459-2e49-400d-b6a7-26928c063e06,user-43,developer-portal,Product Engineering,Documentation,Platform Agent,1,4382,2197,6579,0.06579,1375,success,prod
+2026-06-12T13:06:27.257216,Anthropic,Claude-4-Sonnet,05005e7e-9f93-439f-861c-6b2f1283dedf,user-40,rag-platform,Data Engineering,CI/CD Assistant,Support Agent,1,3773,2482,6255,0.06255,2973,success,prod
+2026-06-07T16:11:27.257234,Gemini,Gemini-2.5-Pro,8587581f-02f0-4556-9db8-f6fe246abb1c,user-17,aiopsvista,Data Engineering,Documentation,Incident Agent,1,4771,712,5483,0.05483,4746,success,prod
+2026-06-22T18:50:27.257251,Anthropic,Claude-4-Sonnet,82c04ca1-996a-487e-ada9-23e4dc1c222f,user-27,developer-portal,Data Engineering,Knowledge Search,Platform Agent,1,3787,2309,6096,0.06096,1618,success,prod
+2026-06-20T16:31:27.257268,Gemini,Gemini-2.5-Pro,1cb07e38-39e9-4cf5-a7d3-01a8f2a2c0d5,user-18,incident-platform,Data Engineering,Customer Support,Code Assistant,1,576,582,1158,0.01158,1503,success,prod
+2026-06-20T13:03:27.257285,Gemini,Gemini-2.5-Flash,ce8320a0-9349-4463-9814-88f581b43752,user-22,security-copilot,Platform,Documentation,Security Agent,1,6574,3289,9863,0.09863,2164,success,prod
+2026-06-06T03:51:27.257303,Anthropic,Claude-4-Sonnet,294cd459-f219-4222-a684-61fdc3920e69,user-9,rag-platform,SRE,Customer Support,Code Assistant,1,1171,1169,2340,0.0234,555,success,dev
+2026-06-27T06:06:27.257320,Anthropic,Claude-4-Sonnet,ec1477c9-6999-4bc4-a777-fc61968caa91,user-50,developer-portal,SRE,Incident Analysis,Incident Agent,1,2067,3798,5865,0.05865,4164,success,stage
+2026-06-04T05:03:27.257337,Vertex AI,Gemini-on-Vertex,b0bd0adb-f39d-4de3-9097-04a4b8f1eff7,user-45,incident-platform,Customer Support,Customer Support,FinOps Agent,1,2749,3999,6748,0.06748,2190,success,stage
+2026-06-26T15:49:27.257354,Anthropic,Claude-4-Sonnet,c09a97d2-7c30-4501-ab8a-bded85c1ea85,user-4,security-copilot,SRE,Knowledge Search,FinOps Agent,1,2506,2425,4931,0.04931,4417,success,prod
+2026-06-24T12:27:27.257371,GitHub Copilot,Copilot-Chat,215431ce-d5a5-49ed-8127-7b575fda188b,user-19,developer-portal,Platform,Knowledge Search,Platform Agent,1,3942,1292,5234,0.05234,1427,success,dev
+2026-06-07T07:00:27.257387,GitHub Copilot,Copilot-Chat,dc2c5d3e-8fd6-4c02-869a-95136e9ac464,user-5,developer-portal,Platform,CI/CD Assistant,Code Assistant,1,3417,2394,5811,0.05811,3205,success,stage
+2026-06-20T00:08:27.257404,Anthropic,Claude-4-Sonnet,0073da59-2bc4-495f-9729-8e9172151897,user-14,aiopsvista,SRE,Incident Analysis,Support Agent,1,4285,2666,6951,0.06951,904,success,prod
+2026-06-05T03:04:27.257421,GitHub Copilot,Copilot-Chat,a93993dd-a4bb-4bbc-bfa4-360394a4f99a,user-48,incident-platform,Product Engineering,Knowledge Search,Support Agent,1,7798,2808,10606,0.10606,1242,success,dev
+2026-06-07T07:56:27.257438,Anthropic,Claude-4-Sonnet,abadea89-f091-4526-9114-cf561382fe4a,user-17,security-copilot,Data Engineering,Knowledge Search,Support Agent,1,7965,844,8809,0.08809,1495,success,stage
+2026-06-22T21:12:27.257455,GitHub Copilot,Copilot-Chat,e328da54-012d-441b-81a1-d28cabf7f802,user-17,rag-platform,Customer Support,CI/CD Assistant,Code Assistant,1,2312,3084,5396,0.05396,608,success,prod
+2026-06-12T15:33:27.257471,Vertex AI,Gemini-on-Vertex,df3f91df-692b-4d26-b6b2-7d1430e503c2,user-36,support-assistant,Product Engineering,Documentation,Security Agent,1,3354,1860,5214,0.05214,4345,success,stage
+2026-06-19T00:07:27.257488,Gemini,Gemini-2.5-Flash,b30c855b-8d72-49f8-9c80-fd7d8d2ab3db,user-31,developer-portal,SRE,Code Review,Support Agent,1,1160,252,1412,0.01412,537,success,stage
+2026-06-03T16:31:27.257504,OpenAI,GPT-4.1,7992067d-e0ee-41fc-a232-b68198edf7a1,user-24,rag-platform,Data Engineering,Code Review,FinOps Agent,1,1215,3662,4877,0.04877,355,success,prod
+2026-06-12T19:57:27.257521,Anthropic,Claude-4-Sonnet,0f931a55-fa80-4a17-8c5b-f4b37f7ba0cb,user-6,support-assistant,Security,Root Cause Analysis,Incident Agent,1,3447,3308,6755,0.06755,4979,success,prod
+2026-05-31T22:28:27.257538,Anthropic,Claude-4-Sonnet,d327ae49-75f7-42a2-9bb7-0401a565ce18,user-28,incident-platform,SRE,Customer Support,Code Assistant,1,2805,1748,4553,0.04553,2051,success,prod
+2026-06-01T21:02:27.257556,Gemini,Gemini-2.5-Flash,3b6d4726-47f9-494f-892e-7902d1e984af,user-42,support-assistant,Platform,Documentation,Support Agent,1,3409,3703,7112,0.07112,3054,success,prod
+2026-06-12T15:05:27.257588,Gemini,Gemini-2.5-Pro,0ebf9f37-6c0b-4e6b-a23a-d25d3fd92466,user-25,rag-platform,Product Engineering,Incident Analysis,FinOps Agent,1,836,3275,4111,0.04111,2063,success,dev
+2026-06-22T23:20:27.257635,Anthropic,Claude-4-Sonnet,15d4fdd6-fb2b-47aa-b09d-3e4bc5fce177,user-41,rag-platform,Data Engineering,Customer Support,Platform Agent,1,2131,3860,5991,0.05991,4887,success,dev
+2026-06-08T19:45:27.257669,GitHub Copilot,Copilot-Chat,c016c1bf-b1dc-4ca4-9bd2-154730783e72,user-21,rag-platform,Data Engineering,Documentation,Incident Agent,1,5043,2286,7329,0.07329,497,success,stage
+2026-06-13T18:09:27.257690,OpenAI,GPT-4o,8f85093c-eafd-47ef-8927-4a02122479ec,user-5,support-assistant,Product Engineering,Documentation,Platform Agent,1,4641,2078,6719,0.06719,4692,success,prod
+2026-06-04T16:06:27.257709,Gemini,Gemini-2.5-Flash,5d96314e-502f-46be-a964-329c2ccc8e00,user-31,incident-platform,Platform,Code Review,FinOps Agent,1,4666,3614,8280,0.0828,3952,success,stage
+2026-06-01T03:34:27.257727,Vertex AI,Gemini-on-Vertex,ee68787b-5988-4a34-b186-bbf0dce4c019,user-44,incident-platform,Platform,Incident Analysis,Security Agent,1,3010,99,3109,0.03109,1718,success,prod
+2026-06-03T03:45:27.257745,Gemini,Gemini-2.5-Pro,141d5a73-98bd-40cb-9a1f-a961cd454fba,user-26,incident-platform,Security,Customer Support,Security Agent,1,6476,1556,8032,0.08032,2725,success,prod
+2026-06-28T07:17:27.257762,GitHub Copilot,Copilot-Chat,bd977076-84d5-4796-832a-9b34a114573a,user-35,aiopsvista,Customer Support,Knowledge Search,Code Assistant,1,1413,1618,3031,0.03031,3132,success,stage
+2026-06-23T06:55:27.257779,Gemini,Gemini-2.5-Flash,8338fc3f-d34d-4137-93a9-0a9c0ba2d649,user-38,developer-portal,SRE,Incident Analysis,Security Agent,1,6940,703,7643,0.07643,1757,success,prod
+2026-06-29T17:35:27.257797,Vertex AI,Gemini-on-Vertex,b366bf11-9792-4094-b4f1-f0b274b47802,user-3,security-copilot,Security,Root Cause Analysis,Security Agent,1,1680,2443,4123,0.04123,1706,success,prod
+2026-06-22T23:07:27.257813,OpenAI,GPT-4.1,1b45b9bf-a038-44c7-acda-4878f4d753e9,user-34,aiopsvista,Security,CI/CD Assistant,Support Agent,1,7660,3989,11649,0.11649,4947,timeout,prod
+2026-06-10T23:51:27.257830,GitHub Copilot,Copilot-Chat,e31f79f7-e96b-4edc-a316-6e95c022ad34,user-12,security-copilot,SRE,Customer Support,FinOps Agent,1,7132,345,7477,0.07477,4872,success,stage
+2026-06-04T13:56:27.257847,Anthropic,Claude-4-Sonnet,3fe43932-98c8-465d-8746-284be8447341,user-26,aiopsvista,Product Engineering,Root Cause Analysis,FinOps Agent,1,5095,3333,8428,0.08428,2320,success,stage
+2026-06-07T17:49:27.257864,GitHub Copilot,Copilot-Chat,63526c0a-7e54-4583-a09a-c7cbfebf8f56,user-7,aiopsvista,Data Engineering,Customer Support,Code Assistant,1,3590,2750,6340,0.0634,4276,success,prod
+2026-06-20T09:03:27.257881,Anthropic,Claude-4-Sonnet,3f56818a-040a-42f0-add6-00600e7d5464,user-8,aiopsvista,SRE,CI/CD Assistant,FinOps Agent,1,858,220,1078,0.01078,4709,success,stage
+2026-06-17T09:57:27.257898,Anthropic,Claude-4-Sonnet,ed5eb078-c93f-484b-b3e5-8b6efe48e553,user-29,incident-platform,SRE,Incident Analysis,Platform Agent,1,2086,3294,5380,0.0538,4018,success,prod
+2026-06-29T07:38:27.257985,OpenAI,GPT-4.1,93a21b3f-c0a9-4ea9-9c89-3de6da4af8a8,user-16,developer-portal,Data Engineering,Incident Analysis,Security Agent,1,7627,3012,10639,0.10639,4948,success,dev
+2026-06-10T16:40:27.258019,Anthropic,Claude-4-Sonnet,2aa3d2fb-852c-49c5-95e0-ccc1c25a2c66,user-7,incident-platform,Customer Support,Code Review,Code Assistant,1,5973,3927,9900,0.099,3172,error,stage
+2026-06-27T12:44:27.258040,OpenAI,GPT-4o,ccce2c28-c272-4207-9534-394f61ce4faf,user-22,support-assistant,Customer Support,CI/CD Assistant,FinOps Agent,1,1818,1727,3545,0.03545,1898,success,prod
+2026-06-12T06:49:27.258059,OpenAI,GPT-4.1,177d29e4-8021-47ba-8e7d-53cd8b90dc40,user-1,incident-platform,Customer Support,Customer Support,Incident Agent,1,6082,269,6351,0.06351,4327,success,prod
+2026-06-22T09:17:27.258077,GitHub Copilot,Copilot-Chat,e0d71027-4221-44f2-b402-ec67a8d1ed52,user-37,incident-platform,Product Engineering,Documentation,FinOps Agent,1,5717,1388,7105,0.07105,3753,success,prod
+2026-06-07T02:25:27.258096,OpenAI,GPT-4o,2f532c73-c771-43c4-b0e6-2ecbfe135d74,user-20,security-copilot,Data Engineering,Code Review,FinOps Agent,1,6592,2361,8953,0.08953,2617,success,prod
+2026-05-31T08:52:27.258114,GitHub Copilot,Copilot-Chat,44162644-5a7c-4a18-8f99-fc27db1d8951,user-44,rag-platform,Product Engineering,Root Cause Analysis,Incident Agent,1,3379,962,4341,0.04341,2978,success,stage
+2026-06-25T19:09:27.258132,Gemini,Gemini-2.5-Pro,122f2fdc-3323-4d06-9e7e-b45680b2d97a,user-7,rag-platform,Security,Documentation,Platform Agent,1,1199,3919,5118,0.05118,4086,success,prod
+2026-06-09T04:29:27.258151,Gemini,Gemini-2.5-Flash,4ba1d3f1-2efb-4c11-8725-b6124babbdd8,user-32,rag-platform,Customer Support,Knowledge Search,Support Agent,1,165,1652,1817,0.01817,3216,success,prod
+2026-06-19T04:39:27.258169,Anthropic,Claude-4-Sonnet,24cdeb14-db72-4424-b0fa-5138bc775a94,user-6,aiopsvista,SRE,Knowledge Search,FinOps Agent,1,6923,2469,9392,0.09392,1121,success,prod
+2026-06-13T15:17:27.258187,Anthropic,Claude-4-Sonnet,45eed2b7-ce74-4c15-a8f6-9f53cd44b6c2,user-42,support-assistant,Platform,Knowledge Search,Platform Agent,1,656,1517,2173,0.02173,651,success,prod
+2026-06-09T19:46:27.258205,OpenAI,GPT-4.1,790fb3fe-3a67-4780-82ab-a0d1c4453640,user-37,incident-platform,Customer Support,Code Review,Platform Agent,1,4028,3596,7624,0.07624,3185,success,prod
+2026-06-16T06:54:27.258222,OpenAI,GPT-4o,ecd1b9b3-37a6-4f07-abc6-d0d747e85271,user-21,incident-platform,SRE,Incident Analysis,Incident Agent,1,3070,2450,5520,0.0552,4760,success,dev
+2026-06-29T20:38:27.258239,Gemini,Gemini-2.5-Flash,13471123-4d31-43fc-bb15-a4d109852c3a,user-24,developer-portal,Security,CI/CD Assistant,Incident Agent,1,2773,1750,4523,0.04523,3601,success,prod
+2026-06-11T14:22:27.258256,Gemini,Gemini-2.5-Pro,5fcef727-5692-4987-99c8-39cf1d1f037e,user-15,aiopsvista,Security,Root Cause Analysis,FinOps Agent,1,4437,3603,8040,0.0804,4666,success,prod
+2026-06-15T00:46:27.258274,Vertex AI,Gemini-on-Vertex,b984b250-ee08-4701-9c05-ee9bb8045915,user-23,security-copilot,Platform,Code Review,Code Assistant,1,609,3743,4352,0.04352,2580,success,prod
+2026-06-08T03:04:27.258291,Gemini,Gemini-2.5-Flash,b6dba662-5083-496f-bb5e-25e9cb1ad506,user-2,support-assistant,Platform,CI/CD Assistant,Incident Agent,1,3539,1899,5438,0.05438,3896,success,prod
+2026-06-27T06:12:27.258309,GitHub Copilot,Copilot-Chat,5d6bdb64-03f5-4fe3-9536-e79dff8fe07c,user-18,rag-platform,Customer Support,Root Cause Analysis,Code Assistant,1,7377,2375,9752,0.09752,2044,success,prod
+2026-06-16T19:21:27.258344,OpenAI,GPT-4o,668dd508-4618-4126-b528-5bfa8d42bde5,user-40,developer-portal,Product Engineering,Documentation,Platform Agent,1,134,2562,2696,0.02696,2859,success,prod
+2026-06-19T12:40:27.258366,Anthropic,Claude-4-Sonnet,82e6fad9-e4eb-4be7-8140-6b3fffc23b46,user-35,security-copilot,SRE,Root Cause Analysis,FinOps Agent,1,3216,2410,5626,0.05626,1441,success,dev
+2026-06-20T23:23:27.258384,Vertex AI,Gemini-on-Vertex,ad6cadd0-ff1e-43fe-9f6d-0c1e78c5a3ec,user-3,aiopsvista,Security,Documentation,Platform Agent,1,4397,727,5124,0.05124,4525,success,prod
+2026-06-10T14:31:27.258402,Anthropic,Claude-4-Sonnet,4ad433a0-f33c-49a3-947e-ac583cb806ab,user-10,rag-platform,Data Engineering,Root Cause Analysis,Security Agent,1,4564,1445,6009,0.06009,1399,success,prod
+2026-06-25T08:10:27.258420,OpenAI,GPT-4o,2a2a8b4e-0ca5-4561-ab32-cd30d11f897d,user-44,aiopsvista,Security,CI/CD Assistant,Support Agent,1,6738,144,6882,0.06882,1911,success,prod
+2026-06-17T16:39:27.258438,OpenAI,GPT-4.1,a7f08734-e289-4cbc-985b-736568e31fd1,user-18,rag-platform,Platform,CI/CD Assistant,Incident Agent,1,6357,996,7353,0.07353,4119,success,prod
+2026-06-16T14:57:27.258455,OpenAI,GPT-4.1,a08fa4ef-5332-4eea-b710-91808e4033fe,user-41,aiopsvista,SRE,Documentation,Security Agent,1,4641,3866,8507,0.08507,1505,success,prod
+2026-06-14T11:22:27.258472,Gemini,Gemini-2.5-Pro,76ab3612-b168-4d7e-b2bc-ba299673f0e8,user-48,aiopsvista,Data Engineering,CI/CD Assistant,Platform Agent,1,4354,1401,5755,0.05755,1396,success,prod
+2026-06-14T11:58:27.258490,Vertex AI,Gemini-on-Vertex,c1896859-1840-4f4c-a841-6a858b482b3a,user-13,incident-platform,Security,Root Cause Analysis,Platform Agent,1,4782,2235,7017,0.07017,1299,success,stage
+2026-05-31T01:41:27.258507,GitHub Copilot,Copilot-Chat,592c9146-df28-454f-9b9a-a7ff46524e45,user-4,developer-portal,Security,Code Review,Incident Agent,1,7571,150,7721,0.07721,3423,success,dev
+2026-06-15T10:13:27.258525,Gemini,Gemini-2.5-Pro,edbf0dba-1e88-424c-8651-eaa632399b83,user-2,rag-platform,Security,Knowledge Search,Code Assistant,1,7148,3810,10958,0.10958,4180,success,prod
+2026-06-27T23:34:27.258542,Anthropic,Claude-4-Sonnet,f1b2a1e8-fd97-4569-8f66-23ac4dd82ccb,user-4,rag-platform,Security,CI/CD Assistant,Support Agent,1,1156,361,1517,0.01517,3401,success,prod
+2026-06-12T17:43:27.258559,Gemini,Gemini-2.5-Flash,8f5b918c-168b-4e8d-aa29-1de8362596cf,user-44,incident-platform,SRE,Documentation,Platform Agent,1,7409,816,8225,0.08225,4319,success,dev
+2026-06-18T13:50:27.258577,Vertex AI,Gemini-on-Vertex,cc52540a-0095-45da-b249-025b8c46ab07,user-41,aiopsvista,Product Engineering,Root Cause Analysis,Support Agent,1,1163,3409,4572,0.04572,1189,rate_limited,prod
+2026-06-20T08:42:27.258594,Vertex AI,Gemini-on-Vertex,8f3080ad-0c42-4911-86f3-cf15bcd4fa73,user-40,rag-platform,Product Engineering,Root Cause Analysis,Security Agent,1,5635,2104,7739,0.07739,3561,success,prod
+2026-06-27T20:34:27.258612,Anthropic,Claude-4-Sonnet,a6baf3bf-ac47-4500-9d14-71e3f0756b66,user-8,aiopsvista,SRE,Customer Support,Incident Agent,1,5092,2090,7182,0.07182,3589,success,prod
+2026-06-29T06:07:27.258629,Gemini,Gemini-2.5-Pro,29f21747-54ff-4e9b-a39c-7febb33629dd,user-3,rag-platform,Security,Customer Support,Incident Agent,1,7933,1415,9348,0.09348,3933,success,stage
+2026-06-11T12:29:27.258646,OpenAI,GPT-4.1,9d8a5ece-213d-49aa-9490-93b522be282d,user-39,rag-platform,SRE,Code Review,FinOps Agent,1,3509,3930,7439,0.07439,545,success,prod
+2026-06-01T08:23:27.258663,Gemini,Gemini-2.5-Flash,98a6afff-1500-48c6-8667-2c491dbbaa30,user-31,security-copilot,Data Engineering,Knowledge Search,Security Agent,1,136,1482,1618,0.01618,3860,success,prod
+2026-06-11T16:46:27.258681,Gemini,Gemini-2.5-Flash,a5e2998b-7fc2-4fdb-8a7d-f729d2c19175,user-30,incident-platform,Customer Support,Documentation,Incident Agent,1,1607,1612,3219,0.03219,2966,success,prod
+2026-06-05T18:01:27.258698,Gemini,Gemini-2.5-Flash,d1c006e6-d5e2-40fe-a9bc-7bc4cbc57aff,user-19,aiopsvista,SRE,Customer Support,Support Agent,1,6191,275,6466,0.06466,1885,rate_limited,prod
+2026-06-19T17:29:27.258715,Anthropic,Claude-4-Sonnet,fd14f3eb-a89d-4ca8-b17b-d1b2460b2eee,user-2,developer-portal,Product Engineering,CI/CD Assistant,Security Agent,1,7758,1629,9387,0.09387,4544,success,stage
+2026-06-26T08:27:27.258740,Gemini,Gemini-2.5-Pro,1b8740c4-2dbd-465c-a09c-3eea337b5aa3,user-16,incident-platform,Product Engineering,Documentation,Platform Agent,1,7652,2707,10359,0.10359,4277,success,prod
+2026-06-27T18:45:27.258768,OpenAI,GPT-4o,501ac7cd-eb95-47c0-825f-c088d3316acb,user-3,security-copilot,SRE,Customer Support,Security Agent,1,5617,2192,7809,0.07809,2066,success,prod
+2026-06-27T16:07:27.258849,OpenAI,GPT-4o,454becb3-35e2-42b8-b70f-19c2b9129ccb,user-36,aiopsvista,Security,Root Cause Analysis,Code Assistant,1,276,213,489,0.00489,3063,success,stage
+2026-06-05T21:54:27.258884,Gemini,Gemini-2.5-Pro,fda7dfa3-d328-4a99-92f9-771061d7d418,user-14,support-assistant,SRE,Incident Analysis,Code Assistant,1,6159,3140,9299,0.09299,4788,success,prod
+2026-06-13T05:44:27.258906,Gemini,Gemini-2.5-Pro,9b99bcbc-e648-4d64-81c2-2ac809f43897,user-29,security-copilot,Data Engineering,Root Cause Analysis,Code Assistant,1,4873,969,5842,0.05842,1993,success,prod
+2026-06-01T18:53:27.258968,Gemini,Gemini-2.5-Pro,cfae2e74-2d5b-42f7-ab54-7b3c10ea8ec3,user-11,support-assistant,Customer Support,Incident Analysis,Incident Agent,1,4145,2905,7050,0.0705,3680,success,prod
+2026-06-08T11:52:27.258992,Vertex AI,Gemini-on-Vertex,003e2f2c-acaa-4138-90af-b44dbfe428af,user-28,security-copilot,Customer Support,Documentation,Security Agent,1,2323,2256,4579,0.04579,3099,success,prod
+2026-06-09T09:41:27.259013,Vertex AI,Gemini-on-Vertex,09d14773-ae07-49a6-9055-5773cf6c2195,user-7,aiopsvista,Product Engineering,Documentation,FinOps Agent,1,5479,1847,7326,0.07326,4998,success,prod
+2026-06-29T05:49:27.259032,OpenAI,GPT-4o,f3e79a4e-ed28-48fc-a89a-8b7d4b882cad,user-31,developer-portal,Security,CI/CD Assistant,Incident Agent,1,2286,2197,4483,0.04483,2195,success,prod
+2026-06-26T01:07:27.259051,Gemini,Gemini-2.5-Pro,8dcc0b7d-4c42-404d-8177-6bc79ece5e97,user-17,developer-portal,Product Engineering,Code Review,Security Agent,1,3186,1173,4359,0.04359,776,success,prod
+2026-06-13T21:55:27.259069,OpenAI,GPT-4o,f6ed2a43-6ce8-428c-a7bd-008335621a66,user-49,rag-platform,SRE,Knowledge Search,Security Agent,1,5404,2973,8377,0.08377,1947,success,dev
+2026-06-14T15:01:27.259086,Anthropic,Claude-4-Sonnet,f19c4103-bf3c-477c-9d44-0fe68db17be7,user-33,aiopsvista,SRE,Documentation,Support Agent,1,3013,2778,5791,0.05791,1427,success,prod
+2026-06-14T16:04:27.259111,OpenAI,GPT-4o,eff6dc02-507c-4ea3-9193-9b8b4c0d3a06,user-39,developer-portal,Platform,CI/CD Assistant,Support Agent,1,1309,2128,3437,0.03437,3024,success,prod
+2026-05-31T14:19:27.259144,Anthropic,Claude-4-Sonnet,d07a3b95-606b-485a-9769-4034f859432c,user-50,support-assistant,Security,Knowledge Search,Security Agent,1,3360,3467,6827,0.06827,1465,success,prod
+2026-06-28T01:12:27.259163,Gemini,Gemini-2.5-Pro,08731800-80d9-4cc3-a756-f9be1472b74f,user-31,rag-platform,Platform,Code Review,Security Agent,1,3631,3072,6703,0.06703,4460,success,dev
+2026-06-13T16:12:27.259181,Vertex AI,Gemini-on-Vertex,fa2b9236-6671-4ded-81b7-801ca729a6ba,user-35,developer-portal,SRE,Code Review,Code Assistant,1,1344,2861,4205,0.04205,2172,rate_limited,prod
+2026-06-08T01:48:27.259198,OpenAI,GPT-4.1,2e3b0cfb-31b6-4961-96fb-2f525fc08ae8,user-33,developer-portal,Security,Code Review,Security Agent,1,1721,3152,4873,0.04873,4209,success,prod
+2026-06-28T14:05:27.259215,GitHub Copilot,Copilot-Chat,72d9eae4-c431-4048-b347-530276e3aa03,user-10,developer-portal,SRE,Code Review,Incident Agent,1,5135,652,5787,0.05787,3228,success,prod
+2026-06-26T14:29:27.259232,OpenAI,GPT-4o,3c4ebec2-58d3-45ff-903f-d04ca5d3fe53,user-10,aiopsvista,SRE,CI/CD Assistant,Incident Agent,1,1603,3453,5056,0.05056,1961,success,stage
+2026-06-16T06:23:27.259519,OpenAI,GPT-4o,e474c233-97b4-47e5-9343-25d4b59e797b,user-34,rag-platform,Platform,Knowledge Search,Platform Agent,1,3755,3004,6759,0.06759,1584,rate_limited,prod
+2026-06-25T11:18:27.259581,GitHub Copilot,Copilot-Chat,b0dd1c29-1a91-411c-8664-861c6d4a3624,user-8,incident-platform,SRE,Customer Support,Support Agent,1,5632,1908,7540,0.0754,4705,success,stage
+2026-06-06T22:34:27.259633,GitHub Copilot,Copilot-Chat,dd2c4443-7472-48b6-89ed-6f9b61292627,user-18,incident-platform,SRE,Knowledge Search,Security Agent,1,7624,1020,8644,0.08644,1645,success,dev
+2026-06-03T11:52:27.259656,OpenAI,GPT-4.1,2bda8fb0-0243-41dd-bfc4-6a726f77e50a,user-31,developer-portal,Security,Documentation,Code Assistant,1,2603,2144,4747,0.04747,828,success,prod
+2026-06-22T14:45:27.259676,GitHub Copilot,Copilot-Chat,c4698d0b-8341-4f90-a5d6-3e02824728bc,user-45,incident-platform,Product Engineering,Knowledge Search,FinOps Agent,1,7058,3502,10560,0.1056,1465,success,prod
+2026-06-02T11:16:27.259694,OpenAI,GPT-4.1,3cd35990-5030-4c53-87e9-288c48cfe13a,user-37,support-assistant,Data Engineering,Root Cause Analysis,Platform Agent,1,1695,1951,3646,0.03646,1217,success,prod
+2026-06-11T15:40:27.259711,Vertex AI,Gemini-on-Vertex,46b38c9f-f388-4776-9633-bd70003e7210,user-29,rag-platform,Security,Customer Support,FinOps Agent,1,3684,3445,7129,0.07129,3366,success,prod
+2026-06-20T06:57:27.259728,Anthropic,Claude-4-Sonnet,4a68253d-48cd-496a-b93f-be5ba617a2d8,user-8,support-assistant,Product Engineering,Customer Support,Incident Agent,1,5418,310,5728,0.05728,2433,success,prod
+2026-06-24T08:14:27.259757,Vertex AI,Gemini-on-Vertex,0aa60a59-65d1-45f4-b944-295a897c3321,user-12,rag-platform,Data Engineering,Root Cause Analysis,Code Assistant,1,7505,1208,8713,0.08713,1714,success,prod
+2026-06-29T16:52:27.259786,Anthropic,Claude-4-Sonnet,5769fdee-43b5-497a-8ce1-097027e1ab39,user-19,incident-platform,Security,Documentation,Incident Agent,1,7172,1213,8385,0.08385,3041,success,stage
+2026-06-10T14:42:27.259818,OpenAI,GPT-4.1,e6ed8bea-142a-4dab-b1b1-23234dc9481f,user-44,rag-platform,Data Engineering,Code Review,FinOps Agent,1,1379,2298,3677,0.03677,3096,success,prod
+2026-05-30T15:08:27.259870,Vertex AI,Gemini-on-Vertex,e51e0159-04ed-40e1-9a35-ac17441b2e04,user-24,aiopsvista,SRE,Knowledge Search,Code Assistant,1,6311,271,6582,0.06582,1685,success,prod
+2026-06-11T22:25:27.259933,Vertex AI,Gemini-on-Vertex,0526f507-c6de-4cd2-a69a-a8456111754f,user-24,aiopsvista,Product Engineering,Customer Support,Code Assistant,1,1741,2773,4514,0.04514,3437,success,stage
+2026-06-28T19:21:27.259990,GitHub Copilot,Copilot-Chat,5a9960c7-e639-452f-8ce8-050284074f5e,user-1,rag-platform,Customer Support,Knowledge Search,Platform Agent,1,5262,3119,8381,0.08381,2724,success,prod
+2026-05-31T05:53:27.260040,Anthropic,Claude-4-Sonnet,35f3bd81-d5aa-442d-9c88-e10e832f273c,user-7,rag-platform,Platform,Documentation,Platform Agent,1,2485,3393,5878,0.05878,685,success,prod
+2026-06-07T16:40:27.260066,OpenAI,GPT-4.1,b76e1d36-b5ff-406e-bb09-1a715a7e178a,user-4,security-copilot,Data Engineering,Documentation,Platform Agent,1,6938,82,7020,0.0702,3319,success,dev
+2026-06-16T11:38:27.260086,Anthropic,Claude-4-Sonnet,67638019-db91-4777-8196-30705331c8d9,user-5,incident-platform,Security,Knowledge Search,Code Assistant,1,3769,2262,6031,0.06031,3945,success,prod
+2026-06-13T13:42:27.260104,Vertex AI,Gemini-on-Vertex,a3695302-dfa6-476d-a8f5-453b72e9b82f,user-16,rag-platform,Customer Support,Documentation,Code Assistant,1,2637,3998,6635,0.06635,2508,success,prod
+2026-06-22T00:14:27.260123,Anthropic,Claude-4-Sonnet,9070ad5d-d6ed-48b7-beaf-e92bac689d2c,user-36,developer-portal,Customer Support,Root Cause Analysis,Security Agent,1,6968,222,7190,0.0719,4237,success,prod
+2026-06-02T02:09:27.260141,Anthropic,Claude-4-Sonnet,85cd9af6-8604-46d3-9c70-6e5ba2dd220b,user-32,incident-platform,Data Engineering,CI/CD Assistant,Platform Agent,1,3991,1998,5989,0.05989,2436,success,prod
+2026-06-02T12:57:27.260158,GitHub Copilot,Copilot-Chat,4bc50726-28ec-44cb-bee6-eccba92ad70a,user-46,aiopsvista,Security,Documentation,Platform Agent,1,221,3522,3743,0.03743,323,success,prod
+2026-06-26T10:39:27.260176,Gemini,Gemini-2.5-Flash,ec102829-6dce-4b1f-a80d-8cd5c6f56dbf,user-29,security-copilot,Platform,Customer Support,Incident Agent,1,7331,1058,8389,0.08389,993,success,prod
+2026-06-12T19:39:27.260193,Anthropic,Claude-4-Sonnet,8549f510-25a6-4b56-a940-640d837fb1cc,user-46,security-copilot,Customer Support,Incident Analysis,FinOps Agent,1,540,271,811,0.00811,3114,success,dev
+2026-06-14T16:34:27.260210,GitHub Copilot,Copilot-Chat,e8346c53-19a2-46fd-ba95-04643278f968,user-3,developer-portal,Customer Support,Customer Support,Security Agent,1,3720,688,4408,0.04408,4564,success,prod
+2026-06-22T09:35:27.260242,Gemini,Gemini-2.5-Pro,9b5036c2-82cd-40f8-b166-378c66eeea61,user-37,incident-platform,Platform,Documentation,Security Agent,1,4761,1163,5924,0.05924,601,success,stage
+2026-06-11T00:20:27.260342,Vertex AI,Gemini-on-Vertex,0152fdef-db79-4d69-ac44-657aec8a0c75,user-25,security-copilot,Customer Support,Customer Support,Code Assistant,1,7982,3589,11571,0.11571,4684,success,stage
+2026-06-08T11:23:27.260378,Anthropic,Claude-4-Sonnet,a4f4e393-d0f9-4bc8-9f65-5f53cb613d1f,user-2,aiopsvista,SRE,Incident Analysis,Support Agent,1,1742,918,2660,0.0266,3515,success,stage
+2026-06-06T22:44:27.260400,OpenAI,GPT-4o,f4321eb2-0522-47d0-82f6-395e8d06aedd,user-9,developer-portal,Customer Support,Code Review,Platform Agent,1,2640,2931,5571,0.05571,1425,success,prod
+2026-06-06T08:14:27.260420,Gemini,Gemini-2.5-Pro,27ef20d2-ad47-4ee7-b237-67fc31263c44,user-43,rag-platform,Product Engineering,Documentation,FinOps Agent,1,493,1678,2171,0.02171,2162,success,prod
+2026-06-21T17:28:27.260438,GitHub Copilot,Copilot-Chat,2ea6ca8d-c212-46f6-9112-8fc5f647bae7,user-44,security-copilot,Data Engineering,CI/CD Assistant,Platform Agent,1,2682,1888,4570,0.0457,1313,success,prod
+2026-06-07T12:41:27.260456,OpenAI,GPT-4o,32706368-3040-48b4-8d13-e35482bd4676,user-39,security-copilot,Security,Root Cause Analysis,Code Assistant,1,7549,365,7914,0.07914,4083,success,prod
+2026-06-03T02:54:27.260473,Anthropic,Claude-4-Sonnet,f6ae3810-f863-4e6f-a68f-b23e9cdc6c23,user-28,support-assistant,Customer Support,Code Review,Incident Agent,1,4142,3653,7795,0.07795,4416,success,dev
+2026-06-18T17:13:27.260491,Anthropic,Claude-4-Sonnet,1ef21040-2e86-414f-aee8-bd8b80279de1,user-15,security-copilot,Product Engineering,CI/CD Assistant,FinOps Agent,1,3369,278,3647,0.03647,2097,success,prod
+2026-06-13T00:05:27.260508,Gemini,Gemini-2.5-Flash,a78132bf-e965-4921-a182-397caef72324,user-46,security-copilot,Security,Root Cause Analysis,Support Agent,1,5111,425,5536,0.05536,4666,success,prod
+2026-06-17T01:43:27.260526,OpenAI,GPT-4.1,e418ef50-ba30-4a6c-83a6-90891b42e0a5,user-12,aiopsvista,SRE,Code Review,Platform Agent,1,5333,2287,7620,0.0762,2683,success,prod
+2026-06-23T09:01:27.260543,Anthropic,Claude-4-Sonnet,4126d7a2-703a-48ab-9f88-e1b2ba9043c0,user-10,developer-portal,Data Engineering,Incident Analysis,Code Assistant,1,6317,564,6881,0.06881,3092,success,dev
+2026-06-29T18:05:27.260560,GitHub Copilot,Copilot-Chat,8f87d989-7ba8-4d88-877e-dccd0b780756,user-14,rag-platform,Customer Support,Documentation,Platform Agent,1,7023,1373,8396,0.08396,2665,success,prod
+2026-06-18T21:50:27.260577,GitHub Copilot,Copilot-Chat,1f1d5bf8-5ead-4dc6-af98-0955e7373a09,user-38,incident-platform,Data Engineering,CI/CD Assistant,Platform Agent,1,5786,3191,8977,0.08977,2850,success,prod
+2026-06-28T00:01:27.260598,OpenAI,GPT-4.1,13f8c574-01ae-496b-a485-754b79b660bb,user-16,developer-portal,Data Engineering,Customer Support,Security Agent,1,3015,610,3625,0.03625,1004,success,dev
+2026-06-17T09:16:27.260630,Gemini,Gemini-2.5-Flash,e0a83d83-a946-41c1-84d6-897fc272afd0,user-31,aiopsvista,Data Engineering,Customer Support,Incident Agent,1,7331,2910,10241,0.10241,3839,success,stage
+2026-06-28T21:25:27.260649,OpenAI,GPT-4.1,dbf8fa39-d8af-4ba5-839e-673193763953,user-26,aiopsvista,Security,Code Review,FinOps Agent,1,5925,3118,9043,0.09043,1684,success,prod
+2026-06-26T12:09:27.260667,Vertex AI,Gemini-on-Vertex,cb168c07-7788-4546-a508-ecd7d962cadb,user-46,rag-platform,SRE,Customer Support,Support Agent,1,1004,3302,4306,0.04306,4338,success,dev
+2026-06-02T16:33:27.260684,Anthropic,Claude-4-Sonnet,8be21194-c46e-40bd-a53c-cdda89ea3b79,user-35,support-assistant,SRE,Root Cause Analysis,Incident Agent,1,1802,3922,5724,0.05724,3099,success,prod
+2026-06-25T23:31:27.260701,Anthropic,Claude-4-Sonnet,157466a8-33d9-4afa-962d-5749abb4887c,user-3,support-assistant,Product Engineering,CI/CD Assistant,Code Assistant,1,5625,296,5921,0.05921,2840,success,prod
+2026-06-16T06:16:27.260719,Gemini,Gemini-2.5-Flash,bc97a1e7-1b58-49ea-a2ff-f4982fe416a9,user-7,aiopsvista,Security,Knowledge Search,Support Agent,1,3570,182,3752,0.03752,613,success,prod
+2026-06-22T23:38:27.260736,Vertex AI,Gemini-on-Vertex,14766d86-8f8e-43ed-85ed-0d7bab1be61d,user-45,security-copilot,Data Engineering,CI/CD Assistant,Support Agent,1,5632,1033,6665,0.06665,1031,error,prod
+2026-06-06T21:37:27.260754,Gemini,Gemini-2.5-Pro,9949a65a-5f0c-4a0b-9612-c894ed7d95ef,user-49,security-copilot,Platform,Documentation,Platform Agent,1,4898,1079,5977,0.05977,994,success,prod
+2026-06-09T00:21:27.260771,OpenAI,GPT-4.1,231d50e3-34a2-4e62-bb6a-d0b57b25795d,user-3,rag-platform,Platform,Incident Analysis,FinOps Agent,1,5236,1583,6819,0.06819,206,success,prod
+2026-06-02T01:47:27.260788,GitHub Copilot,Copilot-Chat,e6500100-2a98-4747-8e11-9104f82f84c3,user-13,incident-platform,Product Engineering,Documentation,Platform Agent,1,4141,647,4788,0.04788,4822,success,dev
+2026-06-17T19:42:27.260805,Vertex AI,Gemini-on-Vertex,e172677f-3047-488e-8146-dc9627976883,user-43,developer-portal,Platform,Customer Support,Security Agent,1,5186,2688,7874,0.07874,1800,success,stage
+2026-06-15T08:45:27.260835,GitHub Copilot,Copilot-Chat,dc65377d-0ce3-49de-b49a-4f895dbd3e91,user-9,support-assistant,Customer Support,Knowledge Search,Platform Agent,1,7039,2704,9743,0.09743,3897,success,prod
+2026-06-02T00:54:27.260925,OpenAI,GPT-4.1,a149648a-b8aa-467a-a444-8660e6b45942,user-44,support-assistant,SRE,Knowledge Search,Platform Agent,1,519,3012,3531,0.03531,3691,success,stage
+2026-06-19T19:54:27.260948,OpenAI,GPT-4.1,8a2a0080-67dd-4198-8706-eff5cecdcf1f,user-50,security-copilot,Security,Customer Support,Incident Agent,1,4276,2855,7131,0.07131,2929,success,dev
+2026-06-16T05:25:27.260966,OpenAI,GPT-4.1,4b8b801c-e5a4-4763-bb18-9560ebaa1f49,user-9,developer-portal,Data Engineering,CI/CD Assistant,FinOps Agent,1,7340,1947,9287,0.09287,583,success,dev
+2026-06-05T07:10:27.260984,OpenAI,GPT-4o,ac916de3-a9a8-4597-90cf-7e1bd2a5f4eb,user-12,aiopsvista,Data Engineering,CI/CD Assistant,Incident Agent,1,6650,531,7181,0.07181,1828,success,prod
+2026-06-12T12:04:27.261037,Gemini,Gemini-2.5-Flash,e1939493-f324-4b96-b3d7-6472335b1fac,user-31,aiopsvista,Customer Support,Incident Analysis,Security Agent,1,2165,1412,3577,0.03577,1561,success,prod
+2026-06-25T17:23:27.261078,Vertex AI,Gemini-on-Vertex,d5d727e1-9103-42bb-a8de-319ac7691c28,user-30,security-copilot,SRE,Incident Analysis,Platform Agent,1,3974,1583,5557,0.05557,1573,success,prod
+2026-06-14T18:08:27.261099,Anthropic,Claude-4-Sonnet,a711f02e-18a3-461d-bbf4-a71034a4579d,user-50,security-copilot,SRE,Documentation,Security Agent,1,6200,2396,8596,0.08596,4225,success,stage
+2026-06-10T17:41:27.261118,Vertex AI,Gemini-on-Vertex,3ade3d71-9a00-4cfd-9456-f99a30cf8e53,user-9,aiopsvista,Platform,Customer Support,Platform Agent,1,4413,157,4570,0.0457,2426,success,prod
+2026-06-28T13:20:27.261137,Gemini,Gemini-2.5-Flash,1ca8781e-d229-4ef4-a427-5d60d2f0448f,user-7,security-copilot,Platform,Knowledge Search,Platform Agent,1,734,3732,4466,0.04466,2380,success,prod

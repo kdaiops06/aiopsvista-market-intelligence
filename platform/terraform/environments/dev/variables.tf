@@ -52,7 +52,7 @@ variable "region" {
 variable "gke_zone" {
   description = "Zonal location for the dev GKE cluster."
   type        = string
-  default     = "us-central1-a"
+  default     = "us-central1-b"
 }
 
 variable "network_name" {
